@@ -1,0 +1,9 @@
+# lattice-to-phone-lattice /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/final.mdl ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/aligned.9 ark:- | nbest-to-ctm ark:- /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/phone.9.ctm 
+# Started at Thu Dec 13 15:22:57 CST 2018
+#
+lattice-to-phone-lattice /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/final.mdl ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/aligned.9 ark:- 
+nbest-to-ctm ark:- /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting/phone.9.ctm 
+LOG (lattice-to-phone-lattice[5.5.53~1-19a18]:main():lattice-to-phone-lattice.cc:94) Done converting 276 lattices.
+LOG (nbest-to-ctm[5.5.53~1-19a18]:main():nbest-to-ctm.cc:119) Converted 276 linear lattices to ctm format; 0 had errors.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Dec 13 15:22:57 CST 2018, elapsed time 0 seconds

@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.66
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 3.66
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.520
+				text = "同學"
+			intervals [2]:
+				xmin = 0.520
+				xmax = 0.730
+				text = "滿"
+			intervals [3]:
+				xmin = 0.730
+				xmax = 1.150
+				text = "對待"
+			intervals [4]:
+				xmin = 1.150
+				xmax = 1.220
+				text = "我"
+			intervals [5]:
+				xmin = 1.220
+				xmax = 3.440
+				text = ""
+			intervals [6]:
+				xmin = 3.440
+				xmax = 3.640
+				text = "的"
+			intervals [7]:
+				xmin = 3.640
+				xmax = 3.66
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 3.66
+		intervals: size = 15
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.030
+				text = "t"
+			intervals [2]:
+				xmin = 0.030
+				xmax = 0.240
+				text = "ong"
+			intervals [3]:
+				xmin = 0.240
+				xmax = 0.380
+				text = "s"
+			intervals [4]:
+				xmin = 0.380
+				xmax = 0.520
+				text = "yue"
+			intervals [5]:
+				xmin = 0.520
+				xmax = 0.640
+				text = "m"
+			intervals [6]:
+				xmin = 0.640
+				xmax = 0.730
+				text = "an"
+			intervals [7]:
+				xmin = 0.730
+				xmax = 0.860
+				text = "d"
+			intervals [8]:
+				xmin = 0.860
+				xmax = 0.960
+				text = "uei"
+			intervals [9]:
+				xmin = 0.960
+				xmax = 1.060
+				text = "d"
+			intervals [10]:
+				xmin = 1.060
+				xmax = 1.150
+				text = "ai"
+			intervals [11]:
+				xmin = 1.150
+				xmax = 1.220
+				text = "uo"
+			intervals [12]:
+				xmin = 1.220
+				xmax = 3.440
+				text = "sil"
+			intervals [13]:
+				xmin = 3.440
+				xmax = 3.480
+				text = "d"
+			intervals [14]:
+				xmin = 3.480
+				xmax = 3.640
+				text = "i"
+			intervals [15]:
+				xmin = 3.640
+				xmax = 3.66
+				text = ""

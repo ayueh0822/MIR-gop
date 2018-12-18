@@ -1,0 +1,884 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 17.77
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 17.77
+		intervals: size = 65
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.250
+				text = "我們"
+			intervals [2]:
+				xmin = 0.250
+				xmax = 0.280
+				text = ""
+			intervals [3]:
+				xmin = 0.280
+				xmax = 0.610
+				text = "回應"
+			intervals [4]:
+				xmin = 0.610
+				xmax = 1.060
+				text = ""
+			intervals [5]:
+				xmin = 1.060
+				xmax = 1.450
+				text = "所有"
+			intervals [6]:
+				xmin = 1.450
+				xmax = 1.480
+				text = ""
+			intervals [7]:
+				xmin = 1.480
+				xmax = 1.840
+				text = "私立"
+			intervals [8]:
+				xmin = 1.840
+				xmax = 2.180
+				text = "學校"
+			intervals [9]:
+				xmin = 2.180
+				xmax = 2.520
+				text = "他們"
+			intervals [10]:
+				xmin = 2.520
+				xmax = 2.550
+				text = ""
+			intervals [11]:
+				xmin = 2.550
+				xmax = 2.800
+				text = "的"
+			intervals [12]:
+				xmin = 2.800
+				xmax = 3.090
+				text = ""
+			intervals [13]:
+				xmin = 3.090
+				xmax = 3.370
+				text = "啊"
+			intervals [14]:
+				xmin = 3.370
+				xmax = 3.770
+				text = "共同"
+			intervals [15]:
+				xmin = 3.770
+				xmax = 3.860
+				text = "的"
+			intervals [16]:
+				xmin = 3.860
+				xmax = 4.450
+				text = "心聲"
+			intervals [17]:
+				xmin = 4.450
+				xmax = 4.620
+				text = ""
+			intervals [18]:
+				xmin = 4.620
+				xmax = 4.810
+				text = "他們"
+			intervals [19]:
+				xmin = 4.810
+				xmax = 4.840
+				text = ""
+			intervals [20]:
+				xmin = 4.840
+				xmax = 5.130
+				text = "覺得"
+			intervals [21]:
+				xmin = 5.130
+				xmax = 5.330
+				text = "說"
+			intervals [22]:
+				xmin = 5.330
+				xmax = 5.640
+				text = "相關"
+			intervals [23]:
+				xmin = 5.640
+				xmax = 5.670
+				text = ""
+			intervals [24]:
+				xmin = 5.670
+				xmax = 6.080
+				text = "配套"
+			intervals [25]:
+				xmin = 6.080
+				xmax = 6.380
+				text = ""
+			intervals [26]:
+				xmin = 6.380
+				xmax = 6.700
+				text = "機制"
+			intervals [27]:
+				xmin = 6.700
+				xmax = 6.820
+				text = "還"
+			intervals [28]:
+				xmin = 6.820
+				xmax = 7.220
+				text = "不足"
+			intervals [29]:
+				xmin = 7.220
+				xmax = 7.320
+				text = "的"
+			intervals [30]:
+				xmin = 7.320
+				xmax = 7.600
+				text = "情況"
+			intervals [31]:
+				xmin = 7.600
+				xmax = 7.630
+				text = ""
+			intervals [32]:
+				xmin = 7.630
+				xmax = 8.000
+				text = "之下"
+			intervals [33]:
+				xmin = 8.000
+				xmax = 8.990
+				text = ""
+			intervals [34]:
+				xmin = 8.990
+				xmax = 9.400
+				text = "不要"
+			intervals [35]:
+				xmin = 9.400
+				xmax = 10.000
+				text = ""
+			intervals [36]:
+				xmin = 10.000
+				xmax = 10.320
+				text = "貿然"
+			intervals [37]:
+				xmin = 10.320
+				xmax = 10.750
+				text = "實施"
+			intervals [38]:
+				xmin = 10.750
+				xmax = 11.090
+				text = ""
+			intervals [39]:
+				xmin = 11.090
+				xmax = 11.280
+				text = "第二"
+			intervals [40]:
+				xmin = 11.280
+				xmax = 11.400
+				text = "個"
+			intervals [41]:
+				xmin = 11.400
+				xmax = 11.430
+				text = ""
+			intervals [42]:
+				xmin = 11.430
+				xmax = 11.940
+				text = "部分"
+			intervals [43]:
+				xmin = 11.940
+				xmax = 12.290
+				text = ""
+			intervals [44]:
+				xmin = 12.290
+				xmax = 12.680
+				text = "我們"
+			intervals [45]:
+				xmin = 12.680
+				xmax = 12.730
+				text = ""
+			intervals [46]:
+				xmin = 12.730
+				xmax = 13.160
+				text = "對於"
+			intervals [47]:
+				xmin = 13.160
+				xmax = 13.350
+				text = "呀"
+			intervals [48]:
+				xmin = 13.350
+				xmax = 13.660
+				text = ""
+			intervals [49]:
+				xmin = 13.660
+				xmax = 14.310
+				text = "董事"
+			intervals [50]:
+				xmin = 14.310
+				xmax = 14.440
+				text = ""
+			intervals [51]:
+				xmin = 14.440
+				xmax = 14.670
+				text = "要"
+			intervals [52]:
+				xmin = 14.670
+				xmax = 14.700
+				text = ""
+			intervals [53]:
+				xmin = 14.700
+				xmax = 15.140
+				text = "支薪"
+			intervals [54]:
+				xmin = 15.140
+				xmax = 15.240
+				text = "的"
+			intervals [55]:
+				xmin = 15.240
+				xmax = 15.740
+				text = "部分"
+			intervals [56]:
+				xmin = 15.740
+				xmax = 15.910
+				text = ""
+			intervals [57]:
+				xmin = 15.910
+				xmax = 16.210
+				text = "我們"
+			intervals [58]:
+				xmin = 16.210
+				xmax = 16.410
+				text = "也"
+			intervals [59]:
+				xmin = 16.410
+				xmax = 16.450
+				text = ""
+			intervals [60]:
+				xmin = 16.450
+				xmax = 16.620
+				text = "把"
+			intervals [61]:
+				xmin = 16.620
+				xmax = 17.010
+				text = "它"
+			intervals [62]:
+				xmin = 17.010
+				xmax = 17.170
+				text = ""
+			intervals [63]:
+				xmin = 17.170
+				xmax = 17.600
+				text = "拿掉"
+			intervals [64]:
+				xmin = 17.600
+				xmax = 17.750
+				text = "啦"
+			intervals [65]:
+				xmin = 17.750
+				xmax = 17.77
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 17.77
+		intervals: size = 151
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.040
+				text = "uo"
+			intervals [2]:
+				xmin = 0.040
+				xmax = 0.120
+				text = "m"
+			intervals [3]:
+				xmin = 0.120
+				xmax = 0.250
+				text = "ern"
+			intervals [4]:
+				xmin = 0.250
+				xmax = 0.280
+				text = "sil"
+			intervals [5]:
+				xmin = 0.280
+				xmax = 0.330
+				text = "h"
+			intervals [6]:
+				xmin = 0.330
+				xmax = 0.460
+				text = "uei"
+			intervals [7]:
+				xmin = 0.460
+				xmax = 0.610
+				text = "ing"
+			intervals [8]:
+				xmin = 0.610
+				xmax = 1.060
+				text = "sil"
+			intervals [9]:
+				xmin = 1.060
+				xmax = 1.130
+				text = "s"
+			intervals [10]:
+				xmin = 1.130
+				xmax = 1.270
+				text = "uo"
+			intervals [11]:
+				xmin = 1.270
+				xmax = 1.450
+				text = "iou"
+			intervals [12]:
+				xmin = 1.450
+				xmax = 1.480
+				text = "sil"
+			intervals [13]:
+				xmin = 1.480
+				xmax = 1.600
+				text = "s"
+			intervals [14]:
+				xmin = 1.600
+				xmax = 1.690
+				text = "ii"
+			intervals [15]:
+				xmin = 1.690
+				xmax = 1.740
+				text = "l"
+			intervals [16]:
+				xmin = 1.740
+				xmax = 1.840
+				text = "i"
+			intervals [17]:
+				xmin = 1.840
+				xmax = 1.920
+				text = "s"
+			intervals [18]:
+				xmin = 1.920
+				xmax = 2.000
+				text = "yue"
+			intervals [19]:
+				xmin = 2.000
+				xmax = 2.080
+				text = "s"
+			intervals [20]:
+				xmin = 2.080
+				xmax = 2.180
+				text = "iau"
+			intervals [21]:
+				xmin = 2.180
+				xmax = 2.300
+				text = "t"
+			intervals [22]:
+				xmin = 2.300
+				xmax = 2.340
+				text = "a"
+			intervals [23]:
+				xmin = 2.340
+				xmax = 2.440
+				text = "m"
+			intervals [24]:
+				xmin = 2.440
+				xmax = 2.520
+				text = "ern"
+			intervals [25]:
+				xmin = 2.520
+				xmax = 2.550
+				text = "sil"
+			intervals [26]:
+				xmin = 2.550
+				xmax = 2.620
+				text = "d"
+			intervals [27]:
+				xmin = 2.620
+				xmax = 2.800
+				text = "er"
+			intervals [28]:
+				xmin = 2.800
+				xmax = 3.090
+				text = "sil"
+			intervals [29]:
+				xmin = 3.090
+				xmax = 3.370
+				text = "a"
+			intervals [30]:
+				xmin = 3.370
+				xmax = 3.450
+				text = "g"
+			intervals [31]:
+				xmin = 3.450
+				xmax = 3.600
+				text = "ong"
+			intervals [32]:
+				xmin = 3.600
+				xmax = 3.670
+				text = "t"
+			intervals [33]:
+				xmin = 3.670
+				xmax = 3.770
+				text = "ong"
+			intervals [34]:
+				xmin = 3.770
+				xmax = 3.810
+				text = "d"
+			intervals [35]:
+				xmin = 3.810
+				xmax = 3.860
+				text = "er"
+			intervals [36]:
+				xmin = 3.860
+				xmax = 3.980
+				text = "s"
+			intervals [37]:
+				xmin = 3.980
+				xmax = 4.120
+				text = "in"
+			intervals [38]:
+				xmin = 4.120
+				xmax = 4.210
+				text = "sh"
+			intervals [39]:
+				xmin = 4.210
+				xmax = 4.450
+				text = "ng"
+			intervals [40]:
+				xmin = 4.450
+				xmax = 4.620
+				text = "sil"
+			intervals [41]:
+				xmin = 4.620
+				xmax = 4.660
+				text = "t"
+			intervals [42]:
+				xmin = 4.660
+				xmax = 4.700
+				text = "a"
+			intervals [43]:
+				xmin = 4.700
+				xmax = 4.730
+				text = "m"
+			intervals [44]:
+				xmin = 4.730
+				xmax = 4.810
+				text = "ern"
+			intervals [45]:
+				xmin = 4.810
+				xmax = 4.840
+				text = "sil"
+			intervals [46]:
+				xmin = 4.840
+				xmax = 4.880
+				text = "z"
+			intervals [47]:
+				xmin = 4.880
+				xmax = 4.980
+				text = "yue"
+			intervals [48]:
+				xmin = 4.980
+				xmax = 5.030
+				text = "d"
+			intervals [49]:
+				xmin = 5.030
+				xmax = 5.130
+				text = "er"
+			intervals [50]:
+				xmin = 5.130
+				xmax = 5.190
+				text = "sh"
+			intervals [51]:
+				xmin = 5.190
+				xmax = 5.330
+				text = "uo"
+			intervals [52]:
+				xmin = 5.330
+				xmax = 5.420
+				text = "s"
+			intervals [53]:
+				xmin = 5.420
+				xmax = 5.510
+				text = "iang"
+			intervals [54]:
+				xmin = 5.510
+				xmax = 5.550
+				text = "g"
+			intervals [55]:
+				xmin = 5.550
+				xmax = 5.640
+				text = "uan"
+			intervals [56]:
+				xmin = 5.640
+				xmax = 5.670
+				text = "sil"
+			intervals [57]:
+				xmin = 5.670
+				xmax = 5.730
+				text = "p"
+			intervals [58]:
+				xmin = 5.730
+				xmax = 5.840
+				text = "ei"
+			intervals [59]:
+				xmin = 5.840
+				xmax = 5.910
+				text = "t"
+			intervals [60]:
+				xmin = 5.910
+				xmax = 6.080
+				text = "au"
+			intervals [61]:
+				xmin = 6.080
+				xmax = 6.380
+				text = "sil"
+			intervals [62]:
+				xmin = 6.380
+				xmax = 6.450
+				text = "z"
+			intervals [63]:
+				xmin = 6.450
+				xmax = 6.550
+				text = "i"
+			intervals [64]:
+				xmin = 6.550
+				xmax = 6.610
+				text = "zh"
+			intervals [65]:
+				xmin = 6.610
+				xmax = 6.700
+				text = "ii"
+			intervals [66]:
+				xmin = 6.700
+				xmax = 6.760
+				text = "h"
+			intervals [67]:
+				xmin = 6.760
+				xmax = 6.820
+				text = "ai"
+			intervals [68]:
+				xmin = 6.820
+				xmax = 6.930
+				text = "b"
+			intervals [69]:
+				xmin = 6.930
+				xmax = 7.000
+				text = "u"
+			intervals [70]:
+				xmin = 7.000
+				xmax = 7.120
+				text = "z"
+			intervals [71]:
+				xmin = 7.120
+				xmax = 7.220
+				text = "u"
+			intervals [72]:
+				xmin = 7.220
+				xmax = 7.260
+				text = "d"
+			intervals [73]:
+				xmin = 7.260
+				xmax = 7.320
+				text = "er"
+			intervals [74]:
+				xmin = 7.320
+				xmax = 7.400
+				text = "c"
+			intervals [75]:
+				xmin = 7.400
+				xmax = 7.440
+				text = "ing"
+			intervals [76]:
+				xmin = 7.440
+				xmax = 7.500
+				text = "k"
+			intervals [77]:
+				xmin = 7.500
+				xmax = 7.600
+				text = "uang"
+			intervals [78]:
+				xmin = 7.600
+				xmax = 7.630
+				text = "sil"
+			intervals [79]:
+				xmin = 7.630
+				xmax = 7.680
+				text = "zh"
+			intervals [80]:
+				xmin = 7.680
+				xmax = 7.780
+				text = "ii"
+			intervals [81]:
+				xmin = 7.780
+				xmax = 7.890
+				text = "s"
+			intervals [82]:
+				xmin = 7.890
+				xmax = 8.000
+				text = "ia"
+			intervals [83]:
+				xmin = 8.000
+				xmax = 8.990
+				text = "sil"
+			intervals [84]:
+				xmin = 8.990
+				xmax = 9.020
+				text = "b"
+			intervals [85]:
+				xmin = 9.020
+				xmax = 9.150
+				text = "u"
+			intervals [86]:
+				xmin = 9.150
+				xmax = 9.400
+				text = "iau"
+			intervals [87]:
+				xmin = 9.400
+				xmax = 10.000
+				text = "sil"
+			intervals [88]:
+				xmin = 10.000
+				xmax = 10.070
+				text = "m"
+			intervals [89]:
+				xmin = 10.070
+				xmax = 10.180
+				text = "au"
+			intervals [90]:
+				xmin = 10.180
+				xmax = 10.250
+				text = "rh"
+			intervals [91]:
+				xmin = 10.250
+				xmax = 10.320
+				text = "an"
+			intervals [92]:
+				xmin = 10.320
+				xmax = 10.430
+				text = "sh"
+			intervals [93]:
+				xmin = 10.430
+				xmax = 10.500
+				text = "ii"
+			intervals [94]:
+				xmin = 10.500
+				xmax = 10.610
+				text = "sh"
+			intervals [95]:
+				xmin = 10.610
+				xmax = 10.750
+				text = "ii"
+			intervals [96]:
+				xmin = 10.750
+				xmax = 11.090
+				text = "sil"
+			intervals [97]:
+				xmin = 11.090
+				xmax = 11.140
+				text = "d"
+			intervals [98]:
+				xmin = 11.140
+				xmax = 11.220
+				text = "i"
+			intervals [99]:
+				xmin = 11.220
+				xmax = 11.280
+				text = "err"
+			intervals [100]:
+				xmin = 11.280
+				xmax = 11.340
+				text = "g"
+			intervals [101]:
+				xmin = 11.340
+				xmax = 11.400
+				text = "er"
+			intervals [102]:
+				xmin = 11.400
+				xmax = 11.430
+				text = "sil"
+			intervals [103]:
+				xmin = 11.430
+				xmax = 11.480
+				text = "b"
+			intervals [104]:
+				xmin = 11.480
+				xmax = 11.570
+				text = "u"
+			intervals [105]:
+				xmin = 11.570
+				xmax = 11.660
+				text = "f"
+			intervals [106]:
+				xmin = 11.660
+				xmax = 11.940
+				text = "ern"
+			intervals [107]:
+				xmin = 11.940
+				xmax = 12.290
+				text = "sil"
+			intervals [108]:
+				xmin = 12.290
+				xmax = 12.430
+				text = "uo"
+			intervals [109]:
+				xmin = 12.430
+				xmax = 12.500
+				text = "m"
+			intervals [110]:
+				xmin = 12.500
+				xmax = 12.680
+				text = "ern"
+			intervals [111]:
+				xmin = 12.680
+				xmax = 12.730
+				text = "sil"
+			intervals [112]:
+				xmin = 12.730
+				xmax = 12.790
+				text = "d"
+			intervals [113]:
+				xmin = 12.790
+				xmax = 12.930
+				text = "uei"
+			intervals [114]:
+				xmin = 12.930
+				xmax = 13.160
+				text = "yu"
+			intervals [115]:
+				xmin = 13.160
+				xmax = 13.350
+				text = "ia"
+			intervals [116]:
+				xmin = 13.350
+				xmax = 13.660
+				text = "sil"
+			intervals [117]:
+				xmin = 13.660
+				xmax = 13.720
+				text = "d"
+			intervals [118]:
+				xmin = 13.720
+				xmax = 13.990
+				text = "ong"
+			intervals [119]:
+				xmin = 13.990
+				xmax = 14.120
+				text = "sh"
+			intervals [120]:
+				xmin = 14.120
+				xmax = 14.310
+				text = "ii"
+			intervals [121]:
+				xmin = 14.310
+				xmax = 14.440
+				text = "sil"
+			intervals [122]:
+				xmin = 14.440
+				xmax = 14.670
+				text = "iau"
+			intervals [123]:
+				xmin = 14.670
+				xmax = 14.700
+				text = "sil"
+			intervals [124]:
+				xmin = 14.700
+				xmax = 14.760
+				text = "zh"
+			intervals [125]:
+				xmin = 14.760
+				xmax = 14.940
+				text = "ii"
+			intervals [126]:
+				xmin = 14.940
+				xmax = 15.040
+				text = "s"
+			intervals [127]:
+				xmin = 15.040
+				xmax = 15.140
+				text = "in"
+			intervals [128]:
+				xmin = 15.140
+				xmax = 15.190
+				text = "d"
+			intervals [129]:
+				xmin = 15.190
+				xmax = 15.240
+				text = "er"
+			intervals [130]:
+				xmin = 15.240
+				xmax = 15.350
+				text = "b"
+			intervals [131]:
+				xmin = 15.350
+				xmax = 15.470
+				text = "u"
+			intervals [132]:
+				xmin = 15.470
+				xmax = 15.550
+				text = "f"
+			intervals [133]:
+				xmin = 15.550
+				xmax = 15.740
+				text = "ern"
+			intervals [134]:
+				xmin = 15.740
+				xmax = 15.910
+				text = "sil"
+			intervals [135]:
+				xmin = 15.910
+				xmax = 16.040
+				text = "uo"
+			intervals [136]:
+				xmin = 16.040
+				xmax = 16.120
+				text = "m"
+			intervals [137]:
+				xmin = 16.120
+				xmax = 16.210
+				text = "ern"
+			intervals [138]:
+				xmin = 16.210
+				xmax = 16.410
+				text = "ie"
+			intervals [139]:
+				xmin = 16.410
+				xmax = 16.450
+				text = "sil"
+			intervals [140]:
+				xmin = 16.450
+				xmax = 16.500
+				text = "b"
+			intervals [141]:
+				xmin = 16.500
+				xmax = 16.620
+				text = "a"
+			intervals [142]:
+				xmin = 16.620
+				xmax = 16.750
+				text = "t"
+			intervals [143]:
+				xmin = 16.750
+				xmax = 17.010
+				text = "a"
+			intervals [144]:
+				xmin = 17.010
+				xmax = 17.170
+				text = "sil"
+			intervals [145]:
+				xmin = 17.170
+				xmax = 17.280
+				text = "n"
+			intervals [146]:
+				xmin = 17.280
+				xmax = 17.390
+				text = "a"
+			intervals [147]:
+				xmin = 17.390
+				xmax = 17.480
+				text = "d"
+			intervals [148]:
+				xmin = 17.480
+				xmax = 17.600
+				text = "iau"
+			intervals [149]:
+				xmin = 17.600
+				xmax = 17.680
+				text = "l"
+			intervals [150]:
+				xmin = 17.680
+				xmax = 17.750
+				text = "a"
+			intervals [151]:
+				xmin = 17.750
+				xmax = 17.77
+				text = ""

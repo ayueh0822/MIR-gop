@@ -1,0 +1,62 @@
+The following exceptions were encountered during the ouput of the alignments to TextGrids:
+
+PTSNE20021129_130002-132160:
+Traceback (most recent call last):
+
+  File "/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/local/textgrid_ops.py", line 92, in ctm_to_textgrid
+    wordtier.add(*interval)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 431, in add
+    interval = Interval(minTime, maxTime, mark)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 189, in __init__
+    raise ValueError(minTime, maxTime)
+
+ValueError: (Decimal('21.560'), Decimal('21.560'))
+
+
+PTSNE20020719_107648-108270:
+Traceback (most recent call last):
+
+  File "/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/local/textgrid_ops.py", line 92, in ctm_to_textgrid
+    wordtier.add(*interval)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 431, in add
+    interval = Interval(minTime, maxTime, mark)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 189, in __init__
+    raise ValueError(minTime, maxTime)
+
+ValueError: (Decimal('6.200'), Decimal('6.200'))
+
+
+PTSND20011206_077543-080614:
+Traceback (most recent call last):
+
+  File "/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/local/textgrid_ops.py", line 92, in ctm_to_textgrid
+    wordtier.add(*interval)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 431, in add
+    interval = Interval(minTime, maxTime, mark)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 189, in __init__
+    raise ValueError(minTime, maxTime)
+
+ValueError: (Decimal('30.690'), Decimal('30.690'))
+
+
+PTSNE20020808_325639-327756:
+Traceback (most recent call last):
+
+  File "/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/local/textgrid_ops.py", line 92, in ctm_to_textgrid
+    wordtier.add(*interval)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 431, in add
+    interval = Interval(minTime, maxTime, mark)
+
+  File "/home/kaldi/miniconda3/envs/py35/lib/python3.5/site-packages/textgrid/textgrid.py", line 189, in __init__
+    raise ValueError(minTime, maxTime)
+
+ValueError: (Decimal('21.150'), Decimal('21.150'))
+
+

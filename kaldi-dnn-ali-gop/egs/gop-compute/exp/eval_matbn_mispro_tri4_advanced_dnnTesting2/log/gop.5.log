@@ -1,0 +1,215 @@
+# compute-dnn-gop --use-gpu=no /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/tree /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/final.mdl /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/L.fst "ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/feats.scp ark:- |" scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/ivectors/train/ivector_online.scp "ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/text|" ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/gop.5 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/align.5 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/phoneme_ll.5 
+# Started at Mon Dec 17 23:23:05 CST 2018
+#
+compute-dnn-gop --use-gpu=no /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/tree /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/final.mdl /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/L.fst 'ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/feats.scp ark:- |' scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/ivectors/train/ivector_online.scp 'ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/text|' ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/gop.5 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/align.5 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/phoneme_ll.5 
+LOG (compute-dnn-gop[5.5.53~1-19a18]:SelectGpuId():cu-device.cc:128) Manually selected to compute on CPU.
+apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/5/feats.scp ark:- 
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 5 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 11 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:Collapse():nnet-utils.cc:1378) Added 6 components, removed 11
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0724 seconds taken in nnet3 compilation total (breakdown: 0.0504 compilation, 0.00953 optimization, 0 shortcut expansion, 0.00182 checking, 2.29e-05 computing indexes, 0.0106 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.122 seconds taken in nnet3 compilation total (breakdown: 0.0989 compilation, 0.0135 optimization, 0 shortcut expansion, 0.00256 checking, 2.41e-05 computing indexes, 0.0073 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0857 seconds taken in nnet3 compilation total (breakdown: 0.0577 compilation, 0.00958 optimization, 0 shortcut expansion, 0.00178 checking, 2.62e-05 computing indexes, 0.0166 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0796 seconds taken in nnet3 compilation total (breakdown: 0.0567 compilation, 0.00963 optimization, 0 shortcut expansion, 0.00178 checking, 3.1e-05 computing indexes, 0.0114 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0747 seconds taken in nnet3 compilation total (breakdown: 0.0591 compilation, 0.00959 optimization, 0 shortcut expansion, 0.00179 checking, 2.69e-05 computing indexes, 0.00419 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0786 seconds taken in nnet3 compilation total (breakdown: 0.0592 compilation, 0.0105 optimization, 0 shortcut expansion, 0.00189 checking, 2.29e-05 computing indexes, 0.00709 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.109 seconds taken in nnet3 compilation total (breakdown: 0.0717 compilation, 0.012 optimization, 0 shortcut expansion, 0.00221 checking, 2.5e-05 computing indexes, 0.0234 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.115 seconds taken in nnet3 compilation total (breakdown: 0.0938 compilation, 0.0121 optimization, 0 shortcut expansion, 0.00229 checking, 2.98e-05 computing indexes, 0.0065 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0899 seconds taken in nnet3 compilation total (breakdown: 0.0698 compilation, 0.00983 optimization, 0 shortcut expansion, 0.00196 checking, 2.6e-05 computing indexes, 0.00836 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.109 seconds taken in nnet3 compilation total (breakdown: 0.0849 compilation, 0.0135 optimization, 0 shortcut expansion, 0.00251 checking, 3.31e-05 computing indexes, 0.008 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0901 seconds taken in nnet3 compilation total (breakdown: 0.0705 compilation, 0.00973 optimization, 0 shortcut expansion, 0.00185 checking, 3.29e-05 computing indexes, 0.00799 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.109 seconds taken in nnet3 compilation total (breakdown: 0.0868 compilation, 0.0113 optimization, 0 shortcut expansion, 0.00213 checking, 2.79e-05 computing indexes, 0.00899 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0935 seconds taken in nnet3 compilation total (breakdown: 0.0675 compilation, 0.00961 optimization, 0 shortcut expansion, 0.00178 checking, 2.69e-05 computing indexes, 0.0146 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0747 seconds taken in nnet3 compilation total (breakdown: 0.0567 compilation, 0.00935 optimization, 0 shortcut expansion, 0.00181 checking, 2.91e-05 computing indexes, 0.00687 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0974 seconds taken in nnet3 compilation total (breakdown: 0.0786 compilation, 0.011 optimization, 0 shortcut expansion, 0.00211 checking, 2.98e-05 computing indexes, 0.00568 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0958 seconds taken in nnet3 compilation total (breakdown: 0.0671 compilation, 0.00952 optimization, 0 shortcut expansion, 0.00187 checking, 2.88e-05 computing indexes, 0.0173 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0682 seconds taken in nnet3 compilation total (breakdown: 0.0529 compilation, 0.00938 optimization, 0 shortcut expansion, 0.00177 checking, 2.6e-05 computing indexes, 0.00411 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0677 seconds taken in nnet3 compilation total (breakdown: 0.0481 compilation, 0.00937 optimization, 0 shortcut expansion, 0.00173 checking, 2.29e-05 computing indexes, 0.00853 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.099 seconds taken in nnet3 compilation total (breakdown: 0.0582 compilation, 0.00946 optimization, 0 shortcut expansion, 0.00178 checking, 2.1e-05 computing indexes, 0.0296 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.056 seconds taken in nnet3 compilation total (breakdown: 0.0379 compilation, 0.00784 optimization, 0 shortcut expansion, 0.00147 checking, 1.6e-05 computing indexes, 0.00884 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0579 seconds taken in nnet3 compilation total (breakdown: 0.0456 compilation, 0.00703 optimization, 0 shortcut expansion, 0.00133 checking, 2.1e-05 computing indexes, 0.00387 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.105 seconds taken in nnet3 compilation total (breakdown: 0.0783 compilation, 0.0111 optimization, 0 shortcut expansion, 0.00208 checking, 2.34e-05 computing indexes, 0.0137 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0822 seconds taken in nnet3 compilation total (breakdown: 0.066 compilation, 0.00955 optimization, 0 shortcut expansion, 0.00179 checking, 2.6e-05 computing indexes, 0.00485 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0901 seconds taken in nnet3 compilation total (breakdown: 0.0603 compilation, 0.00949 optimization, 0 shortcut expansion, 0.00178 checking, 1.98e-05 computing indexes, 0.0185 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0808 seconds taken in nnet3 compilation total (breakdown: 0.0604 compilation, 0.00943 optimization, 0 shortcut expansion, 0.00182 checking, 1.91e-05 computing indexes, 0.00915 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0809 seconds taken in nnet3 compilation total (breakdown: 0.0624 compilation, 0.00954 optimization, 0 shortcut expansion, 0.00178 checking, 2.38e-05 computing indexes, 0.00707 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.097 seconds taken in nnet3 compilation total (breakdown: 0.07 compilation, 0.00951 optimization, 0 shortcut expansion, 0.00186 checking, 2.69e-05 computing indexes, 0.0156 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0701 seconds taken in nnet3 compilation total (breakdown: 0.0552 compilation, 0.00941 optimization, 0 shortcut expansion, 0.00185 checking, 2.6e-05 computing indexes, 0.00365 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0902 seconds taken in nnet3 compilation total (breakdown: 0.0701 compilation, 0.0108 optimization, 0 shortcut expansion, 0.00203 checking, 4.12e-05 computing indexes, 0.0072 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.101 seconds taken in nnet3 compilation total (breakdown: 0.0804 compilation, 0.0119 optimization, 0 shortcut expansion, 0.00227 checking, 2.77e-05 computing indexes, 0.0063 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0709 seconds taken in nnet3 compilation total (breakdown: 0.0562 compilation, 0.00941 optimization, 0 shortcut expansion, 0.0018 checking, 2.1e-05 computing indexes, 0.00349 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0941 seconds taken in nnet3 compilation total (breakdown: 0.0746 compilation, 0.0112 optimization, 0 shortcut expansion, 0.00207 checking, 2.5e-05 computing indexes, 0.00627 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.079 seconds taken in nnet3 compilation total (breakdown: 0.0545 compilation, 0.00938 optimization, 0 shortcut expansion, 0.00177 checking, 2.98e-05 computing indexes, 0.0133 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.075 seconds taken in nnet3 compilation total (breakdown: 0.0589 compilation, 0.00974 optimization, 0 shortcut expansion, 0.00179 checking, 3.41e-05 computing indexes, 0.00449 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.062 seconds taken in nnet3 compilation total (breakdown: 0.047 compilation, 0.00707 optimization, 0 shortcut expansion, 0.00134 checking, 1.6e-05 computing indexes, 0.00651 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0917 seconds taken in nnet3 compilation total (breakdown: 0.0724 compilation, 0.0119 optimization, 0 shortcut expansion, 0.00232 checking, 2.48e-05 computing indexes, 0.00507 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0431 seconds taken in nnet3 compilation total (breakdown: 0.0297 compilation, 0.00477 optimization, 0 shortcut expansion, 0.000893 checking, 1.1e-05 computing indexes, 0.00778 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0892 seconds taken in nnet3 compilation total (breakdown: 0.0652 compilation, 0.0095 optimization, 0 shortcut expansion, 0.00177 checking, 2.5e-05 computing indexes, 0.0127 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0579 seconds taken in nnet3 compilation total (breakdown: 0.0459 compilation, 0.00719 optimization, 0 shortcut expansion, 0.00133 checking, 1.6e-05 computing indexes, 0.00346 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0861 seconds taken in nnet3 compilation total (breakdown: 0.0694 compilation, 0.00957 optimization, 0 shortcut expansion, 0.00181 checking, 3.7e-05 computing indexes, 0.00525 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0762 seconds taken in nnet3 compilation total (breakdown: 0.0571 compilation, 0.00936 optimization, 0 shortcut expansion, 0.00186 checking, 2.5e-05 computing indexes, 0.00784 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0699 seconds taken in nnet3 compilation total (breakdown: 0.0529 compilation, 0.00946 optimization, 0 shortcut expansion, 0.00173 checking, 3e-05 computing indexes, 0.00578 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0815 seconds taken in nnet3 compilation total (breakdown: 0.0426 compilation, 0.00938 optimization, 0 shortcut expansion, 0.00177 checking, 2.5e-05 computing indexes, 0.0277 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0565 seconds taken in nnet3 compilation total (breakdown: 0.0426 compilation, 0.00704 optimization, 0 shortcut expansion, 0.00134 checking, 1.53e-05 computing indexes, 0.00551 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0788 seconds taken in nnet3 compilation total (breakdown: 0.0632 compilation, 0.0094 optimization, 0 shortcut expansion, 0.00188 checking, 2.69e-05 computing indexes, 0.00428 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0548 seconds taken in nnet3 compilation total (breakdown: 0.0438 compilation, 0.00711 optimization, 0 shortcut expansion, 0.00132 checking, 1.5e-05 computing indexes, 0.00255 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.072 seconds taken in nnet3 compilation total (breakdown: 0.0494 compilation, 0.00935 optimization, 0 shortcut expansion, 0.00173 checking, 2.48e-05 computing indexes, 0.0115 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0657 seconds taken in nnet3 compilation total (breakdown: 0.051 compilation, 0.0071 optimization, 0 shortcut expansion, 0.00141 checking, 1.5e-05 computing indexes, 0.00622 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0655 seconds taken in nnet3 compilation total (breakdown: 0.0511 compilation, 0.00716 optimization, 0 shortcut expansion, 0.00135 checking, 2.69e-05 computing indexes, 0.00588 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.061 seconds taken in nnet3 compilation total (breakdown: 0.0458 compilation, 0.00703 optimization, 0 shortcut expansion, 0.00132 checking, 1.5e-05 computing indexes, 0.00679 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0765 seconds taken in nnet3 compilation total (breakdown: 0.0611 compilation, 0.00942 optimization, 0 shortcut expansion, 0.00183 checking, 3.48e-05 computing indexes, 0.00414 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.128 seconds taken in nnet3 compilation total (breakdown: 0.0702 compilation, 0.0118 optimization, 0 shortcut expansion, 0.00223 checking, 3.6e-05 computing indexes, 0.0436 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0747 seconds taken in nnet3 compilation total (breakdown: 0.0504 compilation, 0.00716 optimization, 0 shortcut expansion, 0.00137 checking, 2.5e-05 computing indexes, 0.0158 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0744 seconds taken in nnet3 compilation total (breakdown: 0.057 compilation, 0.00945 optimization, 0 shortcut expansion, 0.00177 checking, 3e-05 computing indexes, 0.00624 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0835 seconds taken in nnet3 compilation total (breakdown: 0.0632 compilation, 0.00946 optimization, 0 shortcut expansion, 0.00179 checking, 2e-05 computing indexes, 0.0091 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0845 seconds taken in nnet3 compilation total (breakdown: 0.0518 compilation, 0.00948 optimization, 0 shortcut expansion, 0.00174 checking, 1.96e-05 computing indexes, 0.0215 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.103 seconds taken in nnet3 compilation total (breakdown: 0.0608 compilation, 0.00948 optimization, 0 shortcut expansion, 0.00177 checking, 2.5e-05 computing indexes, 0.0305 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0805 seconds taken in nnet3 compilation total (breakdown: 0.0647 compilation, 0.00954 optimization, 0 shortcut expansion, 0.00183 checking, 2.07e-05 computing indexes, 0.00448 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0719 seconds taken in nnet3 compilation total (breakdown: 0.0569 compilation, 0.00939 optimization, 0 shortcut expansion, 0.00185 checking, 2.5e-05 computing indexes, 0.00373 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0913 seconds taken in nnet3 compilation total (breakdown: 0.0727 compilation, 0.00961 optimization, 0 shortcut expansion, 0.00181 checking, 6.2e-05 computing indexes, 0.00713 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0833 seconds taken in nnet3 compilation total (breakdown: 0.0651 compilation, 0.00947 optimization, 0 shortcut expansion, 0.0018 checking, 2e-05 computing indexes, 0.0069 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0837 seconds taken in nnet3 compilation total (breakdown: 0.0649 compilation, 0.00954 optimization, 0 shortcut expansion, 0.00181 checking, 2.22e-05 computing indexes, 0.00741 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0616 seconds taken in nnet3 compilation total (breakdown: 0.0497 compilation, 0.00712 optimization, 0 shortcut expansion, 0.00136 checking, 2e-05 computing indexes, 0.00336 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0741 seconds taken in nnet3 compilation total (breakdown: 0.0568 compilation, 0.00944 optimization, 0 shortcut expansion, 0.00176 checking, 2.69e-05 computing indexes, 0.00603 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0598 seconds taken in nnet3 compilation total (breakdown: 0.046 compilation, 0.00722 optimization, 0 shortcut expansion, 0.00134 checking, 2.1e-05 computing indexes, 0.00518 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.058 seconds taken in nnet3 compilation total (breakdown: 0.0464 compilation, 0.00712 optimization, 0 shortcut expansion, 0.00133 checking, 2e-05 computing indexes, 0.00313 misc.) + 0 I/O.
+LOG (apply-cmvn[5.5.53~1-19a18]:main():apply-cmvn.cc:81) Copied 68 utterances.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0784 seconds taken in nnet3 compilation total (breakdown: 0.058 compilation, 0.00971 optimization, 0 shortcut expansion, 0.00183 checking, 3.62e-05 computing indexes, 0.00883 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.0848 seconds taken in nnet3 compilation total (breakdown: 0.0642 compilation, 0.0095 optimization, 0 shortcut expansion, 0.00177 checking, 2.5e-05 computing indexes, 0.00927 misc.) + 0 I/O.
+LOG (compute-dnn-gop[5.5.53~1-19a18]:main():compute-dnn-gop.cc:88) Done.
+# Accounting: time=13054 threads=1
+# Ended (code 0) at Tue Dec 18 03:00:39 CST 2018, elapsed time 13054 seconds

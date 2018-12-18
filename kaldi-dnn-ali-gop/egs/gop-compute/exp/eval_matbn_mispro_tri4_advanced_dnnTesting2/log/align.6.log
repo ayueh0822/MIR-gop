@@ -1,0 +1,35 @@
+# linear-to-nbest ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/align.6 "ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/6/text|" "" "" ark:- | lattice-align-words /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/phones/word_boundary.int /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/final.mdl ark:- ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.6 
+# Started at Tue Dec 18 06:10:09 CST 2018
+#
+lattice-align-words /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/phones/word_boundary.int /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/final.mdl ark:- ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.6 
+linear-to-nbest ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/align.6 'ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/feats/mfcc_hires_pitch/train/split10/6/text|' '' '' ark:- 
+sym2int.pl: replacing 對像 with 1
+sym2int.pl: replacing <UNK> with 1
+sym2int.pl: replacing <UNK> with 1
+sym2int.pl: replacing <UNK> with 1
+ERROR (lattice-align-words[5.5.53~1-19a18]:Input():kaldi-io.cc:756) Error opening input stream /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/phones/word_boundary.int
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::Input::Input(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool*)
+kaldi::WordBoundaryInfo::WordBoundaryInfo(kaldi::WordBoundaryInfoNewOpts const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+main
+__libc_start_main
+_start
+
+** Replaced 4 instances of OOVs with 1
+ERROR (lattice-align-words[5.5.53~1-19a18]:Input():kaldi-io.cc:756) Error opening input stream /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/phones/word_boundary.int
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::Input::Input(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool*)
+kaldi::WordBoundaryInfo::WordBoundaryInfo(kaldi::WordBoundaryInfoNewOpts const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+main
+__libc_start_main
+_start
+
+# Accounting: time=0 threads=1
+# Ended (code 255) at Tue Dec 18 06:10:09 CST 2018, elapsed time 0 seconds

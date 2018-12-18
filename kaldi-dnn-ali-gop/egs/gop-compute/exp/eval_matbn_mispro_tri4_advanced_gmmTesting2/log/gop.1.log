@@ -1,0 +1,71 @@
+# compute-gmm-gop /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/tree /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/final.mdl /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/L.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/exp/tri4/final.mat ark:- ark:- |" "ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/text|" ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/gop.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/align.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_ll.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_conf.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_frame_conf.1 
+# Started at Sat Dec 15 01:21:49 CST 2018
+#
+compute-gmm-gop /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/tree /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/final.mdl /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/L.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/exp/tri4/final.mat ark:- ark:- |' 'ark:utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/text|' ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/gop.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/align.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_ll.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_conf.1 ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting2/phoneme_frame_conf.1 
+transform-feats /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/exp/tri4/final.mat ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp ark:- 
+WARNING (apply-cmvn[5.5.53~1-19a18]:Open():util/kaldi-table-inl.h:106) Failed to open script file /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+ERROR (apply-cmvn[5.5.53~1-19a18]:SequentialTableReader():util/kaldi-table-inl.h:860) Error constructing TableReader: rspecifier is scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::SequentialTableReader<kaldi::KaldiObjectHolder<kaldi::Matrix<float> > >::SequentialTableReader(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+main
+__libc_start_main
+_start
+
+ERROR (apply-cmvn[5.5.53~1-19a18]:SequentialTableReader():util/kaldi-table-inl.h:860) Error constructing TableReader: rspecifier is scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::SequentialTableReader<kaldi::KaldiObjectHolder<kaldi::Matrix<float> > >::SequentialTableReader(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+main
+__libc_start_main
+_start
+
+LOG (transform-feats[5.5.53~1-19a18]:main():transform-feats.cc:161) Applied transform to 0 utterances; 0 had errors.
+ERROR (compute-gmm-gop[5.5.53~1-19a18]:ExpectToken():io-funcs.cc:212) Expected token "ContextDependency", got instead ".".
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::ExpectToken(std::istream&, bool, char const*)
+kaldi::ContextDependency::Read(std::istream&, bool)
+kaldi::GmmGop::Init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+main
+__libc_start_main
+_start
+
+ERROR (compute-gmm-gop[5.5.53~1-19a18]:ExpectToken():io-funcs.cc:212) Expected token "ContextDependency", got instead ".".
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::ExpectToken(std::istream&, bool, char const*)
+kaldi::ContextDependency::Read(std::istream&, bool)
+kaldi::GmmGop::Init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+main
+__libc_start_main
+_start
+
+WARNING (compute-gmm-gop[5.5.53~1-19a18]:Close():kaldi-io.cc:515) Pipe utils/sym2int.pl --map-oov 1 -f 2- /home/kaldi/kaldi/egs/pkasr/matbn_mispro_pdp/lang/ky92k_forpaift_v11/words.txt /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/text| had nonzero return status 13
+WARNING (compute-gmm-gop[5.5.53~1-19a18]:Close():kaldi-io.cc:515) Pipe apply-cmvn  --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/exp/tri4/final.mat ark:- ark:- | had nonzero return status 256
+ERROR (compute-gmm-gop[5.5.53~1-19a18]:~SequentialTableReaderArchiveImpl():util/kaldi-table-inl.h:678) TableReader: error detected closing archive 'apply-cmvn  --utt2spk=ark:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/utt2spk scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/cmvn.scp scp:/home/kaldi/kaldi/egs/pkasr/matbn_200_s2/data/train/split1/1/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats /home/kaldi/kaldi/egs/pkasr/matbn_200_s2/exp/tri4/final.mat ark:- ark:- |'
+
+[ Stack-Trace: ]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::FatalMessageLogger::~FatalMessageLogger()
+kaldi::SequentialTableReaderArchiveImpl<kaldi::KaldiObjectHolder<kaldi::Matrix<float> > >::~SequentialTableReaderArchiveImpl()
+kaldi::SequentialTableReaderArchiveImpl<kaldi::KaldiObjectHolder<kaldi::Matrix<float> > >::~SequentialTableReaderArchiveImpl()
+kaldi::SequentialTableReader<kaldi::KaldiObjectHolder<kaldi::Matrix<float> > >::~SequentialTableReader()
+main
+__libc_start_main
+_start
+
+# Accounting: time=0 threads=1
+# Ended (code 134) at Sat Dec 15 01:21:49 CST 2018, elapsed time 0 seconds
