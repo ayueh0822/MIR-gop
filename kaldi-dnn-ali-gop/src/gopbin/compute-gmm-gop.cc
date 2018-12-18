@@ -83,6 +83,27 @@ int main(int argc, char *argv[]) {
       if (&phn_frame_conf_writer != NULL && phn_frame_conf_writer.IsOpen()) {
         phn_frame_conf_writer.Write(utt, gop.PhonemesFrameConf());
       }
+
+
+      //=================================================================
+      Vector<BaseFloat> word_seq;
+      Vector<BaseFloat> phone_seq;
+    
+      word_seq.Resize(transcript.size());
+      for (int i = 0; i < transcript.size(); i++)
+        word_seq(i) = transcript[i];
+
+      std::vector<int32> phone_seq_tmp = gop.Phonemes();
+      phone_seq.Resize(phone_seq_tmp.size());
+      for (int i=0; i<phone_seq_tmp.size(); i++)
+        phone_seq(i) = phone_seq_tmp[i];
+
+
+      gop_writer.Write(utt, word_seq);
+      gop_writer.Write(utt, phone_seq);
+      gop_writer.Write(utt, gop.get_phn_itvl());
+      
+      //=================================================================
     }
     KALDI_LOG << "Done.";
     return 0;

@@ -32,8 +32,8 @@ split_per_speaker=true # split by speaker (true) or sentence (false)
 #audio_dir=$1
 #data_dir=$2
 #result_dir=$3
-matbnDir=/home/ms2017/kaldi/egs/pkasr/matbn_200_s2
-misproDir=/home/ms2017/kaldi/egs/pkasr/matbn_mispro
+matbnDir=~/kaldi/egs/pkasr/matbn_200_s2
+misproDir=~/kaldi/egs/pkasr/matbn_mispro
 
 data=$misproDir/data/train
 
@@ -44,12 +44,12 @@ gmmFeatsDir=$misproDir/feats/mfcc_pitch/train
 dnnFeatsDir=$misproDir/feats/mfcc_hires_pitch/train
 ivecDir=$misproDir/ivectors/train
 
-gmmResultDir=/home/ms2017/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
-dnnResultDir=/home/ms2017/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2
+gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
+dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting
 
 # data preparation
 #local/data_preparation.sh --nj $nj --dnn $dnn $audio_dir $data_dir
-./utils/data/get_utt2dur.sh $data
+#./utils/data/get_utt2dur.sh $data
 
 # move feats.scp & cmvn.scp to right path
 # this for GMM

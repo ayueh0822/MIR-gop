@@ -44,6 +44,7 @@ public:
   Matrix<BaseFloat>& PhonemesConf();
   Matrix<BaseFloat>& PhonemesFrameConf();
   Vector<BaseFloat>& get_phn_ll();
+  Vector<BaseFloat>& get_phn_itvl();
 
 protected:
   AmDiagGmm am_;
@@ -57,6 +58,7 @@ protected:
   Matrix<BaseFloat> phonemes_conf_;
   Matrix<BaseFloat> phonemes_frame_conf_;
   Vector<BaseFloat> phones_loglikelihood_; // phoneme log likelihood
+  Vector<BaseFloat> phones_interval_; //get phones interval by end time ot each phone
 
   BaseFloat Decode(fst::VectorFst<fst::StdArc> &fst,
                    DecodableAmDiagGmmScaled &decodable,

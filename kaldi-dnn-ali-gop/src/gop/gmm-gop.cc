@@ -336,6 +336,15 @@ void GmmGop::Compute(const Matrix<BaseFloat> &feats,
 
     frame_start_idx += split[i].size();
   }
+
+  //==================================================
+  double t = 0.0;
+  phones_interval_.Resize(split.size());
+  for (int i=0; i<split.size(); i++){
+    t += split[i].size() * 0.01;
+    phones_interval_(i) = t;
+  }
+  //==================================================
 }
 
 Vector<BaseFloat>& GmmGop::Result() {
@@ -361,5 +370,7 @@ Matrix<BaseFloat>& GmmGop::PhonemesConf() {
 Matrix<BaseFloat>& GmmGop::PhonemesFrameConf() {
   return phonemes_frame_conf_;
 }
-
+Vector<BaseFloat>& GmmGop::get_phn_itvl() {
+  return phones_interval_;
+}
 }  // End namespace kaldi
