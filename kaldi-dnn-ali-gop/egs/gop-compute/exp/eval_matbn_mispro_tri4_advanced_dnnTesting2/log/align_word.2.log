@@ -1,0 +1,9 @@
+# nbest-to-ctm ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.2 /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/word.2.ctm 
+# Started at Tue Dec 18 15:00:00 CST 2018
+#
+nbest-to-ctm ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.2 /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/word.2.ctm 
+WARNING (nbest-to-ctm[5.5.53~1-19a18]:CompactLatticeToWordAlignment():lattice-functions.cc:1008) Lattice is not linear: num-arcs = 2
+WARNING (nbest-to-ctm[5.5.53~1-19a18]:main():nbest-to-ctm.cc:101) Format conversion failed for key PTSND20011227_149221-151257
+LOG (nbest-to-ctm[5.5.53~1-19a18]:main():nbest-to-ctm.cc:119) Converted 67 linear lattices to ctm format; 1 had errors.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Dec 18 15:00:00 CST 2018, elapsed time 0 seconds

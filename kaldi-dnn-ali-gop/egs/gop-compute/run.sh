@@ -49,7 +49,8 @@ resultDir=/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tr
 
 # data preparation
 #local/data_preparation.sh --nj $nj --dnn $dnn $audio_dir $data_dir
-./utils/data/get_utt2dur.sh $misproDir/data/train
+./utils/data/get_utt2dur.sh $gmmFeatsDir
+./utils/data/get_utt2dur.sh $dnnFeatsDir
 
 # move feats.scp & cmvn.scp to right path
 # this for GMM

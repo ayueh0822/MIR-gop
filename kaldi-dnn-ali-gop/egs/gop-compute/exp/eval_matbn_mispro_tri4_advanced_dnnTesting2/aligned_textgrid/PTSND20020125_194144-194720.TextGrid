@@ -1,0 +1,288 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 5.76
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "words"
+		xmin = 0.0
+		xmax = 5.76
+		intervals: size = 24
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.220
+				text = "錢"
+			intervals [2]:
+				xmin = 0.220
+				xmax = 0.620
+				text = "太少"
+			intervals [3]:
+				xmin = 0.620
+				xmax = 0.720
+				text = "也"
+			intervals [4]:
+				xmin = 0.720
+				xmax = 0.880
+				text = "不"
+			intervals [5]:
+				xmin = 0.880
+				xmax = 1.080
+				text = "想"
+			intervals [6]:
+				xmin = 1.080
+				xmax = 1.300
+				text = "賺"
+			intervals [7]:
+				xmin = 1.300
+				xmax = 1.350
+				text = ""
+			intervals [8]:
+				xmin = 1.350
+				xmax = 1.370
+				text = "哪"
+			intervals [9]:
+				xmin = 1.370
+				xmax = 3.870
+				text = ""
+			intervals [10]:
+				xmin = 3.870
+				xmax = 3.960
+				text = "那"
+			intervals [11]:
+				xmin = 3.960
+				xmax = 4.010
+				text = ""
+			intervals [12]:
+				xmin = 4.010
+				xmax = 4.170
+				text = "賺"
+			intervals [13]:
+				xmin = 4.170
+				xmax = 4.190
+				text = "大"
+			intervals [14]:
+				xmin = 4.190
+				xmax = 4.370
+				text = ""
+			intervals [15]:
+				xmin = 4.370
+				xmax = 4.480
+				text = "賺"
+			intervals [16]:
+				xmin = 4.480
+				xmax = 4.750
+				text = ""
+			intervals [17]:
+				xmin = 4.750
+				xmax = 4.940
+				text = "大錢"
+			intervals [18]:
+				xmin = 4.940
+				xmax = 5.010
+				text = "又"
+			intervals [19]:
+				xmin = 5.010
+				xmax = 5.100
+				text = "要"
+			intervals [20]:
+				xmin = 5.100
+				xmax = 5.190
+				text = "有"
+			intervals [21]:
+				xmin = 5.190
+				xmax = 5.700
+				text = "本事"
+			intervals [22]:
+				xmin = 5.700
+				xmax = 5.710
+				text = ""
+			intervals [23]:
+				xmin = 5.710
+				xmax = 5.720
+				text = "啊"
+			intervals [24]:
+				xmin = 5.720
+				xmax = 5.76
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "phones"
+		xmin = 0.0
+		xmax = 5.76
+		intervals: size = 43
+			intervals [1]:
+				xmin = 0.000
+				xmax = 0.110
+				text = "c"
+			intervals [2]:
+				xmin = 0.110
+				xmax = 0.220
+				text = "ien"
+			intervals [3]:
+				xmin = 0.220
+				xmax = 0.290
+				text = "t"
+			intervals [4]:
+				xmin = 0.290
+				xmax = 0.390
+				text = "ai"
+			intervals [5]:
+				xmin = 0.390
+				xmax = 0.510
+				text = "sh"
+			intervals [6]:
+				xmin = 0.510
+				xmax = 0.620
+				text = "au"
+			intervals [7]:
+				xmin = 0.620
+				xmax = 0.720
+				text = "ie"
+			intervals [8]:
+				xmin = 0.720
+				xmax = 0.800
+				text = "b"
+			intervals [9]:
+				xmin = 0.800
+				xmax = 0.880
+				text = "u"
+			intervals [10]:
+				xmin = 0.880
+				xmax = 0.960
+				text = "s"
+			intervals [11]:
+				xmin = 0.960
+				xmax = 1.080
+				text = "iang"
+			intervals [12]:
+				xmin = 1.080
+				xmax = 1.190
+				text = "zh"
+			intervals [13]:
+				xmin = 1.190
+				xmax = 1.300
+				text = "uan"
+			intervals [14]:
+				xmin = 1.300
+				xmax = 1.350
+				text = "sil"
+			intervals [15]:
+				xmin = 1.350
+				xmax = 1.360
+				text = "n"
+			intervals [16]:
+				xmin = 1.360
+				xmax = 1.370
+				text = "ei"
+			intervals [17]:
+				xmin = 1.370
+				xmax = 3.870
+				text = "sil"
+			intervals [18]:
+				xmin = 3.870
+				xmax = 3.910
+				text = "n"
+			intervals [19]:
+				xmin = 3.910
+				xmax = 3.960
+				text = "a"
+			intervals [20]:
+				xmin = 3.960
+				xmax = 4.010
+				text = "sil"
+			intervals [21]:
+				xmin = 4.010
+				xmax = 4.090
+				text = "z"
+			intervals [22]:
+				xmin = 4.090
+				xmax = 4.170
+				text = "uan"
+			intervals [23]:
+				xmin = 4.170
+				xmax = 4.180
+				text = "d"
+			intervals [24]:
+				xmin = 4.180
+				xmax = 4.190
+				text = "a"
+			intervals [25]:
+				xmin = 4.190
+				xmax = 4.370
+				text = "sil"
+			intervals [26]:
+				xmin = 4.370
+				xmax = 4.470
+				text = "z"
+			intervals [27]:
+				xmin = 4.470
+				xmax = 4.480
+				text = "uan"
+			intervals [28]:
+				xmin = 4.480
+				xmax = 4.750
+				text = "sil"
+			intervals [29]:
+				xmin = 4.750
+				xmax = 4.760
+				text = "d"
+			intervals [30]:
+				xmin = 4.760
+				xmax = 4.770
+				text = "a"
+			intervals [31]:
+				xmin = 4.770
+				xmax = 4.860
+				text = "c"
+			intervals [32]:
+				xmin = 4.860
+				xmax = 4.940
+				text = "ien"
+			intervals [33]:
+				xmin = 4.940
+				xmax = 5.010
+				text = "iou"
+			intervals [34]:
+				xmin = 5.010
+				xmax = 5.100
+				text = "iau"
+			intervals [35]:
+				xmin = 5.100
+				xmax = 5.190
+				text = "iou"
+			intervals [36]:
+				xmin = 5.190
+				xmax = 5.290
+				text = "b"
+			intervals [37]:
+				xmin = 5.290
+				xmax = 5.420
+				text = "ern"
+			intervals [38]:
+				xmin = 5.420
+				xmax = 5.530
+				text = "sh"
+			intervals [39]:
+				xmin = 5.530
+				xmax = 5.700
+				text = "ii"
+			intervals [40]:
+				xmin = 5.700
+				xmax = 5.710
+				text = "sil"
+			intervals [41]:
+				xmin = 5.710
+				xmax = 5.720
+				text = "a"
+			intervals [42]:
+				xmin = 5.720
+				xmax = 5.740
+				text = "sil"
+			intervals [43]:
+				xmin = 5.740
+				xmax = 5.76
+				text = ""
