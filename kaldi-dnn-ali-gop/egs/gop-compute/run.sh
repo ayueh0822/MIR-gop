@@ -37,7 +37,7 @@ rm steps utils
 matbnDir=~/kaldi/egs/pkasr/matbn_200_s2
 misproDir=~/kaldi/egs/pkasr/matbn_mispro
 
-data=$misproDir/data/train
+#data=$misproDir/data/train
 
 gmmModel=$matbnDir/exp/tri4
 dnnModel=$matbnDir/exp/chain_tdnnf_ctx3
@@ -46,7 +46,7 @@ gmmFeatsDir=$misproDir/feats/mfcc_pitch/train
 dnnFeatsDir=$misproDir/feats/mfcc_hires_pitch/train
 ivecDir=$misproDir/ivectors/train
 
-gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting_new
+gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
 dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting
 
 # data preparation
@@ -66,7 +66,7 @@ dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_t
 if [[ "$dnn" = false ]]; then
   echo "Using GMM model!"
   ./utils/data/get_utt2dur.sh $gmmFeatsDir
-  local/compute-gmm-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $data $misproDir/lang/ky92k_forpaift_v11 $gmmModel $gmmResultDir   ### gmm model
+  local/compute-gmm-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $gmmFeatsDir $misproDir/lang/ky92k_forpaift_v11 $gmmModel $gmmResultDir   ### gmm model
 else
   echo "Using DNN model!"
   ./utils/data/get_utt2dur.sh $dnnFeatsDir
