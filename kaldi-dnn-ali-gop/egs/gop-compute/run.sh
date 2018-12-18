@@ -16,6 +16,8 @@ split_per_speaker=true # split by speaker (true) or sentence (false)
 # Enviroment preparation
 . ./cmd.sh
 . ./path.sh
+
+rm steps utils
 [ -h steps ] || ln -s $KALDI_ROOT/egs/wsj/s5/steps
 [ -h utils ] || ln -s $KALDI_ROOT/egs/wsj/s5/utils
 . parse_options.sh || exit 1;
