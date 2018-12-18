@@ -1,7 +1,0 @@
-# nbest-to-ctm ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.9 /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/word.9.ctm 
-# Started at Tue Dec 18 15:00:00 CST 2018
-#
-nbest-to-ctm ark,t:/home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/aligned.9 /home/kaldi/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting2/word.9.ctm 
-LOG (nbest-to-ctm[5.5.53~1-19a18]:main():nbest-to-ctm.cc:119) Converted 68 linear lattices to ctm format; 0 had errors.
-# Accounting: time=0 threads=1
-# Ended (code 0) at Tue Dec 18 15:00:00 CST 2018, elapsed time 0 seconds
