@@ -363,8 +363,8 @@ if __name__ == '__main__':
     lexicon = dictDir + '/lexicon.txt'
 
     makeDict(phones_txt, words_txt, lexicon)
-    gopInfo = getGop('./gop.t')
-    makeJson(gopInfo, gopDir + '/parse/')
+    # gopInfo = getGop('./gop.t')
+    # makeJson(gopInfo, gopDir + '/parse/')
 
     for file in glob.glob(gopDir + '/gop.*'):
         print('file: ', file)
