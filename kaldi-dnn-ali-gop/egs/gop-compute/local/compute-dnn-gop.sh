@@ -71,7 +71,8 @@ echo "$0: computing GOP in $data using model from $srcdir, putting results in $d
 mdl=$srcdir/final.mdl
 tra="ark:utils/sym2int.pl --map-oov $oov -f 2- $lang/words.txt $sdata/JOB/text|";
 $cmd JOB=1:$nj $dir/log/gop.JOB.log \
-  compute-dnn-gop --use-gpu=no $dir/tree $dir/final.mdl $lang/L.fst "$feats" "$ivectors" "$tra" "ark,t:$dir/gop.JOB" "ark,t:$dir/align.JOB" "ark,t:$dir/phoneme_ll.JOB" || exit 1;
+  compute-dnn-gop --use-gpu=no $dir/tree $dir/final.mdl $lang/L.fst "$feats" "$ivectors" "$tra" "ark,t:$dir/gop.JOB" "ark,t:$dir/align.JOB" "ark,t:$dir/phoneme_ll.JOB"  || exit 1;
+  # compute-dnn-gop --use-gpu=no $dir/tree $dir/final.mdl $lang/L.fst "$feats" "$ivectors" "$tra" "ark,t:$dir/gop.JOB" "ark,t:$dir/align.JOB" "ark,t:$dir/phoneme_ll.JOB" "ark,t:$dir/phoneme_conf.JOB" "ark,t:$dir/phoneme_frame_conf.JOB" || exit 1;
 
 # Generate alignment
 $cmd JOB=1:$nj $dir/log/align.JOB.log \
@@ -89,7 +90,7 @@ for n in $(seq $nj); do
   cat $dir/gop.$n || exit 1;
 done > $dir/gop.txt || exit 1
 
-python local/ctm2textgrid.py $nj $dir $dir/aligned_textgrid $lang/words.txt $lang/phones.txt $data/utt2dur
+python3 local/ctm2textgrid.py $nj $dir $dir/aligned_textgrid $lang/words.txt $lang/phones.txt $data/utt2dur
 
 # Convenience for debug
 # apply-cmvn --utt2spk=ark:data/eval/split1/1/utt2spk scp:data/eval/split1/1/cmvn.scp scp:data/eval/split1/1/feats.scp ark:- | add-deltas ark:- ark,t:data/eval/feats.1.ark.txt
