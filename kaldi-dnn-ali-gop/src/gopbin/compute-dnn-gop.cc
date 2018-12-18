@@ -84,6 +84,27 @@ int main(int argc, char *argv[]) {
       gop_writer.Write(utt, gop.Result());
       alignment_writer.Write(utt, gop.get_alignment());
       phn_ll_writer.Write(utt, gop.get_phn_ll());
+
+      //=================================================================
+      
+      Vector<BaseFloat> word_seq;
+      Vector<BaseFloat> phone_seq;
+    
+      word_seq.Resize(transcript.size());
+      for (int i = 0; i < transcript.size(); i++)
+        word_seq(i) = transcript[i];
+
+      std::vector<int32> phone_seq_tmp = gop.Phonemes();
+      phone_seq.Resize(phone_seq_tmp.size());
+      for (int i=0; i<phone_seq_tmp.size(); i++)
+        phone_seq(i) = phone_seq_tmp[i];    
+
+      gop_writer.Write(utt + "________text", word_seq);
+      gop_writer.Write(utt + "_______phone", phone_seq);
+      gop_writer.Write(utt + "____interval", gop.get_phn_itvl());
+      
+      //=================================================================
+
     }
     KALDI_LOG << "Done.";
 # if HAVE_CUDA==1

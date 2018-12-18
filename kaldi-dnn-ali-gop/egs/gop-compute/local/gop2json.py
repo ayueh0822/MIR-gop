@@ -367,6 +367,8 @@ if __name__ == '__main__':
     # makeJson(gopInfo, gopDir + '/parse/')
 
     for file in glob.glob(gopDir + '/gop.*'):
+        if file.split('.')[-1] == 'txt':
+            continue
         print('file: ', file)
         print('============================')
         gopInfo = getGop(file)

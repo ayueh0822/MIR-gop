@@ -44,6 +44,9 @@ public:
   std::vector<int32>& get_alignment();
   std::vector<int32>& Phonemes();
   Vector<BaseFloat>& get_phn_ll();
+  Vector<BaseFloat>& get_phn_itvl(); //get phones interval by end time ot each phone
+
+
 
 protected:
   nnet3::AmNnetSimple am_;
@@ -55,6 +58,7 @@ protected:
   std::vector<int32> alignment_;
   std::vector<int32> phones_;
   Vector<BaseFloat> phones_loglikelihood_; // phoneme log likelihood
+  Vector<BaseFloat> phones_interval_; //get phones interval by end time ot each phone
 
   BaseFloat Decode(fst::VectorFst<fst::StdArc> &fst,
                    nnet3::DecodableAmNnetSimple &decodable,

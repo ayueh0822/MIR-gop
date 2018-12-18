@@ -44,7 +44,9 @@ public:
   Matrix<BaseFloat>& PhonemesConf();
   Matrix<BaseFloat>& PhonemesFrameConf();
   Vector<BaseFloat>& get_phn_ll();
-  Vector<BaseFloat>& get_phn_itvl();
+  Vector<BaseFloat>& get_phn_itvl();  //get phones interval by end time ot each phone
+
+
 
 protected:
   AmDiagGmm am_;

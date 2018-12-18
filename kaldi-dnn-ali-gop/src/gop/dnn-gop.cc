@@ -215,6 +215,15 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
 
     frame_start_idx += split[i].size();
   }
+
+  //==================================================
+  double t = 0.0;
+  phones_interval_.Resize(split.size());
+  for (int i=0; i<split.size(); i++){
+    t += split[i].size() * 0.01;
+    phones_interval_(i) = t;
+  }
+  //==================================================
 }
 
 Vector<BaseFloat>& DnnGop::Result() {
@@ -231,6 +240,10 @@ std::vector<int32>& DnnGop::get_alignment() {
 
 std::vector<int32>& DnnGop::Phonemes() {
   return phones_;
+}
+
+Vector<BaseFloat>& DnnGop::get_phn_itvl() {
+  return phones_interval_;
 }
 
 }  // End namespace kaldi

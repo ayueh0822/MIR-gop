@@ -370,7 +370,9 @@ Matrix<BaseFloat>& GmmGop::PhonemesConf() {
 Matrix<BaseFloat>& GmmGop::PhonemesFrameConf() {
   return phonemes_frame_conf_;
 }
+
 Vector<BaseFloat>& GmmGop::get_phn_itvl() {
   return phones_interval_;
 }
+
 }  // End namespace kaldi
