@@ -70,8 +70,8 @@ echo "$0: computing GOP in $data using model from $srcdir, putting results in $d
 
 mdl=$srcdir/final.mdl
 tra="ark:utils/sym2int.pl --map-oov $oov -f 2- $lang/words.txt $sdata/JOB/text|";
-# $cmd JOB=1:$nj $dir/log/gop.JOB.log \
-#   compute-dnn-gop --use-gpu=no $dir/tree $dir/final.mdl $lang/L.fst "$feats" "$ivectors" "$tra" "ark,t:$dir/gop.JOB" "ark,t:$dir/align.JOB" "ark,t:$dir/phoneme_ll.JOB" || exit 1;
+$cmd JOB=1:$nj $dir/log/gop.JOB.log \
+  compute-dnn-gop --use-gpu=no $dir/tree $dir/final.mdl $lang/L.fst "$feats" "$ivectors" "$tra" "ark,t:$dir/gop.JOB" "ark,t:$dir/align.JOB" "ark,t:$dir/phoneme_ll.JOB" || exit 1;
 
 # Generate alignment
 $cmd JOB=1:$nj $dir/log/align.JOB.log \
