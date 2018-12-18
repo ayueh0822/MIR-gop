@@ -98,11 +98,20 @@ int main(int argc, char *argv[]) {
       for (int i=0; i<phone_seq_tmp.size(); i++)
         phone_seq(i) = phone_seq_tmp[i];
 
-
-      gop_writer.Write(utt, word_seq);
-      gop_writer.Write(utt, phone_seq);
-      gop_writer.Write(utt, gop.get_phn_itvl());
+      gop_writer.Write(utt + "________text", word_seq);
+      gop_writer.Write(utt + "_______phone", phone_seq);
+      gop_writer.Write(utt + "____interval", gop.get_phn_itvl());
       
+      Vector<BaseFloat> compete_phone_likelihood;
+      for (MatrixIndexT i = 0; i < gop.PhonemesConf().NumRows(); i++) {
+        std::ostringstream ss;
+        ss << phone_seq(i);
+        std::string ph(ss.str());
+
+        compete_phone_likelihood = gop.PhonemesConf().Row(i);
+        gop_writer.Write(ph, compete_phone_likelihood);
+      }
+
       //=================================================================
     }
     KALDI_LOG << "Done.";
