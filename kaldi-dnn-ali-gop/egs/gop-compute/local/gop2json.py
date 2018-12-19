@@ -258,7 +258,7 @@ def wordAlign(text, phones,
         intervals = []
         competingModelLogLike = []
         competingModelIndex = []
-        competingIndex = list(range(1, 176))
+        # competingIndex = list(range(1, 176))
 
         Phone_seq = word2Phones(word)
         # print('phone seq: ', Phone_seq)
@@ -273,6 +273,7 @@ def wordAlign(text, phones,
 
         intervals += interval[start:start + phoneSeqLen]
         for n in range(phoneSeqLen):
+            competingIndex = list(range(1, 176))
             # print('start: ', start)
             # print('n: ', n)
             # print('phone: ', Phones[phones[start + n]])
