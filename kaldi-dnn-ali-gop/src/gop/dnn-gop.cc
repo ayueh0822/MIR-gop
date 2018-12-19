@@ -192,6 +192,9 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
   gop_result_.Resize(split.size());
   phones_.resize(split.size());
   phones_loglikelihood_.Resize(split.size());
+
+  phones_compete_loglikelihood_.resize(split.size()); // record competing likelihood of each phone
+
   int32 frame_start_idx = 0;
   for (MatrixIndexT i = 0; i < split.size(); i++) {
     SubMatrix<BaseFloat> feats_in_phone = feats.Range(frame_start_idx, split[i].size(),
@@ -212,6 +215,18 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
     gop_result_(i) = (gop_numerator - gop_denominator) / split[i].size();
     phones_[i] = phone;
     phones_loglikelihood_(i) = gop_numerator;
+
+
+    // get competing likelihood of this phone
+    const std::vector<int32> &phone_syms = tm_.GetPhones();
+    Vector<BaseFloat> compete_loglikelihood_tmp;
+    compete_loglikelihood_tmp.Resize(phone_syms.size());
+    for (size_t j=0; j<phone_syms.size(); j++)
+    {
+      compete_loglikelihood_tmp(j) = ComputeGopNumera(ali_decodable, phone_l, phone_syms[j], phone_r, frame_start_idx, split[i].size()) / split[i].size();
+    }
+    phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
+    //========================================
 
     frame_start_idx += split[i].size();
   }
@@ -245,5 +260,7 @@ std::vector<int32>& DnnGop::Phonemes() {
 Vector<BaseFloat>& DnnGop::get_phn_itvl() {
   return phones_interval_;
 }
-
+std::vector< Vector<BaseFloat> >& DnnGop::get_phn_cmpt(){
+  return phones_compete_loglikelihood_;
+}
 }  // End namespace kaldi

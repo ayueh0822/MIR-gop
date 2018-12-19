@@ -102,6 +102,18 @@ int main(int argc, char *argv[]) {
       gop_writer.Write(utt + "________text", word_seq);
       gop_writer.Write(utt + "_______phone", phone_seq);
       gop_writer.Write(utt + "____interval", gop.get_phn_itvl());
+
+      std::vector< Vector<BaseFloat> > compete_phone_likelihood;
+      compete_phone_likelihood = gop.get_phn_cmpt();
+      for (int i=0; i<compete_phone_likelihood.size(); i++){
+       
+        std::ostringstream ss;
+        ss << phone_seq(i);
+        std::string ph(ss.str());
+
+        gop_writer.Write(ph, compete_phone_likelihood[i]);
+      }
+          
       
       //=================================================================
 

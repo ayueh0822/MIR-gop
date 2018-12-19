@@ -45,7 +45,7 @@ public:
   std::vector<int32>& Phonemes();
   Vector<BaseFloat>& get_phn_ll();
   Vector<BaseFloat>& get_phn_itvl(); //get phones interval by end time ot each phone
-
+  std::vector< Vector<BaseFloat> >& get_phn_cmpt(); //get competing likelihood of each phone
 
 
 protected:
@@ -59,6 +59,7 @@ protected:
   std::vector<int32> phones_;
   Vector<BaseFloat> phones_loglikelihood_; // phoneme log likelihood
   Vector<BaseFloat> phones_interval_; //get phones interval by end time ot each phone
+  std::vector< Vector<BaseFloat> > phones_compete_loglikelihood_; // get competing likelihood of each phone
 
   BaseFloat Decode(fst::VectorFst<fst::StdArc> &fst,
                    nnet3::DecodableAmNnetSimple &decodable,
