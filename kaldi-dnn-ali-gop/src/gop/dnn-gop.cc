@@ -115,7 +115,8 @@ BaseFloat DnnGop::ComputeGopNumera(nnet3::DecodableAmNnetSimple &decodable,
 BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
                                     int32 phone_l, int32 phone_r,
                                     MatrixIndexT start_frame,
-                                    int32 size) {
+                                    int32 size, 
+                                    Vector<BaseFloat> &compete_loglikelihood_tmp) {
   KALDI_ASSERT(ctx_dep_.ContextWidth() == 3);
   KALDI_ASSERT(ctx_dep_.CentralPosition() == 1);
   std::vector<int32> phoneseq(3);
@@ -127,7 +128,8 @@ BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
   const std::vector<int32> &phone_syms = tm_.GetPhones();
 
   //Vector<BaseFloat> likelihood(phone_syms.size());
-
+  compete_loglikelihood_tmp.Resize(phone_syms.size());
+  
   for (size_t i = 0; i < phone_syms.size(); i++) {
     int32 phone = phone_syms[i];
     phoneseq[1] = phone;
@@ -148,6 +150,7 @@ BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
       }
       phn_likelihood += temp_likelihood.LogSumExp(5);
     }
+    compete_loglikelihood_tmp(i) = phn_likelihood;
     if (phn_likelihood > likelihood) {
       likelihood = phn_likelihood;
     }
@@ -210,23 +213,25 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
     GetContextFromSplit(split, i, phone_l, phone, phone_r);
 
     bool use_viterbi_numera = true;
+    Vector<BaseFloat> compete_loglikelihood_tmp;
     BaseFloat gop_numerator = ComputeGopNumera(ali_decodable, phone_l, phone, phone_r, frame_start_idx, split[i].size());
-    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size());
+    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size(), &compete_loglikelihood_tmp);    
+    phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
     gop_result_(i) = (gop_numerator - gop_denominator) / split[i].size();
     phones_[i] = phone;
     phones_loglikelihood_(i) = gop_numerator;
 
 
-    // get competing likelihood of this phone
-    const std::vector<int32> &phone_syms = tm_.GetPhones();
-    Vector<BaseFloat> compete_loglikelihood_tmp;
-    compete_loglikelihood_tmp.Resize(phone_syms.size());
-    for (size_t j=0; j<phone_syms.size(); j++)
-    {
-      compete_loglikelihood_tmp(j) = ComputeGopNumera(ali_decodable, phone_l, phone_syms[j], phone_r, frame_start_idx, split[i].size()) / split[i].size();
-    }
-    phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
-    //========================================
+    // ==== get competing likelihood of this phone =====
+    // const std::vector<int32> &phone_syms = tm_.GetPhones();
+    // Vector<BaseFloat> compete_loglikelihood_tmp;
+    // compete_loglikelihood_tmp.Resize(phone_syms.size());
+    // for (size_t j=0; j<phone_syms.size(); j++)
+    // {
+    //   compete_loglikelihood_tmp(j) = ComputeGopNumera(ali_decodable, phone_l, phone_syms[j], phone_r, frame_start_idx, split[i].size()) / split[i].size();
+    // }
+    // phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
+    //==================================================
 
     frame_start_idx += split[i].size();
   }

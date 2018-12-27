@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
         " compute-gmm-gop tree 1.mdl lex.fst scp:train.scp ark:train.tra ark,t:gop.1 ark,t:algin.1 ark,t:phn_ll.1\n";
 
     ParseOptions po(usage);
-    std::string use_gpu = "no";
+    std::string use_gpu = "yes";
     po.Register("use-gpu", &use_gpu,
                  "yes|no|optional|wait, only has effect if compiled with CUDA");
 
@@ -40,8 +40,8 @@ int main(int argc, char *argv[]) {
       po.PrintUsage();
       exit(1);
     }
-
 #if HAVE_CUDA==1
+    printf("fucc\n");
     CuDevice::Instantiate().SelectGpuId(use_gpu);
 #endif
 

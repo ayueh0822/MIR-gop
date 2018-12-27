@@ -10,7 +10,7 @@ set -e
 #set -x
 
 dnn=false
-nj=10 # number of parallel jobs. Set it depending on number of CPU cores
+nj=20 # number of parallel jobs. Set it depending on number of CPU cores
 split_per_speaker=true # split by speaker (true) or sentence (false)
 
 # Enviroment preparation
@@ -47,7 +47,7 @@ dnnFeatsDir=$misproDir/feats/mfcc_hires_pitch/train
 ivecDir=$misproDir/ivectors/train
 
 gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
-dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting
+dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting_new
 
 # data preparation
 #local/data_preparation.sh --nj $nj --dnn $dnn $audio_dir $data_dir

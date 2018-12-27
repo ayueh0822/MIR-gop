@@ -362,7 +362,7 @@ if __name__ == '__main__':
     phones_txt = landDir + '/phones.txt'
     words_txt = landDir + '/words.txt'
     lexicon = dictDir + '/lexicon.txt'
-
+    print('fucc')
     makeDict(phones_txt, words_txt, lexicon)
     # gopInfo = getGop('./gop.t')
     # makeJson(gopInfo, gopDir + '/parse/')
