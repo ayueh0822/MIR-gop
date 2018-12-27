@@ -51,7 +51,7 @@ dnnFeatsDir=$misproDir/feats/mfcc_hires_pitch/train
 ivecDir=$misproDir/ivectors/train
 
 gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
-dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting_new
+dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting
 
 # data preparation
 #local/data_preparation.sh --nj $nj --dnn $dnn $audio_dir $data_dir
