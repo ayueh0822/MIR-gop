@@ -150,7 +150,7 @@ BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
       }
       phn_likelihood += temp_likelihood.LogSumExp(5);
     }
-    compete_loglikelihood_tmp(i) = phn_likelihood;
+    compete_loglikelihood_tmp(i) = phn_likelihood / size;
     if (phn_likelihood > likelihood) {
       likelihood = phn_likelihood;
     }
@@ -215,7 +215,7 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
     bool use_viterbi_numera = true;
     Vector<BaseFloat> compete_loglikelihood_tmp;
     BaseFloat gop_numerator = ComputeGopNumera(ali_decodable, phone_l, phone, phone_r, frame_start_idx, split[i].size());
-    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size(), &compete_loglikelihood_tmp);    
+    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size(), compete_loglikelihood_tmp);    
     phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
     gop_result_(i) = (gop_numerator - gop_denominator) / split[i].size();
     phones_[i] = phone;

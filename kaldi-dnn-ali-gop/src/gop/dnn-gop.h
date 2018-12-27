@@ -71,7 +71,9 @@ protected:
   BaseFloat ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
                               int32 phone_l, int32 phone_r,
                               MatrixIndexT start_frame,
-                              int32 size);
+                              int32 size,
+                              Vector<BaseFloat> &compete_loglikelihood_tmp);
+                              
   void GetContextFromSplit(std::vector<std::vector<int32> > split,
                            int32 index, int32 &phone_l, int32 &phone, int32 &phone_r);
 };

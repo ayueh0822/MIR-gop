@@ -6,6 +6,10 @@
 # data-dir: where extracted features are stored
 # result-dir: where results are stored                               
 
+echo "================ start ================"
+date
+echo "======================================="
+
 set -e
 #set -x
 
@@ -73,3 +77,7 @@ else
   local/compute-dnn-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $dnnFeatsDir $ivecDir $misproDir/lang/ky92k_forpaift_v11 \
              $dnnModel $dnnResultDir    ### dnn model
 fi
+
+echo "================ finish ================"
+date
+echo "========================================"
