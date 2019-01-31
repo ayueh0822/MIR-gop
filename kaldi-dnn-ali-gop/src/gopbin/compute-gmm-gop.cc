@@ -90,9 +90,9 @@ int main(int argc, char *argv[]) {
       Vector<BaseFloat> phone_seq;
     
       word_seq.Resize(transcript.size());
-      for (int i = 0; i < transcript.size(); i++)
+      for (int i = 0; i < transcript.size(); i++){
         word_seq(i) = transcript[i];
-
+      }
       std::vector<int32> phone_seq_tmp = gop.Phonemes();
       phone_seq.Resize(phone_seq_tmp.size());
       for (int i=0; i<phone_seq_tmp.size(); i++)

@@ -33,15 +33,17 @@
 #include "nnet3/nnet-utils.h"
 #include "nnet3/am-nnet-simple.h"
 
-namespace kaldi {
+namespace kaldi
+{
 
 typedef typename fst::StdArc Arc;
 typedef typename Arc::StateId StateId;
 typedef typename Arc::Weight Weight;
 
 void DnnGop::Init(std::string &tree_in_filename,
-            std::string &model_in_filename,
-            std::string &lex_in_filename) {
+                  std::string &model_in_filename,
+                  std::string &lex_in_filename)
+{
   bool binary;
   Input ki(model_in_filename, &binary);
   tm_.Read(ki.Stream(), binary);
@@ -49,23 +51,26 @@ void DnnGop::Init(std::string &tree_in_filename,
   ReadKaldiObject(tree_in_filename, &ctx_dep_);
 
   fst::VectorFst<fst::StdArc> *lex_fst = fst::ReadFstKaldi(lex_in_filename);
-  std::vector<int32> disambig_syms;  
+  std::vector<int32> disambig_syms;
   TrainingGraphCompilerOptions gopts;
   gc_ = new TrainingGraphCompiler(tm_, ctx_dep_, lex_fst, disambig_syms, gopts);
 
-  for (size_t i = 0; i < tm_.NumTransitionIds(); i++) {
+  for (size_t i = 0; i < tm_.NumTransitionIds(); i++)
+  {
     pdfid_to_tid[tm_.TransitionIdToPdf(i)] = i;
   }
 }
 
 BaseFloat DnnGop::Decode(fst::VectorFst<fst::StdArc> &fst,
                          nnet3::DecodableAmNnetSimple &decodable,
-                         std::vector<int32> *align) {
+                         std::vector<int32> *align)
+{
   FasterDecoderOptions decode_opts;
   decode_opts.beam = 500; // number of beams for decoding. Larger, slower and more successful alignments. Smaller, more unsuccessful alignments.
   FasterDecoder decoder(fst, decode_opts);
   decoder.Decode(&decodable);
-  if (! decoder.ReachedFinal()) {
+  if (!decoder.ReachedFinal())
+  {
     KALDI_WARN << "Did not successfully decode.";
   }
   fst::VectorFst<LatticeArc> decoded;
@@ -73,15 +78,16 @@ BaseFloat DnnGop::Decode(fst::VectorFst<fst::StdArc> &fst,
   std::vector<int32> osymbols;
   LatticeWeight weight;
   GetLinearSymbolSequence(decoded, align, &osymbols, &weight);
-  BaseFloat likelihood = -(weight.Value1()+weight.Value2());
+  BaseFloat likelihood = -(weight.Value1() + weight.Value2());
 
   return likelihood;
 }
 
 BaseFloat DnnGop::ComputeGopNumera(nnet3::DecodableAmNnetSimple &decodable,
-                                          int32 phone_l, int32 phone, int32 phone_r,
-                                          MatrixIndexT start_frame,
-                                          int32 size) {
+                                   int32 phone_l, int32 phone, int32 phone_r,
+                                   MatrixIndexT start_frame,
+                                   int32 size)
+{
   // std::cout << "ContextWidth: " << ctx_dep_.ContextWidth();
   // exit(1);
   KALDI_ASSERT(ctx_dep_.ContextWidth() == 3);
@@ -90,21 +96,24 @@ BaseFloat DnnGop::ComputeGopNumera(nnet3::DecodableAmNnetSimple &decodable,
   phoneseq[0] = phone_l;
   phoneseq[1] = phone;
   phoneseq[2] = phone_r;
-  
+
   const int pdfclass_num = tm_.GetTopo().NumPdfClasses(phone);
 
   BaseFloat likelihood = 0;
-  for (MatrixIndexT frame = start_frame; frame < start_frame + size; frame++) {
+  for (MatrixIndexT frame = start_frame; frame < start_frame + size; frame++)
+  {
     Vector<BaseFloat> temp_likelihood(pdfclass_num);
-    for (size_t c = 0; c < pdfclass_num; c++) {
+    for (size_t c = 0; c < pdfclass_num; c++)
+    {
       int32 pdf_id;
       //KALDI_ASSERT(ctx_dep_.Compute(phoneseq, c, &pdf_id));
-      if (!ctx_dep_.Compute(phoneseq, c, &pdf_id)) {
+      if (!ctx_dep_.Compute(phoneseq, c, &pdf_id))
+      {
         KALDI_ERR << "Failed to obtain pdf_id";
       }
       int32 tid = pdfid_to_tid[pdf_id];
 
-      temp_likelihood(c) = decodable.LogLikelihood(frame, tid); 
+      temp_likelihood(c) = decodable.LogLikelihood(frame, tid);
     }
     likelihood += temp_likelihood.LogSumExp(5);
   }
@@ -115,8 +124,9 @@ BaseFloat DnnGop::ComputeGopNumera(nnet3::DecodableAmNnetSimple &decodable,
 BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
                                     int32 phone_l, int32 phone_r,
                                     MatrixIndexT start_frame,
-                                    int32 size, 
-                                    Vector<BaseFloat> &compete_loglikelihood_tmp) {
+                                    int32 size,
+                                    Vector<BaseFloat> &compete_loglikelihood_tmp)
+{
   KALDI_ASSERT(ctx_dep_.ContextWidth() == 3);
   KALDI_ASSERT(ctx_dep_.CentralPosition() == 1);
   std::vector<int32> phoneseq(3);
@@ -129,29 +139,34 @@ BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
 
   //Vector<BaseFloat> likelihood(phone_syms.size());
   compete_loglikelihood_tmp.Resize(phone_syms.size());
-  
-  for (size_t i = 0; i < phone_syms.size(); i++) {
+
+  for (size_t i = 0; i < phone_syms.size(); i++)
+  {
     int32 phone = phone_syms[i];
     phoneseq[1] = phone;
     const int pdfclass_num = tm_.GetTopo().NumPdfClasses(phone);
-    
+
     BaseFloat phn_likelihood = 0;
-    for (MatrixIndexT frame = start_frame; frame < start_frame + size; frame++) {
+    for (MatrixIndexT frame = start_frame; frame < start_frame + size; frame++)
+    {
       Vector<BaseFloat> temp_likelihood(pdfclass_num);
-      for (size_t c = 0; c < pdfclass_num; c++) {
+      for (size_t c = 0; c < pdfclass_num; c++)
+      {
         int32 pdf_id;
         //KALDI_ASSERT(ctx_dep_.Compute(phoneseq, c, &pdf_id));
-        if (!ctx_dep_.Compute(phoneseq, c, &pdf_id)) {
+        if (!ctx_dep_.Compute(phoneseq, c, &pdf_id))
+        {
           KALDI_ERR << "Failed to obtain pdf_id";
         }
         int32 tid = pdfid_to_tid[pdf_id];
 
-        temp_likelihood(c) = decodable.LogLikelihood(frame, tid); 
+        temp_likelihood(c) = decodable.LogLikelihood(frame, tid);
       }
       phn_likelihood += temp_likelihood.LogSumExp(5);
     }
     compete_loglikelihood_tmp(i) = phn_likelihood / size;
-    if (phn_likelihood > likelihood) {
+    if (phn_likelihood > likelihood)
+    {
       likelihood = phn_likelihood;
     }
     //likelihood(i) = phn_likelihood;
@@ -160,17 +175,19 @@ BaseFloat DnnGop::ComputeGopDenomin(nnet3::DecodableAmNnetSimple &decodable,
   return likelihood;
 }
 
-void DnnGop::GetContextFromSplit(std::vector<std::vector<int32> > split,
-                                 int32 index, int32 &phone_l, int32 &phone, int32 &phone_r) {
+void DnnGop::GetContextFromSplit(std::vector<std::vector<int32>> split,
+                                 int32 index, int32 &phone_l, int32 &phone, int32 &phone_r)
+{
   KALDI_ASSERT(index < split.size());
-  phone_l = (index > 0) ? tm_.TransitionIdToPhone(split[index-1][0]) : 1;
+  phone_l = (index > 0) ? tm_.TransitionIdToPhone(split[index - 1][0]) : 1;
   phone = tm_.TransitionIdToPhone(split[index][0]);
-  phone_r = (index < split.size() - 1) ? tm_.TransitionIdToPhone(split[index+1][0]): 1;
+  phone_r = (index < split.size() - 1) ? tm_.TransitionIdToPhone(split[index + 1][0]) : 1;
 }
 
 void DnnGop::Compute(const Matrix<BaseFloat> &feats,
                      const Matrix<BaseFloat> *online_ivectors,
-                     const std::vector<int32> &transcript) {
+                     const std::vector<int32> &transcript)
+{
   // Align
   fst::VectorFst<fst::StdArc> ali_fst;
   gc_->CompileGraphFromText(transcript, &ali_fst);
@@ -181,16 +198,16 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
   nnet3::NnetSimpleComputationOptions decodable_opts;
   decodable_opts.acoustic_scale = 1.0;
   //decodable_opts.frames_per_chunk = feats.NumRows();
-  nnet3::CachingOptimizingCompiler compiler(am_.GetNnet(),decodable_opts.optimize_config);
+  nnet3::CachingOptimizingCompiler compiler(am_.GetNnet(), decodable_opts.optimize_config);
   int32 online_ivector_period = 10;
-  nnet3::DecodableAmNnetSimple ali_decodable(decodable_opts, tm_, am_, feats, NULL, 
-                    online_ivectors, online_ivector_period, &compiler);
+  nnet3::DecodableAmNnetSimple ali_decodable(decodable_opts, tm_, am_, feats, NULL,
+                                             online_ivectors, online_ivector_period, &compiler);
   //std::vector<int32> align;
   Decode(ali_fst, ali_decodable, &alignment_);
   KALDI_ASSERT(feats.NumRows() == alignment_.size());
 
   // GOP
-  std::vector<std::vector<int32> > split;
+  std::vector<std::vector<int32>> split;
   SplitToPhones(tm_, alignment_, &split);
   gop_result_.Resize(split.size());
   phones_.resize(split.size());
@@ -199,13 +216,14 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
   phones_compete_loglikelihood_.resize(split.size()); // record competing likelihood of each phone
 
   int32 frame_start_idx = 0;
-  for (MatrixIndexT i = 0; i < split.size(); i++) {
+  for (MatrixIndexT i = 0; i < split.size(); i++)
+  {
     SubMatrix<BaseFloat> feats_in_phone = feats.Range(frame_start_idx, split[i].size(),
                                                       0, feats.NumCols());
-    SubMatrix<BaseFloat> ivector_in_phone = online_ivectors->Range(frame_start_idx/online_ivector_period, 
-                                                      kaldi::MatrixIndexT(std::min(int32(split[i].size()/online_ivector_period+1), 
-                                                        int32(online_ivectors->NumRows())-int32(frame_start_idx/online_ivector_period))),
-                                                      0, online_ivectors->NumCols());
+    SubMatrix<BaseFloat> ivector_in_phone = online_ivectors->Range(frame_start_idx / online_ivector_period,
+                                                                   kaldi::MatrixIndexT(std::min(int32(split[i].size() / online_ivector_period + 1),
+                                                                                                int32(online_ivectors->NumRows()) - int32(frame_start_idx / online_ivector_period))),
+                                                                   0, online_ivectors->NumCols());
     const Matrix<BaseFloat> features(feats_in_phone);
     const Matrix<BaseFloat> online_ivectors_feat(ivector_in_phone);
 
@@ -215,12 +233,14 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
     bool use_viterbi_numera = true;
     Vector<BaseFloat> compete_loglikelihood_tmp;
     BaseFloat gop_numerator = ComputeGopNumera(ali_decodable, phone_l, phone, phone_r, frame_start_idx, split[i].size());
-    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size(), compete_loglikelihood_tmp);    
+    BaseFloat gop_denominator = ComputeGopDenomin(ali_decodable, phone_l, phone_r, frame_start_idx, split[i].size(), compete_loglikelihood_tmp);
     phones_compete_loglikelihood_[i] = compete_loglikelihood_tmp;
+    if (gop_numerator > gop_denominator){
+      std::cout << "DeBug: " << gop_numerator << "\n";
+    }
     gop_result_(i) = (gop_numerator - gop_denominator) / split[i].size();
     phones_[i] = phone;
     phones_loglikelihood_(i) = gop_numerator;
-
 
     // ==== get competing likelihood of this phone =====
     // const std::vector<int32> &phone_syms = tm_.GetPhones();
@@ -239,33 +259,40 @@ void DnnGop::Compute(const Matrix<BaseFloat> &feats,
   //==================================================
   double t = 0.0;
   phones_interval_.Resize(split.size());
-  for (int i=0; i<split.size(); i++){
+  for (int i = 0; i < split.size(); i++)
+  {
     t += split[i].size() * 0.01;
     phones_interval_(i) = t;
   }
   //==================================================
 }
 
-Vector<BaseFloat>& DnnGop::Result() {
+Vector<BaseFloat> &DnnGop::Result()
+{
   return gop_result_;
 }
 
-Vector<BaseFloat>& DnnGop::get_phn_ll() {
+Vector<BaseFloat> &DnnGop::get_phn_ll()
+{
   return phones_loglikelihood_;
 }
 
-std::vector<int32>& DnnGop::get_alignment() {
+std::vector<int32> &DnnGop::get_alignment()
+{
   return alignment_;
 }
 
-std::vector<int32>& DnnGop::Phonemes() {
+std::vector<int32> &DnnGop::Phonemes()
+{
   return phones_;
 }
 
-Vector<BaseFloat>& DnnGop::get_phn_itvl() {
+Vector<BaseFloat> &DnnGop::get_phn_itvl()
+{
   return phones_interval_;
 }
-std::vector< Vector<BaseFloat> >& DnnGop::get_phn_cmpt(){
+std::vector<Vector<BaseFloat>> &DnnGop::get_phn_cmpt()
+{
   return phones_compete_loglikelihood_;
 }
-}  // End namespace kaldi
+} // End namespace kaldi

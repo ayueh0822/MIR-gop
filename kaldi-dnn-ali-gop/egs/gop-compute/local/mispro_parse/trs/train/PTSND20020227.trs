@@ -1,0 +1,5319 @@
+<?xml version="1.0" encoding="Big5"?>
+<!DOCTYPE Trans SYSTEM "trans-13.dtd">
+<Trans scribe="(unknown)" audio_filename="PTSND20020227" version="10" version_date="041103">
+<Speakers>
+<Speaker id="spk1" name="people1_A" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk2" name="people21_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk3" name="people173" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk4" name="people164" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk5" name="people5_R" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk6" name="people139" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk7" name="people81" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk8" name="people161" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk9" name="people12_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk10" name="people3276" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk11" name="people5718" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk12" name="people4329" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk13" name="people7_R" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk14" name="people364" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk15" name="people276" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk16" name="people4_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk17" name="people447" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk18" name="people1346" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk19" name="people5719" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk20" name="people324" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk21" name="people380" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk22" name="people434" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk23" name="people43" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk24" name="people16_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk25" name="people26_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk26" name="people48" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk27" name="people2_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk28" name="people33_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk29" name="people18" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk30" name="people95_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk31" name="people8_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk35" name="people2601_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk36" name="people4306" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk37" name="people35_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk38" name="people47" check="no" type="male" dialect="nonnative" accent="" scope="local"/> 
+<Speaker id="spk39" name="people2_WA" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk40" name="people97" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk41" name="people104" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk42" name="people120" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk43" name="people5146" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk44" name="people185" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk45" name="people5720_R" check="no" type="female" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk46" name="people4431" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk47" name="people2862" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk48" name="people2269" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk49" name="people3053" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk50" name="people3052" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk51" name="people439" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk52" name="people73_R" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk53" name="people5721" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk54" name="people1790" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk55" name="people5722" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk56" name="people4874" check="no" type="male" dialect="native" accent="" scope="local"/> 
+<Speaker id="spk57" name="people3718" check="no" type="female" dialect="nonnative" accent="" scope="local"/> 
+<Speaker id="spk58" name="people3717" check="no" type="male" dialect="nonnative" accent="" scope="local"/> 
+<Speaker id="spk59" name="people4508" check="no" type="female" dialect="nonnative" accent="" scope="local"/> 
+<Speaker id="spk60" name="people184_R" check="no" type="male" dialect="native" accent="" scope="local"/> 
+</Speakers>
+<Topics>
+<Topic id="to1" desc="空白"/>
+<Topic id="to2" desc="廣告"/>
+<Topic id="to3" desc="間隔音樂"/>
+<Topic id="to4" desc="節目重點內容介紹"/>
+<Topic id="to5" desc="經濟現況 - 景氣已經復甦跡象　上月失業率略降"/>
+<Topic id="to6" desc="缺水問題 - 政院提解決方案　桃竹地區休耕"/>
+<Topic id="to7" desc="水荒嚴重 - 解決缺水配合休耕　農民生計難維持"/>
+<Topic id="to8" desc="缺水原因 - 水荒不能怪天氣　森林遭破壞影響深遠"/>
+<Topic id="to9" desc="朝野互動 - 黨團溝通善意回應　召委順利產生"/>
+<Topic id="to10" desc="立院觀察 - 立院召委選舉　政黨比例分配產生"/>
+<Topic id="to11" desc="教育委員會 - 台灣教育改育　關鍵在於老師"/>
+<Topic id="to12" desc="兩岸關係 - 更名台灣代表處　政院：民調七成贊成"/>
+<Topic id="to13" desc="美中台關係 - 湯曜明將赴美參加軍事峰會　中共抗議"/>
+<Topic id="to14" desc="代辦騙局 - 代辦老人給付？小心勞保黃牛"/>
+<Topic id="to15" desc="歷史傷痕 - 二二八族群互助展　公開多幅珍貴影像"/>
+<Topic id="to16" desc="客家習俗 - 正月十六客人掛紙　掃墓祭祖求庇佑"/>
+<Topic id="to17" desc="看守台灣 - 十二年整治無成效　二仁溪污染更嚴重"/>
+<Topic id="to18" desc="尋找飲用水 - 循猴子足跡　望鄉部落辛苦尋水"/>
+<Topic id="to19" desc="詩詠玉山 - 台灣文學的源頭　沈花末難忘山中的藍"/>
+<Topic id="to20" desc="美國教改 - 教改新制　中小學生要接受年度測驗"/>
+<Topic id="to21" desc="氣象預報"/>
+<Topic id="to22" desc="結尾"/>
+<Topic id="to23" desc="片尾音樂"/>
+<Topic id="to24" desc="藝文表演 - 唯美有張力　西伯利亞芭蕾舞團表演出"/>
+</Topics>
+<Episode>
+<Section type="nontrans" startTime="0" endTime="4.613" topic="to1">
+<Turn startTime="0" endTime="4.613">
+<Sync time="0"/>
+
+<Event desc="empty" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="nontrans" topic="to2" startTime="4.613" endTime="83.267">
+<Turn startTime="4.613" endTime="83.267">
+<Sync time="4.613"/>
+
+<Event desc="advertisement" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to3" startTime="83.267" endTime="93.483">
+<Turn startTime="83.267" endTime="93.483">
+<Sync time="83.267"/>
+<Background time="83.267" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="93.298" type="other" level="off"/>
+
+<Sync time="93.299"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to4" startTime="93.483" endTime="159.368">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="93.483" endTime="159.368">
+<Sync time="93.483"/>
+<Background time="93.483" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="118.679"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+觀眾朋友晚安，歡迎收看二月二十
+<Background time="120.28" type="other" level="off"/>
+七號的公視新聞深度報導我是葉明蘭，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+今天的節目有哪些內容？我們首先來看節目重點介紹。
+<Sync time="126.908"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="127.495"/>
+<Background time="127.495" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="128.787"/>
+經建會最新景氣概況顯示台灣景氣出現復甦跡象。
+<Sync time="133.215"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="136.188"/>
+石門水庫水位節節下降距離
+<Event desc="pause" type="noise" extent="instantaneous"/>
+枯旱標準只剩
+<Event desc="restart" type="lexical" extent="begin"/>
+四
+<Event desc="mispronunciation sh4" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+四公尺
+<Event desc="restart" type="lexical" extent="end"/>
+。
+<Sync time="141.341"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="144.18"/>
+立法院召集委員選舉今天按照政黨比例已經分配產生。
+<Sync time="148.966"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="152.206"/>
+我外交部推動駐外單位改名台灣代表處中共關切。
+<Sync time="156.89"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to5" startTime="159.368" endTime="303.3">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="159.368" endTime="183.172">
+<Sync time="159.368"/>
+重要的
+<Background time="159.828" type="other" level="off"/>
+經濟訊息首先來看好消息。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+經建會說台灣的景氣已經出現復甦跡象了，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因為在今天發布的最新景氣概況顯示，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+雖然景氣對策信號還是藍燈，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過景氣領先指標已經
+<Event desc="pause" type="noise" extent="instantaneous"/>
+持續上揚。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外
+<Event desc="pause" type="noise" extent="instantaneous"/>
+主計處今天也公布了最新失業率，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+比上個月下降了零點零八個
+<Event desc="pause" type="noise" extent="instantaneous"/>
+百分點。
+<Sync time="182.643"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk2" mode="planned" fidelity="high" channel="studio" startTime="183.172" endTime="213.563">
+<Sync time="183.172"/>
+<Background time="183.172" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="184.838"/>
+今天下午經建會公布了最新的景氣概況。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在景氣對策信號方面，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一月的
+<Background time="190.814" type="other" level="off"/>
+綜合判斷分數是十五分，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+呈現的還是藍燈的情形，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但是代表未來景氣的景氣領先指標卻繼續上升，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一月份的指數是九十八點三，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這也是
+<Background time="202.444" type="other" level="high"/>
+景氣領先指標連續
+<Event desc="mispronunciation shi4" type="pronounce" extent="previous"/>
+第四個月上揚，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外根據經建會調查，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+預期未來景氣會好轉的廠商，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+第一次超過看壞未來景氣的廠商。
+<Sync time="213.069"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk3" mode="spontaneous" fidelity="high" channel="studio" startTime="213.563" endTime="233.075">
+<Sync time="213.563"/>
+<Background time="213.563" type="other" level="high"/>
+如果
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+經濟的干擾的要素，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+或者說
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+這些
+<Event desc="restart" type="lexical" extent="begin"/>
+影影響
+<Event desc="restart" type="lexical" extent="end"/>
+經濟成長的這些因素
+<Event desc="mispronunciation shu4" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+不再發生或者不再
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+強烈的影響到經濟的復甦
+<Event desc="mispronunciation shu1" type="pronounce" extent="previous"/>
+的腳步的話
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我還是認為
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+我們經濟在第二季，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+至遲在第三季
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+會有
+<Event desc="pause" type="noise" extent="instantaneous"/>
+比較明顯的復甦
+<Event desc="mispronunciation shu1" type="pronounce" extent="previous"/>
+。
+<Sync time="232.83"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk2" mode="planned" fidelity="high" channel="studio" startTime="233.075" endTime="268.27">
+<Sync time="233.075"/>
+<Background time="233.075" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="233.412"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+而
+<Event desc="discourse marker" type="lexical" extent="end"/>
+主計處同時也在今天發布最新就業概況，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一月份
+<Background time="237.68" type="other" level="off"/>
+的失業率也出現微幅下滑的情形。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一月的失業率是百分之五點一四比上個月又下降了百分之零點零八，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+而失業人數也同步減少了七千人，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+使得目前的失業人數是五十一萬兩千人。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="252.358" type="speech" level="high"/>
+雖然這是失業率連續第三個月的下降但主計指出，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這幾個月都是受到季節性因素影響，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="259.122" type="other" level="high"/>
+像過年期間服務業，尤其是年貨批發業僱用了相當多的人，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外第一次就業而失業的人口在這個時候也明顯減少。
+<Sync time="267.94"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk4" mode="spontaneous" fidelity="high" channel="studio" startTime="268.27" endTime="286.069">
+<Sync time="268.27"/>
+<Background time="268.27" type="other" level="high"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嘿"/>
+目前的關廠歇業的
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+人數
+<Event desc="mispronunciation su4" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+LEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="勒"/>
+還沒有明顯的一個下降，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+AI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="唉"/>
+就是說
+<Event desc="mispronunciation sou1" type="pronounce" extent="previous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+未來
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+就業市
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+場的
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+這種
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+現象
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+還
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+還並不是
+<Event desc="restart" type="lexical" extent="end"/>
+非
+<Event desc="mispronunciation huei1" type="pronounce" extent="previous"/>
+常
+<Event desc="mispronunciation tsang3" type="pronounce" extent="previous"/>
+的明朗
+<Event desc="mispronunciation nang3" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+需
+<Event desc="mispronunciation shii1" type="pronounce" extent="previous"/>
+要等到這個三月或是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+四月的時
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+候
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+我們這個調查
+<Event desc="mispronunciation tsa2" type="pronounce" extent="previous"/>
+結果
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+看看
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+關廠歇業的
+<Event desc="repetition" type="lexical" extent="begin"/>
+一個一個
+<Event desc="repetition" type="lexical" extent="end"/>
+狀況。
+</Turn>
+<Turn speaker="spk2" mode="planned" fidelity="high" channel="studio" startTime="286.069" endTime="303.3">
+<Sync time="286.069"/>
+<Background time="286.069" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="286.614"/>
+陳金城說過年期間被受雇的員工可能會在三、四月間被解聘，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以要
+<Background time="292.582" type="other" level="high"/>
+看三、四月的變化才知道未來就業的情勢走向，而
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+狀況如何就得看景氣復甦的情形了。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視新聞蘇怡如劉煌文採訪報導。
+<Sync time="301.845"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to6" startTime="303.3" endTime="408.861">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="303.3" endTime="325.775">
+<Sync time="303.3"/>
+景氣有復甦
+<Background time="304.184" type="other" level="off"/>
+跡象竹科缺水問題能不能解決？接下來三則
+<Background time="307.959" type="other" level="high"/>
+連續
+<Background time="308.331" type="other" level="off"/>
+報導，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+除了帶您看到目前的解決方案跟缺水實際狀況，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們要了解除了天氣是不是還有其他原因造成缺水？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+首先來看針對新竹科學園區缺水問題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+行政院今天提出了解決方案。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+記者陳信聰徐啟峰報導 。
+<Sync time="325.208"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk5" mode="planned" fidelity="high" channel="studio" startTime="325.775" endTime="336.829">
+<Sync time="325.775"/>
+<Background time="325.775" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="327.019"/>
+為了解決新竹科學園區缺水的問題行政院今天特別研擬出
+<Event desc="mispronunciation tsu1" type="pronounce" extent="previous"/>
+解決方案，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+首先是立即調度附近水庫的水，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+讓問題可以
+<Event desc="pause" type="noise" extent="instantaneous"/>
+馬上解決。
+<Sync time="336.369"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk6" mode="spontaneous" fidelity="high" channel="studio" startTime="336.829" endTime="350.659">
+<Sync time="336.829"/>
+<Background time="336.829" type="other" level="high"/>
+台北市這邊一百萬噸能夠支援板新的話，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那麼
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+將來
+<Event desc="restart" type="lexical" extent="begin"/>
+這一些這些
+<Event desc="restart" type="lexical" extent="end"/>
+板新的水
+<Event desc="mispronunciation suei3" type="pronounce" extent="previous"/>
+就一百萬噸又可以
+<Event desc="pause" type="noise" extent="instantaneous"/>
+回到
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+桃竹苗這個地區來，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+加上
+<Event desc="pause" type="noise" extent="instantaneous"/>
+寶山水庫
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+在九十三年
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+會完工。
+<Sync time="350.319"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="350.658" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk5" mode="planned" fidelity="high" channel="studio" startTime="350.659" endTime="357.797">
+<Sync time="350.659"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="350.718"/>
+另外為了根本解決
+<Background time="351.978" type="shh" level="high"/>
+缺水的問題行政院也已經決定，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+石門
+<Event desc="pause" type="noise" extent="instantaneous"/>
+還有頭前溪一帶
+<Event desc="pause" type="noise" extent="instantaneous"/>
+全面
+<Event desc="pause" type="noise" extent="instantaneous"/>
+休耕
+<Event desc="mispronunciation gen1" type="pronounce" extent="previous"/>
+。
+<Sync time="357.168"/>
+<Background time="357.168" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk7" mode="spontaneous" fidelity="high" channel="studio" startTime="357.797" endTime="374.761">
+<Sync time="357.797"/>
+<Background time="357.797" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="357.917"/>
+是以休耕的方式來解
+<Event desc="mispronunciation jiiue3" type="pronounce" extent="previous"/>
+決，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+比如
+<Event desc="mispronunciation lu2" type="pronounce" extent="previous"/>
+說這個石門
+<Event desc="particle" type="noise" extent="begin"/>
+NA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+頭前溪
+<Event desc="particle" type="noise" extent="begin"/>
+LA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啦"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這個灌溉區
+<Event desc="particle" type="noise" extent="begin"/>
+NA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這兩區
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+是不是可以
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="repetition" type="lexical" extent="begin"/>
+來休耕？
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+來休耕
+<Event desc="repetition" type="lexical" extent="end"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+當
+<Event desc="mispronunciation dan1" type="pronounce" extent="previous"/>
+然要依法
+<Event desc="mispronunciation hua3" type="pronounce" extent="previous"/>
+給予
+<Event desc="mispronunciation i3" type="pronounce" extent="previous"/>
+農民
+<Event desc="pause" type="noise" extent="instantaneous"/>
+合理補償
+<Event desc="mispronunciation shang3" type="pronounce" extent="previous"/>
+。
+<Sync time="374.127"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="374.76" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk5" mode="planned" fidelity="high" channel="studio" startTime="374.761" endTime="380.283">
+<Sync time="374.761"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="374.895"/>
+針對行政院提出
+<Event desc="mispronunciation tsu1" type="pronounce" extent="previous"/>
+這樣的解決方案，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+新竹
+<Event desc="mispronunciation tzu2" type="pronounce" extent="previous"/>
+科學園區的廠商表示
+<Event desc="pause" type="noise" extent="instantaneous"/>
+相當贊同。
+<Sync time="379.853"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk8" mode="spontaneous" fidelity="high" channel="studio" startTime="380.283" endTime="400.977">
+<Sync time="380.283"/>
+<Background time="380.283" type="other" level="high"/>
+每一個廠一天的使用水度，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+水都在兩三千噸對不對，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那麼
+<Event desc="discourse marker" type="lexical" extent="end"/>
+有
+<Event desc="repair" type="lexical" extent="begin"/>
+竹科大概
+<Event desc="mispronunciation kai4" type="pronounce" extent="previous"/>
+全國大概
+<Event desc="mispronunciation kai4" type="pronounce" extent="previous"/>
+有二十幾個廠
+<Event desc="repair" type="lexical" extent="end"/>
+我們講北部的廠大概有
+<Event desc="restart" type="lexical" extent="begin"/>
+十
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+十幾座
+<Event desc="restart" type="lexical" extent="end"/>
+到二十座那麼這些水
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一
+<Event desc="pause" type="noise" extent="instantaneous"/>
+天的需要量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我想要四五萬噸
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嘛"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+，
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那
+<Event desc="discourse marker" type="lexical" extent="end"/>
+還有
+<Event desc="English" type="language" extent="begin"/>
+LCD
+<Event desc="English" type="language" extent="end"/>
+的廠
+<Event desc="mispronunciation tsang3" type="pronounce" extent="previous"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+那消耗量更大，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+類似
+<Event desc="restart" type="lexical" extent="begin"/>
+內
+<Event desc="pause" type="noise" extent="instantaneous"/>
+新內閣
+<Event desc="restart" type="lexical" extent="end"/>
+的反應非常快。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Sync time="400.821"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="400.976" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk5" mode="planned" fidelity="high" channel="studio" startTime="400.977" endTime="408.861">
+<Sync time="400.977"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="401.273"/>
+不過至於修耕地的相關補助方式目前農委會跟經濟部仍
+<Event desc="mispronunciation ren2" type="pronounce" extent="previous"/>
+在溝通協調當中。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新聞陳信聰徐啟峰
+<Event desc="pause" type="noise" extent="instantaneous"/>
+採訪報導。 
+</Turn>
+</Section>
+<Section type="report" topic="to7" startTime="408.861" endTime="552.397">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="408.861" endTime="435.504">
+<Sync time="408.861"/>
+
+<Background time="409.594" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="410.732" type="other" level="off"/>
+
+<Sync time="410.735"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+本來竹科的用水有一部分來自石門水庫，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+現在為了解決缺水危機行政院已經決定附近農田要休耕。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+而
+<Event desc="discourse marker" type="lexical" extent="end"/>
+根據了解這樣的政策有些農民還不知道，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+而且
+<Event desc="pause" type="noise" extent="instantaneous"/>
+正在準備插秧。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過採行了休耕政策之後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+水位距離枯旱標準只剩
+<Event desc="particle" type="noise" extent="begin"/>
+S
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="<UK>"/>
+四公尺的石門水庫水量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還能用多久
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+？
+<Event desc="pause" type="noise" extent="instantaneous"/>
+我們繼續來看報導 。
+<Sync time="434.965"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk9" mode="planned" fidelity="high" channel="studio" startTime="435.504" endTime="449.326">
+<Sync time="435.504"/>
+<Background time="435.504" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="436.674"/>
+為了解決缺水問題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+休耕已經勢在必行，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過在石門水庫底下，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+種田種了大半輩子的鍾家夫婦，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+不但不知道政府初步決定要他們休耕，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+明天還準備好要插秧。
+<Sync time="449.047"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk10" mode="spontaneous" fidelity="high" channel="studio" startTime="449.326" endTime="456.931">
+<Sync time="449.326"/>
+我們明天要插
+<Event desc="mispronunciation tsa1" type="pronounce" extent="previous"/>
+秧
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+，
+<Event desc="Hakka" type="language" extent="begin"/>
+．．．
+<Event desc="Hakka" type="language" extent="end"/>
+。
+<Sync time="456.183"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk11" mode="spontaneous" fidelity="high" channel="studio" startTime="456.931" endTime="470.213">
+<Sync time="456.931"/>
+農委會
+<Event desc="mispronunciation fei4" type="pronounce" extent="previous"/>
+有什麼補助
+<Event desc="mispronunciation tzu4" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+。
+<Sync time="458.548"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="459.214"/>
+因為這農家人很辛苦做
+<Event desc="mispronunciation tzou4" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+。
+<Sync time="461.661"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="463.452"/>
+一天到晚
+<Event desc="restart" type="lexical" extent="begin"/>
+都都看看天
+<Event desc="restart" type="lexical" extent="end"/>
+沒有水，
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+，
+就不能做
+<Event desc="mispronunciation tzou4" type="pronounce" extent="previous"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+所以也是不能生
+<Event desc="mispronunciation seng1" type="pronounce" extent="previous"/>
+活
+<Event desc="mispronunciation ho2" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+。
+<Sync time="469.834"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk9" mode="planned" fidelity="high" channel="studio" startTime="470.213" endTime="487.767">
+<Sync time="470.213"/>
+<Background time="470.213" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="470.584"/>
+雖然補償方案
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+政府相關部門還在研擬當中，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過在初步決定，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+石門及頭前溪
+<Background time="476.937" type="other" level="high"/>
+灌溉區，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一點八萬公頃的農田要休耕之後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+拜這些農民休耕之賜，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+原本只能用到三月底的石門水庫水量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+現在則是可以再多用半個月。
+<Sync time="487.421"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk12" mode="spontaneous" fidelity="high" channel="studio" startTime="487.767" endTime="513.484">
+<Sync time="487.767"/>
+如果石門水利會
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="489.536" type="other" level="high"/>
+所轄的灌區
+<Event desc="pause" type="noise" extent="instantaneous"/>
+可以休耕的話
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+大概
+<Event desc="mispronunciation kai4" type="pronounce" extent="previous"/>
+每天可以
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+移用過來
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+平均
+<Event desc="particle" type="noise" extent="begin"/>
+NA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+是五十六萬
+<Event desc="pause" type="noise" extent="instantaneous"/>
+噸
+<Event desc="pause" type="noise" extent="instantaneous"/>
+左右的這個水量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+那如此的話，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們對於
+<Event desc="pause" type="noise" extent="instantaneous"/>
+整個民生及工業用水的需求
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+就可以
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="508.384" type="other" level="high"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+因應這樣子的枯旱狀況可以持續到大約是四月中旬左右。
+<Sync time="513.074"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk9" mode="planned" fidelity="high" channel="studio" startTime="513.484" endTime="519.861">
+<Sync time="513.484"/>
+李鐵民也表示，
+<Background time="514.564" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一旦度過三月的持續枯旱期，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+四月就可以解決缺水問題。
+<Sync time="519.233"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk12" mode="spontaneous" fidelity="high" channel="studio" startTime="519.861" endTime="536.374">
+<Sync time="519.861"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+到了四月中旬左右
+<Event desc="particle" type="noise" extent="begin"/>
+LE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="了"/>
+氣象局預
+<Background time="522.307" type="other" level="high"/>
+報，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+大概那個時候
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+會有比較豐沛的
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+降雨
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以我們只要度過
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+三月份的
+<Background time="528.635" type="other" level="high"/>
+這樣子的一個
+<Event desc="pause" type="noise" extent="instantaneous"/>
+持續枯旱的期間
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+相信到四月份
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+就可以來解決我們目前的枯旱的問題。
+<Sync time="535.965"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk9" mode="planned" fidelity="high" channel="studio" startTime="536.374" endTime="552.397">
+<Sync time="536.374"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+儘管如此，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在
+<Background time="537.46" type="other" level="high"/>
+天公不做美的情況下，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+石門水庫的水位還是節節下降，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+平均一天就下降三十到五十公分，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因此
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="545.068" type="other" level="high"/>
+北區水資源局也提出呼籲，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+請大家節約用水。 
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視新聞許恆慈陳昌維採訪報導。
+<Sync time="551.451"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="552.394" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to8" startTime="552.397" endTime="695.953">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="552.397" endTime="567.719">
+<Sync time="552.397"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="552.753"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+真的在這樣的時機別忘了要節約用水，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過說到缺水缺水問題最近這麼嚴重，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+只是因為天氣的關係
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嗎"/>
+？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+除了天氣還有沒有其他可能原因
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們繼續來看記者黃能揚陳立峰報導 。
+<Sync time="567.103"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk13" mode="planned" fidelity="high" channel="studio" startTime="567.719" endTime="574.392">
+<Sync time="567.719"/>
+<Background time="567.719" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="568.223"/>
+春天的腳步近了，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但春雨卻還遲遲不下，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="571.325" type="other" level="high"/>
+水庫裡被水淹過的山，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也露出頭來。
+<Sync time="573.856"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk14" mode="spontaneous" fidelity="high" channel="studio" startTime="574.392" endTime="594.083">
+<Sync time="574.392"/>
+<Background time="574.392" type="other" level="high"/>
+以新竹為例
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那麼
+<Event desc="discourse marker" type="lexical" extent="end"/>
+它
+<Event desc="pause" type="noise" extent="instantaneous"/>
+從
+<Event desc="mispronunciation chueng2" type="pronounce" extent="previous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+去年十一月到今年的二月
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+總共的降雨量是一百一十公釐，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+那麼如果排名來看的話
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+是在
+<Event desc="pause" type="noise" extent="instantaneous"/>
+排名最少裡面的話，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+最少一次是一九三九年的十一月到
+<Event desc="restart" type="lexical" extent="begin"/>
+四四零年
+<Event desc="restart" type="lexical" extent="end"/>
+的二月，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+第二個是這個第三個就是一九五十四
+<Event desc="mispronunciation sh4" type="pronounce" extent="previous"/>
+年所以也就是一九五十四年以來，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+它是最少的一次。
+<Sync time="593.784"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk13" mode="planned" fidelity="high" channel="studio" startTime="594.083" endTime="608.039">
+<Sync time="594.083"/>
+<Background time="594.083" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="594.543"/>
+氣象
+<Background time="594.92" type="speech" level="high"/>
+局預報中心主任陳來發說，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="596.907" type="other" level="off"/>
+雨量的增減不必然影響供水量，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+乾旱只是缺水的原因之一，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不能將缺水完全怪
+<Event desc="mispronunciation guan4" type="pronounce" extent="previous"/>
+罪於天氣。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="603.926" type="speech" level="high"/>
+學者也指出，
+<Background time="604.921" type="other" level="high"/>
+缺水的現象與森林
+<Event desc="pause" type="noise" extent="instantaneous"/>
+有很大的關係。
+<Sync time="607.246"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk15" mode="spontaneous" fidelity="high" channel="studio" startTime="608.039" endTime="637.85">
+<Sync time="608.039"/>
+森林其實是一個
+<Event desc="abridged" type="lexical" extent="begin"/>
+非
+<Event desc="abridged" type="lexical" extent="end"/>
+，涵養
+<Background time="609.931" type="other" level="high"/>
+水份
+<Event desc="mispronunciation huen4" type="pronounce" extent="previous"/>
+非常重要的地方，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="612.033" type="other" level="high"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+這個是
+<Event desc="pause" type="noise" extent="instantaneous"/>
+我們在觀察
+<Event desc="mispronunciation tsa2" type="pronounce" extent="previous"/>
+裡面，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+發
+<Event desc="mispronunciation hua1" type="pronounce" extent="previous"/>
+現到即使
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+像以福山
+<Event desc="mispronunciation san1" type="pronounce" extent="previous"/>
+生態系來看的話，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+它在降雨超過一百公釐的時
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+候，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+它的
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+河川的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+流流量
+<Event desc="restart" type="lexical" extent="end"/>
+才慢慢開始增加，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以我們可以發
+<Event desc="mispronunciation hua1" type="pronounce" extent="previous"/>
+現到從這樣的一個實
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+地的觀測裡面，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+發
+<Event desc="mispronunciation hua1" type="pronounce" extent="previous"/>
+現到
+<Background time="630.839" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+森林
+<Event desc="pause" type="noise" extent="instantaneous"/>
+就像一個大海面一樣，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+所以這個過去我們也沒有想到，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+有這麼大的一個
+<Event desc="pause" type="noise" extent="instantaneous"/>
+涵養水份的功能。
+</Turn>
+<Turn speaker="spk13" mode="planned" fidelity="high" channel="studio" startTime="637.85" endTime="652.496">
+<Sync time="637.85"/>
+<Background time="637.85" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="638.592"/>
+像海綿一樣的森林，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+在雨量過多時，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+可以留住水份，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+避免水患的發生，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="644.083" type="other" level="high"/>
+到了乾季
+<Event desc="pause" type="noise" extent="instantaneous"/>
+慢慢滲透而出的水份，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+可以維持河川的流量，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是現在
+<Event desc="pause" type="noise" extent="instantaneous"/>
+森林調節水份的功能，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+已經遭到破壞。
+<Sync time="652.026"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk15" mode="spontaneous" fidelity="high" channel="studio" startTime="652.496" endTime="674.394">
+<Sync time="652.496"/>
+都市
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+邊緣地區
+<Background time="653.97" type="other" level="high"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+慢慢的擴張
+<Event desc="mispronunciation tzang1" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+造成
+<Event desc="mispronunciation tseng2" type="pronounce" extent="previous"/>
+它
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+地表
+<Event desc="pause" type="noise" extent="instantaneous"/>
+森林
+<Event desc="pause" type="noise" extent="instantaneous"/>
+覆蓋率慢慢減少
+<Event desc="mispronunciation sau3" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+然後地表不透水的面積增加，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以這個時
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+候，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不但涵養水份
+<Event desc="mispronunciation huen4" type="pronounce" extent="previous"/>
+減少
+<Event desc="mispronunciation sau3" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+相對的我
+<Event desc="mispronunciation ou3" type="pronounce" extent="previous"/>
+們必須要接受
+<Event desc="mispronunciation sou4" type="pronounce" extent="previous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="666.882" type="other" level="high"/>
+地表水流到
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這些
+<Event desc="pause" type="noise" extent="instantaneous"/>
+河川裡面的時
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+間加速，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+無形中也增加了
+<Event desc="pause" type="noise" extent="instantaneous"/>
+洪水
+<Event desc="mispronunciation suei3" type="pronounce" extent="previous"/>
+氾濫的機會。
+<Sync time="673.776"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk13" mode="planned" fidelity="high" channel="studio" startTime="674.394" endTime="695.953">
+<Sync time="674.394"/>
+<Background time="674.394" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="674.553"/>
+在雨季
+<Event desc="pause" type="noise" extent="instantaneous"/>
+缺乏森林的大地
+<Event desc="pause" type="noise" extent="instantaneous"/>
+留不住
+<Background time="677.217" type="other" level="high"/>
+水，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+雨水一洩千里造成水患。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="679.708" type="other" level="high"/>
+到了乾季，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+反而沒有多餘的水維持河川的流量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+於是陷入無水可用的窘境。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+面對缺水
+<Event desc="pause" type="noise" extent="instantaneous"/>
+人們除了怪罪老天不下雨，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也需要檢討長期以來，
+<Background time="690.579" type="other" level="high"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+對於土地的不當利用。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新聞黃能揚陳立峰
+<Event desc="pause" type="noise" extent="instantaneous"/>
+採訪報導 。
+<Sync time="694.584"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="695.952" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to10" startTime="695.953" endTime="903.707">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="695.953" endTime="724.383">
+<Sync time="695.953"/>
+在關心缺水問題之後我們繼續來看一連串政治訊息。首先看到的是
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+立法院各委員會今天選召集委員，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+幾個熱門的委員會像是經濟、財政、司法等委員會，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一度發生了無黨籍立委不滿，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+執政黨立委抱怨，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過整個過程來說還是相當的祥和，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因為都依照朝野協商後結論，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+按照政黨比例
+<Event desc="pause" type="noise" extent="instantaneous"/>
+分配產生了。
+<Sync time="721.337"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk16" mode="planned" fidelity="high" channel="studio" startTime="724.383" endTime="746.469">
+<Sync time="724.383"/>
+<Background time="724.383" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="724.576"/>
+根據昨天朝野各黨達成的共識，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這個會期三十六席的召委選舉要依循實力原則，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也就是按照政黨比例來分配。
+<Background time="732.6" type="other" level="off"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+其中最大的民進黨有十四席，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+國民黨十二席，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+親民黨七席，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+台聯三席，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+至於無黨籍則確定沒有安排任何一席。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="741.558" type="other" level="high"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+而
+<Event desc="discourse marker" type="lexical" extent="end"/>
+這也導致今天上午的召委選舉一開始就
+<Background time="744.835" type="other" level="off"/>
+出現了抗議的聲音。
+<Sync time="746.172"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk17" mode="spontaneous" fidelity="high" channel="studio" startTime="746.469" endTime="752.344">
+<Sync time="746.469"/>
+<Background time="746.469" type="other" level="high"/>
+無黨
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+這個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+好像是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+弱
+<Event desc="mispronunciation lou4" type="pronounce" extent="previous"/>
+勢團體的
+<Event desc="restart" type="lexical" extent="begin"/>
+這個這個
+<Event desc="restart" type="lexical" extent="end"/>
+委員
+<Event desc="particle" type="noise" extent="begin"/>
+LA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啦"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+。
+<Background time="752.207" type="other" level="off"/>
+
+<Sync time="752.209"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk18" mode="spontaneous" fidelity="high" channel="studio" startTime="752.344" endTime="760.956">
+<Sync time="752.344"/>
+<Background time="752.344" type="other" level="high"/>
+昨天
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+晚上
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+第一沒有簽字，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+第二
+<Event desc="pause" type="noise" extent="instantaneous"/>
+在協商
+<Event desc="mispronunciation san1" type="pronounce" extent="previous"/>
+當中
+<Event desc="mispronunciation tzueng1" type="pronounce" extent="previous"/>
+是想保留一席給無黨籍的
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+絕對不是像今天早上這種變化
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+。
+<Background time="760.954" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk16" mode="planned" fidelity="high" channel="studio" startTime="760.956" endTime="783.07">
+<Sync time="760.956"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="761.474"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+儘管
+<Background time="761.911" type="other" level="high"/>
+有所不滿但在欠缺黨團奧援的現實狀況下，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+八位無黨籍立委除了即將加入
+<Event desc="mispronunciation lu4" type="pronounce" extent="previous"/>
+親民黨團運作的陳文茜，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+得以獲得一席外交召委之外，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+其他的都只有被迫接受選舉結果。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+以兵家必爭的財政委員會為例，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+由於已經說好各黨投各黨的，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="778.627" type="speech" level="high"/>
+原本有意爭取出線的蔡豪，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+最後依舊是孤掌
+<Background time="782.105" type="other" level="off"/>
+難鳴。
+<Sync time="782.572"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk18" mode="spontaneous" fidelity="high" channel="studio" startTime="783.07" endTime="786.294">
+<Sync time="783.07"/>
+<Background time="783.07" type="other" level="high"/>
+協商好應該就是你的事
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+了就是
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+你就召委
+<Event desc="particle" type="noise" extent="begin"/>
+LA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啦"/>
+。
+<Sync time="786.189"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk19 spk18" mode="spontaneous" fidelity="high" channel="studio" startTime="786.294" endTime="788.839">
+<Sync time="786.294"/>
+<Who nb="1"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+蔡委員
+<Event desc="mispronunciation ian2" type="pronounce" extent="previous"/>
+
+<Who nb="2"/>
+我這樣講意思懂
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嘛"/>
+，假如沒有
+</Turn>
+<Turn speaker="spk18 spk20" mode="spontaneous" fidelity="high" channel="studio" startTime="788.839" endTime="795.404">
+<Sync time="788.839"/>
+<Who nb="1"/>
+協商好你們這個可能就被
+<Event desc="English" type="language" extent="begin"/>
+FIRE
+<Event desc="English" type="language" extent="end"/>
+掉，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="laugh" type="noise" extent="instantaneous"/>
+。
+<Who nb="2"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+。
+<Background time="795.403" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk16" mode="planned" fidelity="high" channel="studio" startTime="795.404" endTime="800.554">
+<Sync time="795.404"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="796.086"/>
+勉強擺平了無黨
+<Background time="797.407" type="speech" level="high"/>
+籍，民進黨的
+<Background time="798.255" type="other" level="off"/>
+內部卻意外出現雜音。
+<Sync time="800.118"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk21" mode="spontaneous" fidelity="high" channel="studio" startTime="800.554" endTime="802.343">
+<Sync time="800.554"/>
+<Background time="800.554" type="other" level="high"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+不
+<Event desc="pause" type="noise" extent="instantaneous"/>
+不受
+<Event desc="mispronunciation sou4" type="pronounce" extent="previous"/>
+尊重
+<Event desc="restart" type="lexical" extent="end"/>
+。
+<Sync time="801.831"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk22" mode="spontaneous" fidelity="high" channel="studio" startTime="802.343" endTime="804.544">
+<Sync time="802.343"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+三長
+<Event desc="mispronunciation tzang3" type="pronounce" extent="previous"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+三長
+<Event desc="mispronunciation tzang3" type="pronounce" extent="previous"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+。
+<Sync time="804.253"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk21" mode="spontaneous" fidelity="high" channel="studio" startTime="804.544" endTime="812.315">
+<Sync time="804.544"/>
+搞什麼東西說
+<Event desc="mispronunciation so1" type="pronounce" extent="previous"/>
+國民黨不好，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+自己就不好。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+黑箱作
+<Event desc="mispronunciation tzo4" type="pronounce" extent="previous"/>
+業。
+<Sync time="809.305"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="812.313" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk23" mode="spontaneous" fidelity="high" channel="studio" startTime="812.315" endTime="817.146">
+<Sync time="812.315"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="812.466"/>
+<Background time="812.466" type="other" level="high"/>
+我們完全根據黨內
+<Event desc="mispronunciation nuei4" type="pronounce" extent="previous"/>
+的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+黨的規定跟我們的制度在走。
+<Background time="817.145" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk16" mode="planned" fidelity="high" channel="studio" startTime="817.146" endTime="903.707">
+<Sync time="817.146"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="817.682"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這是司法召委選舉時的插曲，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+與周伯倫在內政委員會抱怨黨內不公平的情況一樣，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+徐志明最後在黨
+<Background time="824.981" type="speech" level="high"/>
+團幹部斡旋之後退出戰場。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過值得一提的是，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+幾位本身或是家人官司纏身的立委，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+包括林進
+<Event desc="mispronunciation jiing3" type="pronounce" extent="previous"/>
+春、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+陳勝宏、羅明才、
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+尤清、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+劉景雄和徐志明等人，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+都確定加入
+<Event desc="mispronunciation lu4" type="pronounce" extent="previous"/>
+司法委員會的行列，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+至於其他曾經在昨天以前，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也傳出有人要搶攻召委寶座的委員會，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+經過一個晚上的折衝協調之後今天都呈現一片祥和，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+總共
+<Background time="848.903" type="other" level="high"/>
+三十六位的新科召集委員全數定案。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="851.845" type="other" level="off"/>
+分別是內政召委葉宜津、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+章孝嚴、馮定國；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+外交召委張旭成、孫國華、陳文茜；
+<Event desc="pause" type="noise" extent="instantaneous"/>
+科技資訊召委陳唐山、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+林志隆和邱鏡淳；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+國防召委陳忠信、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+游月霞、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+顧崇廉；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+經濟召委邱垂貞、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+朱鳳芝與周錫瑋；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+財政召委朱星羽、蔡正元、劉憶如；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+預算決算召委
+<Event desc="pause" type="noise" extent="instantaneous"/>
+林國華、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+張學舜、何智輝；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+教育召委
+<Event desc="pause" type="noise" extent="instantaneous"/>
+曹啟鴻、羅志明與穆閩珠；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+交通召委
+<Event desc="pause" type="noise" extent="instantaneous"/>
+蔡煌瑯、陳根德、鍾紹和；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+司法召委
+<Event desc="pause" type="noise" extent="instantaneous"/>
+尤清、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+林進春與沈智慧；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+法制召委林濁水、吳東昇、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+黃昭順；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+衛環社福召委趙永清、周清玉和張蔡美。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="891.085" type="speech" level="high"/>
+新人新氣象這些可以主導議程安排的召委們，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在政黨各有所圖的國會生態中，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+分寸的拿捏是否恰當，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+留待給選民一一檢驗。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新聞陳娟娟林國煌採訪報導 。
+<Sync time="903.432"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="903.706" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to9" startTime="903.707" endTime="1000.513">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="903.707" endTime="923.065">
+<Sync time="903.707"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="904.693"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+好在立法院經過朝野協商今天順利產生十二個委員會三十六席召委之後。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們接著來看朝野有什麼反應？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+事實上對於這個結果朝野黨團都非常滿意，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也希望這會是未來朝野良性互動的契機。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+記者李慧宜陳柏諭報導。 
+<Sync time="922.62"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="923.065" endTime="937.661">
+<Sync time="923.065"/>
+<Background time="923.065" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="924.062"/>
+今天的立法院除了經濟、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+財政、預算、衛生環境等委員會的召委，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+是用選舉產生之外，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+其它八個委員會的召集委員都是用推舉的方式產生。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+對於這種合作模式，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+朝野黨團都非常肯定。
+<Sync time="937.43"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk40" mode="spontaneous" fidelity="high" channel="studio" startTime="937.661" endTime="956.482">
+<Sync time="937.661"/>
+<Background time="937.661" type="other" level="high"/>
+我想這一次召
+<Event desc="mispronunciation tzau1" type="pronounce" extent="previous"/>
+委的選舉，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+各黨之間
+<Event desc="pause" type="noise" extent="instantaneous"/>
+都有經過適當的溝通，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以在委員會的選舉方面可以講維持了一個很和諧而且是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+一個
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+非常令大家滿意的一個
+<Background time="949.603" type="other" level="high"/>
+結果
+<Event desc="mispronunciation go3" type="pronounce" extent="previous"/>
+。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+所以這也是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+展現了一個朝
+<Event desc="mispronunciation tsau2" type="pronounce" extent="previous"/>
+野互相溝通的
+<Event desc="restart" type="lexical" extent="begin"/>
+一個很好的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一個契機
+<Event desc="restart" type="lexical" extent="end"/>
+。
+</Turn>
+<Turn speaker="spk41" mode="spontaneous" fidelity="high" channel="studio" startTime="956.482" endTime="967.531">
+<Sync time="956.482"/>
+<Background time="956.482" type="other" level="high"/>
+民進黨是十四開三、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+親民黨七、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+國民黨十
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+二，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+當然
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+你要講到完全
+<Event desc="mispronunciation chiian2" type="pronounce" extent="previous"/>
+的公平
+<Event desc="restart" type="lexical" extent="begin"/>
+是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+是不可能
+<Event desc="restart" type="lexical" extent="end"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但至
+<Event desc="mispronunciation tz4" type="pronounce" extent="previous"/>
+少這個已經非常符
+<Event desc="mispronunciation fu3" type="pronounce" extent="previous"/>
+合公平的原
+<Event desc="mispronunciation ian2" type="pronounce" extent="previous"/>
+則。
+<Sync time="967.164"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="967.531" endTime="974.42">
+<Sync time="967.531"/>
+<Background time="967.531" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="967.785"/>
+不過在黨內同志洪昭男、楊仁福退出黨團事件後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+林益世也趁著這個機會呼籲黨內要團結。
+<Sync time="974.192"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk40" mode="spontaneous" fidelity="high" channel="studio" startTime="974.42" endTime="984.516">
+<Sync time="974.42"/>
+<Background time="974.42" type="other" level="high"/>
+我們也期勉
+<Event desc="pause" type="noise" extent="instantaneous"/>
+我們自己黨內所有的同志，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+未來我們都能維持
+<Event desc="mispronunciation ts2" type="pronounce" extent="previous"/>
+這一種
+<Event desc="mispronunciation tzueng3" type="pronounce" extent="previous"/>
+團結跟和諧，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+為了
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+推動整
+<Event desc="mispronunciation tzeng3" type="pronounce" extent="previous"/>
+個台灣的進步，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+大家共同來努力。
+<Sync time="984.23"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="984.516" endTime="1000.513">
+<Sync time="984.516"/>
+<Background time="984.516" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="984.806"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+跟以往比較今天立法院產生召委的過程算是相當順利，
+<Background time="988.717" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+零星的抗議最後也都獲得解決，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是未來在法案或預算案等重大爭議上，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+是不是也能夠這樣就很難說了。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新聞李慧宜陳柏諭
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+採訪報導。
+<Sync time="999.061"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1000.512" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to11" startTime="1000.513" endTime="1135.186">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1000.513" endTime="1017.681">
+<Sync time="1000.513"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1000.606"/>
+朝野互動有了好的開始接著要讓您更深入了解立法院各委員會，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+昨天我們看過了財政委員會今天繼續來看的是教育委員會的資深立委，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+對新會期的立法重點有什麼具體想法？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+記者李慧宜林國煌報導。 
+<Sync time="1016.097"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="1017.681" endTime="1039.256">
+<Sync time="1017.681"/>
+<Background time="1017.681" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1018.683"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+只要說到教育工作沒有人會反對編列經費，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也沒有人會否定政策的出發點，
+<Background time="1024.028" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但是有時候，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在這個大帽子下關於教育的法案，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+反而很難
+<Background time="1028.617" type="speech" level="high"/>
+討論出一個具體明確的方向。
+<Background time="1030.998" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+而經過三年立法院教育委員會的磨練後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+立委曹啟鴻有一個體會，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他認為台灣的教育改造關鍵在老師。
+<Sync time="1038.699"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk42" mode="spontaneous" fidelity="high" channel="studio" startTime="1039.256" endTime="1061.968">
+<Sync time="1039.256"/>
+
+<Background time="1061.965" type="other" level="off"/>
+台灣將來要變成是一個有競爭力的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一個國家，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+人
+<Event desc="mispronunciation rin2" type="pronounce" extent="previous"/>
+力素質我們說過是非
+<Event desc="mispronunciation huei1" type="pronounce" extent="previous"/>
+常重要的，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以教師法
+<Event desc="mispronunciation hua3" type="pronounce" extent="previous"/>
+我們怎麼樣
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+讓它
+<Event desc="pause" type="noise" extent="instantaneous"/>
+不斷的
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+自我提升，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+所以教師法
+<Event desc="mispronunciation hua3" type="pronounce" extent="previous"/>
+當中有一些
+<Event desc="pause" type="noise" extent="instantaneous"/>
+鼓勵的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+措施，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+你一定要不斷的讓老師
+<Event desc="pause" type="noise" extent="instantaneous"/>
+進入
+<Event desc="repetition" type="lexical" extent="begin"/>
+一個
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一個
+<Event desc="repetition" type="lexical" extent="end"/>
+高度有學習的意願
+<Event desc="mispronunciation ian4" type="pronounce" extent="previous"/>
+。
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="1061.968" endTime="1094.558">
+<Sync time="1061.968"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1062.432"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+曹啟鴻談到的主要是所謂的教師三法修正案。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一是師資培育法，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+主要是明確訂定培養師資的程序；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+二是教師法，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+提供老師參與工會的法源依據，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+並同時規範老師的義務和權利；
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+三是教育人員任用條例，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+把學校的行政人員、研究員以及教授的工作地位明文化，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+避免校園裡的行政、研究以及教學工作互相干擾。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外針對大陸
+<Background time="1087.653" type="other" level="high"/>
+學歷的認證問題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+身為執政黨召委的曹啟鴻則認為，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這個問題很難單純的由教育部門來決定。
+<Sync time="1094.418"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk42" mode="spontaneous" fidelity="high" channel="studio" startTime="1094.558" endTime="1117.503">
+<Sync time="1094.558"/>
+<Background time="1094.558" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1094.808"/>
+當我們承
+<Event desc="mispronunciation tseng2" type="pronounce" extent="previous"/>
+認
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+大陸的某些學校的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這個學
+<Event desc="mispronunciation shiie2" type="pronounce" extent="previous"/>
+歷的時候，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們也希望大陸
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+相對等的承認
+<Event desc="mispronunciation neng4" type="pronounce" extent="previous"/>
+台灣
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+的學
+<Event desc="mispronunciation shiie2" type="pronounce" extent="previous"/>
+歷，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這個方面
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+
+<Event desc="repetition" type="lexical" extent="begin"/>
+可能可能
+<Event desc="repetition" type="lexical" extent="end"/>
+不是一個局
+<Event desc="mispronunciation jii2" type="pronounce" extent="previous"/>
+部性的
+<Event desc="repetition" type="lexical" extent="begin"/>
+一個
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一個
+<Event desc="repetition" type="lexical" extent="end"/>
+教育部
+<Event desc="pause" type="noise" extent="instantaneous"/>
+或
+<Event desc="mispronunciation hou4" type="pronounce" extent="previous"/>
+者我們立法
+<Event desc="abridged" type="lexical" extent="begin"/>
+這裡還是個
+<Event desc="abridged" type="lexical" extent="end"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+整個是在
+<Event desc="pause" type="noise" extent="instantaneous"/>
+兩岸
+<Event desc="mispronunciation ang4" type="pronounce" extent="previous"/>
+人民關係的整個大架構裡面來談。
+<Background time="1117.503" type="other" level="off"/>
+</Turn>
+<Turn speaker="spk24" mode="planned" fidelity="high" channel="studio" startTime="1117.503" endTime="1135.186">
+<Sync time="1117.503"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1118.13"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+從曹啟鴻的
+<Background time="1118.879" type="other" level="high"/>
+企圖可以發現，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這個會期教育委員會勢必會首先推動教師三法的修正工作，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過為了避免新科立委問政空間受到擠壓，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+曹啟鴻也已經開始透過辦公室
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+蒐集所有教育委員
+<Background time="1130.824" type="speech" level="high"/>
+會委員的立法計畫。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視新聞李慧宜林國煌
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+採訪報導。 
+<Sync time="1134.863"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1135.185" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to4" startTime="1135.186" endTime="1165.274">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1135.186" endTime="1165.274">
+<Sync time="1135.186"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1136.473"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+稍候回來，帶您關心在護照加註台灣之後，現在外交部又傳出要將我國駐外機構，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+改名台灣代表處，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這樣的舉動引發了中共高度關切。
+<Sync time="1147.62"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1148.648"/>
+<Background time="1148.648" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to12" startTime="1165.274" endTime="1326.009">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1165.274" endTime="1214.232">
+<Sync time="1165.274"/>
+<Background time="1165.274" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1178.945"/>
+歡迎回到新聞現場接下來這段
+<Background time="1180.91" type="other" level="off"/>
+節目要帶您關心的是外交部推動駐外單位改名
+<Event desc="pause" type="noise" extent="instantaneous"/>
+引發中共關切。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+最近有勞保
+<Event desc="pause" type="noise" extent="instantaneous"/>
+黃牛，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+謊
+<Event desc="mispronunciation huan3" type="pronounce" extent="previous"/>
+謊稱
+<Event desc="restart" type="lexical" extent="end"/>
+勞保局的員工詐騙民眾。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還有今天農曆正月十六，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+客家人開始掃墓了。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們首先關心的是兩岸議題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在護照加駐台灣字樣之後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我國外交部正在推動駐外單位改名叫做台灣代表處，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+外交部說他們做過三次民意調查，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+有七成民眾贊成，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過這樣的舉動現在引起了中共關切。
+<Sync time="1213.55"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk25" mode="planned" fidelity="high" channel="studio" startTime="1214.232" endTime="1235.861">
+<Sync time="1214.232"/>
+<Background time="1214.232" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1216.29"/>
+有消息傳出
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我國外交部正在推動，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+將駐外的機構或聯絡處，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+更改名稱為台灣代表處。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+外交部發言人張小月表示，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+統一駐外單位的名稱是民眾及學者專家，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+基於實
+<Background time="1229.984" type="speech" level="high"/>
+際需要所提出的要求，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+外交部也曾經對此進行過三次的民意調查。
+<Sync time="1235.487"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk26" mode="spontaneous" fidelity="high" channel="studio" startTime="1235.861" endTime="1256.32">
+<Sync time="1235.861"/>
+<Background time="1235.861" type="other" level="high"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那麼
+<Event desc="discourse marker" type="lexical" extent="end"/>
+三次民意調查
+<Event desc="mispronunciation tsa2" type="pronounce" extent="previous"/>
+的結果百分之七十以上的民眾，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+都是主張
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+就是說
+<Event desc="pause" type="noise" extent="instantaneous"/>
+假如我們在無邦交國家，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不能夠用我們中華民國正式國名的時候，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他們
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+是同意
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+傾向於
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+改用台灣，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那麼
+<Event desc="discourse marker" type="lexical" extent="end"/>
+這個問題
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+既然民眾有這樣的反應所以外交部
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+來加以研究。
+<Sync time="1256.187"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk25" mode="planned" fidelity="high" channel="studio" startTime="1256.32" endTime="1270.617">
+<Sync time="1256.32"/>
+<Background time="1256.32" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1256.7"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+針對這個消息，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+中共外交部發言人孔泉
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+昨天在例行記者會上答覆詢問時，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也立刻表達了強硬的反對態度，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+認為這種作法是推動
+<Background time="1266.945" type="speech" level="high"/>
+漸進式的台獨，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+將加遽兩岸關係的惡化。
+<Sync time="1270.244"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk43" mode="planned" fidelity="high" channel="studio" startTime="1270.617" endTime="1294.006">
+<Sync time="1270.617"/>
+<Background time="1270.617" type="other" level="high"/>
+如果台灣當局這樣做，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+就是通過所謂的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+為台灣正名
+<Event desc="pause" type="noise" extent="instantaneous"/>
+推進漸進式的台獨，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這將不能不引起
+<Event desc="pause" type="noise" extent="instantaneous"/>
+全中國人民的高度警惕
+<Event desc="pause" type="noise" extent="instantaneous"/>
+和間接反對。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="swallow" type="noise" extent="instantaneous"/>
+如果台灣當局
+<Event desc="pause" type="noise" extent="instantaneous"/>
+錯誤判斷行事、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一意孤行，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+繼續推行
+<Event desc="pause" type="noise" extent="instantaneous"/>
+漸進式台獨的分裂步驟
+<Event desc="mispronunciation jou4" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+只會加遽兩岸關係的緊張，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也必將自食惡果。
+<Sync time="1293.719"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk25" mode="planned" fidelity="high" channel="studio" startTime="1294.006" endTime="1315.163">
+<Sync time="1294.006"/>
+<Background time="1294.006" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1294.572"/>
+
+<Event desc="swallow" type="noise" extent="instantaneous"/>
+同時
+<Event desc="pause" type="noise" extent="instantaneous"/>
+中共方面也呼籲大陸的邦交國，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+妥善處
+<Event desc="mispronunciation chu4" type="pronounce" extent="previous"/>
+理台灣問題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+反對台灣製造兩個中國一中一台，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+對於中共的
+<Background time="1303.098" type="other" level="high"/>
+強烈反彈張小月表示
+<Event desc="pause" type="noise" extent="instantaneous"/>
+我國外交部只是回應民意的要求而不是故意挑釁，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+況且是不是真的要更改外館的名稱，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+目前還不是既定的政策，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還在評估的階段。
+<Sync time="1314.877"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk26" mode="spontaneous" fidelity="high" channel="studio" startTime="1315.163" endTime="1322.814">
+<Sync time="1315.163"/>
+在目
+<Background time="1315.524" type="speech" level="high"/>
+前
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+其實這個問題還是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+在一個研究評估的階段，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+都還沒有開始
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+展
+<Event desc="mispronunciation tzan3" type="pronounce" extent="previous"/>
+開任何的行動。
+<Sync time="1322.642"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1322.814" type="other" level="off"/>
+</Turn>
+<Turn speaker="spk25" mode="planned" fidelity="high" channel="studio" startTime="1322.814" endTime="1326.009">
+<Sync time="1322.814"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1323.252"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視
+<Background time="1323.445" type="other" level="high"/>
+新聞黃兆徽綜合報導。
+<Sync time="1325.275"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1326.008" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to13" startTime="1326.009" endTime="1456.937">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1326.009" endTime="1344.318">
+<Sync time="1326.009"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1326.842"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在昨天的例行記者會上中共還針對另一項議題提出了抗議，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這是針對我國防部長湯曜明獲得美方邀請
+<Event desc="mispronunciation chii3" type="pronounce" extent="previous"/>
+，即將在下個月
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+前往華府參加台美防衛高峰會議，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+中共警告美國要遵守一個中國政策。
+<Sync time="1343.564"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk45" mode="planned" fidelity="high" channel="studio" startTime="1344.318" endTime="1376.267">
+<Sync time="1344.318"/>
+<Background time="1344.318" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1347.02"/>
+國防部長湯曜明已經接獲美國的邀請
+<Background time="1349.702" type="other" level="high"/>
+將在三月十號赴美參加
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+台美防衛高峰會議，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+針對這一項消息中共外交部
+<Background time="1355.465" type="other" level="high"/>
+昨天在例行記者會上，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也做出了回應，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+警告美國不應該和台灣有任何官方性質的往來，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1363.289" type="other" level="high"/>
+尤其是敏感的軍事領域，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+否則將會影響到美國和中共關係的正常化。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+中共外交部並且對於美
+<Background time="1366.179" type="other" level="off"/>
+國將出售三十架的阿
+<Background time="1372.381" type="speech" level="high"/>
+帕契攻擊直昇機給台灣這件事，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+表達了強烈的抗議。
+<Background time="1376.265" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk43" mode="planned" fidelity="high" channel="studio" startTime="1376.267" endTime="1402.013">
+<Sync time="1376.267"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1376.65"/>
+<Background time="1376.65" type="other" level="high"/>
+台灣問題是中美關係中最重要
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也是最敏感的核心問題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+美國向台灣
+<Event desc="pause" type="noise" extent="instantaneous"/>
+出售武器，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+違反了一個中國的政策，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+和中美三個聯合公報的原則，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+損害
+<Event desc="pause" type="noise" extent="instantaneous"/>
+中美關係和海峽地區的和平與穩定，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+中方對此是一貫的，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+堅決的反對的。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+那麼我們也一直要求美方能克守向中方做出這承諾，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+停止
+<Event desc="pause" type="noise" extent="instantaneous"/>
+向台灣出售武器。
+<Sync time="1401.146"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk45" mode="planned" fidelity="high" channel="studio" startTime="1402.013" endTime="1427.995">
+<Sync time="1402.013"/>
+<Background time="1402.013" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1402.718"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+中共的強硬表態引起國內部分人士擔心，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+湯曜明的赴美行程會不會因此而受到影響，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過到目前為止還沒有任何人選異動的消息傳出，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1413.232" type="speech" level="high"/>
+立委張旭成則是認為就算出席的代表改變也沒有關係，
+<Background time="1417.257" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這場會議能加強我國軍方和美國的合作
+<Event desc="pause" type="noise" extent="instantaneous"/>
+才是重點，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1421.843" type="other" level="high"/>
+軍事將領出身的顧崇
+<Background time="1423.455" type="speech" level="high"/>
+廉則是建議
+<Event desc="pause" type="noise" extent="instantaneous"/>
+其實不妨由退休的國防部長
+<Event desc="pause" type="noise" extent="instantaneous"/>
+代表出席。
+<Sync time="1427.761"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk44" mode="spontaneous" fidelity="high" channel="studio" startTime="1427.995" endTime="1445.909">
+<Sync time="1427.995"/>
+<Background time="1427.995" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1428.54"/>
+無論是部長
+<Event desc="mispronunciation tzang3" type="pronounce" extent="previous"/>
+也好、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+總長
+<Event desc="mispronunciation tzang3" type="pronounce" extent="previous"/>
+也好，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他們不僅
+<Event desc="mispronunciation jiing3" type="pronounce" extent="previous"/>
+是
+<Event desc="pause" type="noise" extent="instantaneous"/>
+現在執行這個軍售
+<Event desc="mispronunciation so1" type="pronounce" extent="previous"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+工作的人，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+而且是決策人，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他到那裡講任何的話
+<Event desc="pause" type="noise" extent="instantaneous"/>
+都是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+我代表我們政府決定要做的事情，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+彈性比較少。
+</Turn>
+<Turn speaker="spk45" mode="planned" fidelity="high" channel="studio" startTime="1445.909" endTime="1456.937">
+<Sync time="1445.909"/>
+<Background time="1445.909" type="shh" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1446.941"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+顧崇廉認為退休的國防部
+<Background time="1448.886" type="speech" level="high"/>
+長比起現任的官員具有更多的彈性，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+會談的效果可能會更好。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視新聞綜合報導。
+<Sync time="1455.767"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1456.936" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to14" startTime="1456.937" endTime="1578.388">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1456.937" endTime="1476.555">
+<Sync time="1456.937"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1457.084"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+提醒您特別注意下面這則新聞您聽過勞保黃牛
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嗎"/>
+？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+勞保局最近接到民眾申訴有人謊稱是勞保局員工，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+向偏遠地區民眾提出
+<Event desc="pause" type="noise" extent="instantaneous"/>
+代辦
+<Event desc="pause" type="noise" extent="instantaneous"/>
+老年給付要求，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+要來詐騙給付金額。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+如果您接到了這樣的電話小心
+<Event desc="pause" type="noise" extent="instantaneous"/>
+不要被騙了 。
+<Sync time="1475.768"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk27" mode="planned" fidelity="high" channel="studio" startTime="1476.555" endTime="1494.007">
+<Sync time="1476.555"/>
+<Background time="1476.555" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1477.73"/>
+在輔大教書的李昭慶今天代表父親出席記者會。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+李昭慶說在農曆
+<Event desc="mispronunciation liu4" type="pronounce" extent="previous"/>
+年前六十四歲的父親接到一通謊稱勞保局的電話。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+對方說
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+有一筆老年給付款項要轉帳給李老先生，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以要求李老先生提供銀行帳號。
+<Sync time="1493.555"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk46" mode="spontaneous" fidelity="high" channel="studio" startTime="1494.007" endTime="1513.818">
+<Sync time="1494.007"/>
+<Background time="1494.007" type="other" level="high"/>
+那不是
+<Event desc="repetition" type="lexical" extent="begin"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+那種
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+那種
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="repetition" type="lexical" extent="end"/>
+勞保黃牛可能是
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+那種
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+類似金光黨
+<Event desc="abridged" type="lexical" extent="begin"/>
+類
+<Event desc="abridged" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+那一種
+<Event desc="mispronunciation tzueng3" type="pronounce" extent="previous"/>
+他就打電話給我，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="abridged" type="lexical" extent="begin"/>
+他就跟
+<Event desc="abridged" type="lexical" extent="end"/>
+也跟我
+<Event desc="repetition" type="lexical" extent="end"/>
+講說
+<Event desc="mispronunciation suo1" type="pronounce" extent="previous"/>
+我有一筆勞保的給付
+<Event desc="pause" type="noise" extent="instantaneous"/>
+還沒有領，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+請我
+<Event desc="restart" type="lexical" extent="begin"/>
+到
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+到
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他
+<Event desc="pause" type="noise" extent="instantaneous"/>
+那邊
+<Event desc="restart" type="lexical" extent="end"/>
+去領，
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+我沒有參加過勞保，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以我就覺得這
+<Event desc="pause" type="noise" extent="instantaneous"/>
+問題
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+有有一點
+<Event desc="restart" type="lexical" extent="end"/>
+蹊蹺
+<Event desc="mispronunciation shiiau4" type="pronounce" extent="previous"/>
+這樣。
+</Turn>
+<Turn speaker="spk27" mode="planned" fidelity="high" channel="studio" startTime="1513.818" endTime="1532.623">
+<Sync time="1513.818"/>
+<Background time="1513.818" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1514.336"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+好在李昭慶親自聯絡上勞保局查明真相之後才沒有上當受騙。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+勞保局說這群自稱能夠代辦申請，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+老年給付的勞保黃牛，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1523.947" type="other" level="high"/>
+多半以鄉下老年人作為詐騙對象。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他們除了
+<Background time="1527.162" type="other" level="high"/>
+要求對方說出銀行帳號之外，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1529.481" type="other" level="high"/>
+也會隨同受害人到提款機去轉帳。
+<Sync time="1532.185"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk47" mode="spontaneous" fidelity="high" channel="studio" startTime="1532.623" endTime="1547.202">
+<Sync time="1532.623"/>
+密碼曉得
+<Background time="1533.315" type="speech" level="high"/>
+之後，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他就叫他
+<Event desc="pause" type="noise" extent="instantaneous"/>
+自已到
+<Event desc="pause" type="noise" extent="instantaneous"/>
+銀行櫃台機器去，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+然後按
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他的密碼，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他叫他
+<Event desc="restart" type="lexical" extent="begin"/>
+輸到
+<Event desc="pause" type="noise" extent="instantaneous"/>
+把這個錢
+<Event desc="pause" type="noise" extent="instantaneous"/>
+輸
+<Event desc="mispronunciation shu4" type="pronounce" extent="previous"/>
+到
+<Event desc="restart" type="lexical" extent="end"/>
+他自己的帳
+<Event desc="mispronunciation tzang4" type="pronounce" extent="previous"/>
+號裡面，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+就黃牛的帳號裡面去了。
+</Turn>
+<Turn speaker="spk27" mode="planned" fidelity="high" channel="studio" startTime="1547.202" endTime="1578.388">
+<Sync time="1547.202"/>
+<Background time="1547.202" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1547.825"/>
+到目前為止勞保局總共接獲一百零六件的個案其中有一位宜蘭民眾，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因為透過勞保黃牛申請四十萬元的老年給付，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+結果被迫給了對方十萬元的佣金。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以為了杜絕勞保黃牛勞委會除了成立專案小組調查之外，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1563.8" type="speech" level="high"/>
+也將在三月初透過電視廣告向偏遠地區民眾進行宣導。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+民眾也可以撥打零二二三四一零七二零的申訴專線，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+向勞保局查詢。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新
+<Background time="1575.178" type="other" level="high"/>
+聞洪蕙竹邱福財採訪報導 。
+<Sync time="1576.957"/>
+
+<Background time="1578.026" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1578.387" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to15" startTime="1578.388" endTime="1706.858">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1578.388" endTime="1597.96">
+<Sync time="1578.388"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1578.982"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+明天是二二八紀念日台北市長
+<Event desc="repair" type="lexical" extent="begin"/>
+馬英九今天到二二八紀念館展覽
+<Event desc="pause" type="noise" extent="instantaneous"/>
+去看展
+<Event desc="mispronunciation tzan3" type="pronounce" extent="previous"/>
+覽
+<Event desc="repair" type="lexical" extent="end"/>
+。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過因為賠償問題一直沒有得到解決，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+今天現場也有家屬陳情。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+而馬英九怎麼回應？另外這次的展覽還有什麼珍貴的史料？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我們一起來看記者葉怡君陳信隆的報導。 
+</Turn>
+<Turn speaker="spk28" mode="planned" fidelity="high" channel="studio" startTime="1597.96" endTime="1621.536">
+<Sync time="1597.96"/>
+<Background time="1597.96" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1599.613"/>
+今天台北市長馬英九到二二八紀念館，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+參觀的二二八中的族群互助特展，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過對受難者家屬最實際的，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+恐怕還是補償問題。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+受難者陳炘律師
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在二二八以後一去就沒有消息，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+連屍骨也不見蹤影，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+家屬向馬英九陳情，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+希望早日歸還疑似被市政府侵吞的土地。
+<Sync time="1621.232"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk48" mode="spontaneous" fidelity="high" channel="studio" startTime="1621.536" endTime="1630.388">
+<Sync time="1621.536"/>
+<Background time="1621.536" type="other" level="high"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+。
+<Sync time="1629.622"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk28" mode="planned" fidelity="high" channel="studio" startTime="1630.388" endTime="1643.432">
+<Sync time="1630.388"/>
+他們家的土地莫名奇妙的被轉移，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這塊土地現在位於台北大學的預定地，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+佔地兩萬坪、
+<Background time="1637.528" type="other" level="high"/>
+市價約十億元，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+家屬已經纏
+<Event desc="mispronunciation tsan2" type="pronounce" extent="previous"/>
+訟了六年，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+馬英九說
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他會依法處理。 
+<Sync time="1643.128"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk29" mode="spontaneous" fidelity="high" channel="studio" startTime="1643.432" endTime="1651.605">
+<Sync time="1643.432"/>
+<Background time="1643.432" type="other" level="high"/>
+我知道陳先生他那個問題
+<Event desc="restart" type="lexical" extent="begin"/>
+確確實是
+<Event desc="restart" type="lexical" extent="end"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+E
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呃"/>
+非常的棘手
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+，我們市政府
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在法令
+<Event desc="mispronunciation nin4" type="pronounce" extent="previous"/>
+的範圍內
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一定會公平的來處理。
+</Turn>
+<Turn speaker="spk28" mode="planned" fidelity="high" channel="studio" startTime="1651.605" endTime="1657.789">
+<Sync time="1651.605"/>
+<Background time="1651.605" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1652.241"/>
+展覽的主題是族群互助，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+馬英九希望這種精神能夠成為台灣團結的動力。
+</Turn>
+<Turn speaker="spk29" mode="spontaneous" fidelity="high" channel="studio" startTime="1657.789" endTime="1669.189">
+<Sync time="1657.789"/>
+<Background time="1657.789" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1658.084"/>
+其實在
+<Event desc="pause" type="noise" extent="instantaneous"/>
+二二八
+<Event desc="pause" type="noise" extent="instantaneous"/>
+當中
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+有許多令人感動的故事
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+非常
+<Event desc="mispronunciation tang3" type="pronounce" extent="previous"/>
+值得我們去發掘、
+<Event desc="pause" type="noise" extent="instantaneous"/>
+去發揚這種精神，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我覺得這是我們目前台灣
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+很需要的。
+<Background time="1669.188" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk28" mode="planned" fidelity="high" channel="studio" startTime="1669.189" endTime="1706.858">
+<Sync time="1669.189"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1669.651"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外展覽還展出了引發二二八事件的私菸小販林江邁的照片，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1674.638" type="other" level="high"/>
+多年來大眾都謠傳她當時被打死，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過其實後來她還是繼續著賣菸的平凡生活，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+直到民國六十五年才過世。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外紀念館還特別向日本借展，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+大陸版畫家黃榮燦的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+恐怖的檢查，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這幅畫曾經一度是黨外民主的精神象徵，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+黃榮燦當時在台灣見證了二二八，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+刻畫了恐怖的場景，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但是後來他自己也在白色恐怖中喪
+<Event desc="mispronunciation shang4" type="pronounce" extent="previous"/>
+生
+<Event desc="mispronunciation shen1" type="pronounce" extent="previous"/>
+。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+二二八紀念館的這個展覽
+<Event desc="mispronunciation ran3" type="pronounce" extent="previous"/>
+將展到五月十五日。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1702.736" type="other" level="high"/>
+公視新聞葉怡君陳信隆採訪報導。 
+<Sync time="1705.442"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1706.856" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to16" startTime="1706.858" endTime="1865.202">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1706.858" endTime="1733.586">
+<Sync time="1706.858"/>
+我們常說清明掃墓但是您知道
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嗎"/>
+？客家人掃墓日子並不在清明節，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+事實上從今天農曆正月十六開始客家人就要掃墓了，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因此今天在許多客家庄，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+都可以看到絡繹不絕的掃墓人潮。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+客家人把掃墓叫做
+<Event desc="Hakka" type="language" extent="begin"/>
+...
+<Event desc="Hakka" type="language" extent="end"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在習俗上跟閩南人有很多不同的地方，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+繼續就要帶您去客家庄來看客家人掃墓的盛況。 
+<Sync time="1732.918"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk30" mode="planned" fidelity="high" channel="studio" startTime="1733.586" endTime="1776.801">
+<Sync time="1733.586"/>
+<Background time="1733.586" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1735.536"/>
+年不是已經過完了
+<Event desc="particle" type="noise" extent="begin"/>
+MA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嗎"/>
+？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+可是在苗栗的客家庄一大早鞭炮聲就不絕於耳，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1741.442" type="other" level="high"/>
+平時人煙罕至的墓地今天則是人來人往，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1745.08" type="other" level="high"/>
+原來今天是客家人掃墓的大日子。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+客家人掃墓的時候會用石頭壓一疊黃古紙在祖先的墓碑上，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+表示已經來祭拜過，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因此把掃墓稱為掛紙。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+原則上農曆正月十六一直到清明節都是客家人掛紙的日子，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但是主要集中在元宵節剛過這一段時間，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+至於為什麼客家人會選在這個時候掛紙，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+主要是因為早年生活困苦必須早早上墳祭祖，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+完成這項家族大事以便專心工作。
+<Sync time="1775.424"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk49" mode="spontaneous" fidelity="high" channel="studio" startTime="1776.801" endTime="1798.814">
+<Sync time="1776.801"/>
+<Background time="1776.801" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1779.088"/>
+
+<Event desc="Hakka" type="language" extent="begin"/>
+．．．
+<Event desc="Hakka" type="language" extent="end"/>
+
+<Background time="1798.813" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk30" mode="planned" fidelity="high" channel="studio" startTime="1798.814" endTime="1814.579">
+<Sync time="1798.814"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1799.862"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這是苗栗縣頭屋鄉徐家今年掛紙的情形，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="1802.97" type="other" level="high"/>
+老老少少總共約有三十個人，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+對客家人來說掛紙是過年之外的年度大事，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+因此許多在外地工作的家族成員都會想辦法回來參加。
+<Sync time="1813.706"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk50" mode="spontaneous" fidelity="high" channel="studio" startTime="1814.579" endTime="1834.135">
+<Sync time="1814.579"/>
+<Background time="1814.579" type="other" level="high"/>
+
+<Event desc="Hakka" type="language" extent="begin"/>
+．．．
+<Event desc="Hakka" type="language" extent="end"/>
+
+<Sync time="1833.484"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1833.704" type="other" level="off"/>
+
+<Sync time="1833.705"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk30" mode="planned" fidelity="high" channel="studio" startTime="1834.135" endTime="1857.527">
+<Sync time="1834.135"/>
+<Background time="1834.135" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1834.735"/>
+客家人掛紙首先要祭拜的，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+必定是他們在台灣的第一代祖先也就是來台祖，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+之後再依序祭拜各家族的祖墳和祖宗牌位。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Background time="1844.75" type="other" level="high"/>
+整個家族的成員往往只有在掛紙的時候才能共聚一堂，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+因此除了慎終追遠外，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+掛紙更是客家人聯繫情感的重要儀式。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+公視新聞徐惠玲賴勳毅採訪報導。
+<Sync time="1856.958"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1857.527" endTime="1865.202">
+<Sync time="1857.527"/>
+<Background time="1857.527" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1858.37" type="other" level="off"/>
+<Sync time="1858.37"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+如果您想知道更多客家人掃墓的習俗，請您鎖定
+<Event desc="mispronunciation di4" type="pronounce" extent="previous"/>
+星期天晚上九點的客家新聞雜誌。
+</Turn>
+</Section>
+<Section type="report" topic="to24" startTime="1865.202" endTime="1989.188">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1865.202" endTime="1881.712">
+<Sync time="1865.202"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Sync time="1865.627"/>
+接下來一則表演訊息。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+同時擅長古典芭蕾以及現代搖滾芭蕾的
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+西伯利亞芭蕾舞團，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+明天開始將在台灣展開一連串巡迴演出。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+下面鏡頭要帶您先來看看這個舞團的表演。
+<Sync time="1880.169"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk31" mode="planned" fidelity="high" channel="studio" startTime="1881.712" endTime="1989.188">
+<Sync time="1881.712"/>
+<Background time="1881.712" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1890.92"/>
+在柴可夫斯基的音樂中，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這群來自西伯利亞的芭蕾舞者，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+跳起天鵝湖來
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+別有一番俄羅斯風味。
+<Sync time="1898.117"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="1915.854" type="other" level="off"/>
+
+<Sync time="1915.855"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1915.979"/>
+<Background time="1915.979" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1917.043"/>
+跟其他的舞團所跳的天鵝湖不同的是，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+西伯利亞舞團的天鵝湖，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+充滿了戲劇性的張力，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+整齣舞劇不但有來自芭蕾舞本身的唯美浪漫，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在故事的進展中，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+還不時透露出緊張的氣氛。
+<Sync time="1930.334"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1935.231"/>
+<Background time="1935.231" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1958.143"/>
+集合了俄羅斯年輕一代芭蕾舞者的西伯利亞芭蕾舞團，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+近年來因為與俄國舞者柯里瑞夫合作搖滾芭蕾，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在歐洲受到相當大的矚目。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這個舞團將從明天起，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一連
+<Event desc="mispronunciation nian2" type="pronounce" extent="previous"/>
+四天在國家劇院裡演出，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+除了帶來天鵝湖、卡門等古典舞碼外，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還將演出改編自希臘悲劇的搖滾芭蕾安蒂岡娜。
+<Sync time="1979.431"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1980.066"/>
+<Background time="1980.066" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1984.819"/>
+公視新聞蘇玲瑤彭耀祖採訪報導 。
+<Sync time="1987.246"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to4" startTime="1989.188" endTime="2014.586">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="1989.188" endTime="2014.586">
+<Sync time="1989.188"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+稍後
+<Background time="1989.421" type="other" level="off"/>
+回來每週三看守台灣單元要帶大家到南台灣關心流經台南和高雄的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+二仁溪，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+目前面臨哪些問題？
+<Sync time="1997.287"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="1998.024"/>
+<Background time="1998.024" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to17" startTime="2014.586" endTime="2404.327">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="2014.586" endTime="2062.568">
+<Sync time="2014.586"/>
+<Background time="2014.586" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2029.18"/>
+歡迎回到新聞現場，
+<Background time="2030.379" type="other" level="off"/>
+接下來這段節目要帶您了解經過十二年整治，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+二仁溪污染為什麼
+<Event desc="pause" type="noise" extent="instantaneous"/>
+更嚴重？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還有
+<Event desc="pause" type="noise" extent="instantaneous"/>
+信義鄉望鄉部落怎麼千辛萬苦冒著生命危險
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+找到了水？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+另外美國頒布教育改革方案，中小學生以後要進行年度測驗了。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+首先關心的是環境議題，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+今天每週三看守台灣單元，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+帶您關心經過十二年整治，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+流經台南縣跟高雄縣的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+二仁溪，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+它的污染情況為什麼卻比以前更嚴重？ 
+<Sync time="2061.668"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk60" mode="planned" fidelity="high" channel="studio" startTime="2062.568" endTime="2119.56">
+<Sync time="2062.568"/>
+<Background time="2062.568" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2077.084"/>
+<Background time="2077.084" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2086.86"/>
+<Background time="2086.86" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2088.299"/>
+二仁溪，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一條流經台南縣與
+<Event desc="mispronunciation i3" type="pronounce" extent="previous"/>
+高雄縣的溪流。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+曾經在十六年前以
+<Event desc="pause" type="noise" extent="instantaneous"/>
+綠
+<Event desc="mispronunciation ni4" type="pronounce" extent="previous"/>
+牡蠣事件
+<Event desc="pause" type="noise" extent="instantaneous"/>
+控訴著
+<Event desc="pause" type="noise" extent="instantaneous"/>
+工業發展
+<Event desc="mispronunciation tzan3" type="pronounce" extent="previous"/>
+所譜出的悲劇。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在經歷十六年的關注
+<Event desc="pause" type="noise" extent="instantaneous"/>
+與
+<Event desc="mispronunciation i3" type="pronounce" extent="previous"/>
+整治之後，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+二仁溪能
+<Event desc="mispronunciation ren2" type="pronounce" extent="previous"/>
+不能
+<Event desc="mispronunciation ren2" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+擺脫
+<Event desc="mispronunciation to1" type="pronounce" extent="previous"/>
+黑龍江的惡名？
+<Event desc="pause" type="noise" extent="instantaneous"/>
+是不是不再
+<Event desc="pause" type="noise" extent="instantaneous"/>
+悲傷哭泣？
+<Sync time="2108.956"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk51" mode="spontaneous" fidelity="high" channel="studio" startTime="2119.56" endTime="2158.1">
+<Sync time="2119.56"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+
+<Background time="2122.609" type="other" level="high"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2158.1" endTime="2190.108">
+<Sync time="2158.1"/>
+<Background time="2158.1" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2161.442"/>
+我們現在在高雄縣茄碇鄉的白沙崙
+<Event desc="mispronunciation nui2" type="pronounce" extent="previous"/>
+漁港，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EN
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="嗯"/>
+根據當地漁民跟我們反
+<Event desc="mispronunciation huan3" type="pronounce" extent="previous"/>
+應
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+環保單位
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+最近
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+在
+<Event desc="pause" type="noise" extent="instantaneous"/>
+大力整
+<Event desc="mispronunciation tzeng3" type="pronounce" extent="previous"/>
+頓二
+<Event desc="mispronunciation e4" type="pronounce" extent="previous"/>
+仁溪，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+二仁溪的
+<Event desc="restart" type="lexical" extent="begin"/>
+污
+<Event desc="pause" type="noise" extent="instantaneous"/>
+污染
+<Event desc="mispronunciation nan3" type="pronounce" extent="previous"/>
+
+<Event desc="restart" type="lexical" extent="end"/>
+情形
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+並沒有
+<Event desc="pause" type="noise" extent="instantaneous"/>
+改善
+<Event desc="mispronunciation san4" type="pronounce" extent="previous"/>
+很多，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所以
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+
+<Event desc="abridged" type="lexical" extent="begin"/>
+我們
+<Event desc="abridged" type="lexical" extent="end"/>
+他們很熱
+<Event desc="mispronunciation le4" type="pronounce" extent="previous"/>
+心的就帶著我們
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+從
+<Event desc="pause" type="noise" extent="instantaneous"/>
+那個二仁溪的出
+<Event desc="mispronunciation tsu1" type="pronounce" extent="previous"/>
+海口，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+往上
+<Event desc="mispronunciation sang4" type="pronounce" extent="previous"/>
+游
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿線去觀察
+<Event desc="mispronunciation tsa2" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+幾個
+<Event desc="pause" type="noise" extent="instantaneous"/>
+比較嚴重
+<Event desc="mispronunciation tzueng4" type="pronounce" extent="previous"/>
+的污染情形。
+<Sync time="2183.677"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2190.108" endTime="2210.366">
+<Sync time="2190.108"/>
+<Background time="2190.108" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2192.972"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+它
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+石
+<Event desc="mispronunciation s2" type="pronounce" extent="previous"/>
+頭
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+污油
+<Event desc="particle" type="noise" extent="begin"/>
+HIA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="<UK>"/>
+。
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+UA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哇"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+UA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哇"/>
+這種顏色，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+
+</Turn>
+<Turn speaker="spk52 spk53" mode="spontaneous" fidelity="high" channel="studio" startTime="2210.366" endTime="2212.738">
+<Sync time="2210.366"/>
+<Who nb="1"/>
+完全看不到
+<Event desc="pause" type="noise" extent="instantaneous"/>
+它的底。
+<Who nb="2"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2212.738" endTime="2229.022">
+<Sync time="2212.738"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2212.925"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+然後
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+這個
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+是
+<Event desc="mispronunciation s4" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+礦泉水
+<Event desc="mispronunciation suei3" type="pronounce" extent="previous"/>
+。
+<Sync time="2215.367"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2225.643"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+這
+<Event desc="mispronunciation tze4" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這
+<Event desc="mispronunciation tze4" type="pronounce" extent="previous"/>
+個
+<Event desc="restart" type="lexical" extent="end"/>
+
+<Event desc="abridged" type="lexical" extent="begin"/>
+才
+<Event desc="abridged" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+就是真
+<Event desc="mispronunciation tzen1" type="pronounce" extent="previous"/>
+正
+<Event desc="mispronunciation tzeng4" type="pronounce" extent="previous"/>
+的
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+那種
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+台灣黑龍江
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+。
+</Turn>
+<Turn speaker="spk53" mode="spontaneous" fidelity="high" channel="studio" startTime="2229.022" endTime="2229.925">
+<Sync time="2229.022"/>
+對。
+<Sync time="2229.288"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2229.924" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk60" mode="planned" fidelity="high" channel="studio" startTime="2229.925" endTime="2259.14">
+<Sync time="2229.925"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2230.078"/>
+<Background time="2230.078" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2230.178"/>
+三爺宮溪是二
+<Event desc="mispronunciation e4" type="pronounce" extent="previous"/>
+仁
+<Event desc="mispronunciation nen2" type="pronounce" extent="previous"/>
+溪最主要的污染源，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+每天要承擔三
+<Event desc="mispronunciation shan1" type="pronounce" extent="previous"/>
+萬八千人的生
+<Event desc="mispronunciation shen1" type="pronounce" extent="previous"/>
+活
+<Event desc="mispronunciation ho2" type="pronounce" extent="previous"/>
+廢水，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+和四
+<Event desc="mispronunciation sh4" type="pronounce" extent="previous"/>
+大工業區
+<Event desc="pause" type="noise" extent="instantaneous"/>
+將近一百家工廠
+<Event desc="mispronunciation tsang3" type="pronounce" extent="previous"/>
+的工業廢水，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+整條溪流不但沒有污水下水道系統，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+而且根據當地居民表示，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿岸所
+<Event desc="mispronunciation shuo3" type="pronounce" extent="previous"/>
+有工廠的放
+<Event desc="mispronunciation feng4" type="pronounce" extent="previous"/>
+流
+<Event desc="mispronunciation iou2" type="pronounce" extent="previous"/>
+水
+<Event desc="pause" type="noise" extent="instantaneous"/>
+管理
+<Event desc="pause" type="noise" extent="instantaneous"/>
+有明顯的人員
+<Event desc="mispronunciation ian2" type="pronounce" extent="previous"/>
+不足的現象，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這也是造成二仁溪水質無法
+<Event desc="mispronunciation hua3" type="pronounce" extent="previous"/>
+改善的主要原因 。
+<Sync time="2258.491"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk54" mode="spontaneous" fidelity="high" channel="studio" startTime="2259.14" endTime="2272.826">
+<Sync time="2259.14"/>
+<Background time="2259.14" type="other" level="high"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+而
+<Event desc="discourse marker" type="lexical" extent="end"/>
+它的水質
+<Event desc="mispronunciation tz2" type="pronounce" extent="previous"/>
+的分數
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="restart" type="lexical" extent="begin"/>
+只
+<Event desc="mispronunciation tz3" type="pronounce" extent="previous"/>
+有
+<Event desc="editing term" type="lexical" extent="begin"/>
+不
+<Event desc="editing term" type="lexical" extent="end"/>
+只有
+<Event desc="restart" type="lexical" extent="end"/>
+八分而已
+<Event desc="particle" type="noise" extent="begin"/>
+HA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哈"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+EI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="欸"/>
+這
+<Event desc="particle" type="noise" extent="begin"/>
+AUS
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="<UK>"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+所謂水質的分
+<Event desc="mispronunciation huen1" type="pronounce" extent="previous"/>
+數
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+HA
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哈"/>
+最好的分
+<Event desc="mispronunciation huen1" type="pronounce" extent="previous"/>
+數是一百分
+<Event desc="mispronunciation huen1" type="pronounce" extent="previous"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+最差
+<Event desc="mispronunciation tsa1" type="pronounce" extent="previous"/>
+是零分
+<Event desc="mispronunciation huen1" type="pronounce" extent="previous"/>
+，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+那麼到這裡的這個水質
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+大概只有八分
+<Event desc="mispronunciation huen1" type="pronounce" extent="previous"/>
+左右。
+<Sync time="2271.372"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2272.825" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk60" mode="planned" fidelity="high" channel="studio" startTime="2272.826" endTime="2297.841">
+<Sync time="2272.826"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2272.915"/>
+<Background time="2272.915" type="music" level="high"/>
+對於
+<Event desc="mispronunciation i2" type="pronounce" extent="previous"/>
+二仁溪水質的改善，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+長期以來不乏許多積極的相關建議，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但是當地居民卻希
+<Event desc="mispronunciation shiiu1" type="pronounce" extent="previous"/>
+望
+<Event desc="pause" type="noise" extent="instantaneous"/>
+相關單位，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+能夠
+<Event desc="mispronunciation go4" type="pronounce" extent="previous"/>
+更深入了解主要的污染
+<Event desc="mispronunciation lan3" type="pronounce" extent="previous"/>
+來源。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在我們往中游前進的同時，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也發現了一些廢五金淘洗業，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+和排放廢水的暗管，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+更令人憂心的是，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這裡的水質
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+依然
+<Event desc="mispronunciation lan2" type="pronounce" extent="previous"/>
+混
+<Event desc="mispronunciation fen3" type="pronounce" extent="previous"/>
+濁不清。
+<Sync time="2297.601"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2297.841" endTime="2326.12">
+<Sync time="2297.841"/>
+<Background time="2297.841" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2299.092"/>
+我們從二
+<Event desc="mispronunciation e4" type="pronounce" extent="previous"/>
+仁溪出
+<Event desc="mispronunciation tsu1" type="pronounce" extent="previous"/>
+海口，
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+然後
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+一路
+<Event desc="particle" type="noise" extent="begin"/>
+NEI
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="哪"/>
+經過
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+煉熔
+<Event desc="mispronunciation nueng2" type="pronounce" extent="previous"/>
+業，
+<Event desc="particle" type="noise" extent="begin"/>
+HOU
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="齁"/>
+然後還有
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+廢五金的淘洗業，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+A
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="啊"/>
+還看到幾個不明的
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+廢水
+<Event desc="mispronunciation suei3" type="pronounce" extent="previous"/>
+排放
+<Event desc="mispronunciation huang4" type="pronounce" extent="previous"/>
+口，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="particle" type="noise" extent="begin"/>
+O
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="喔"/>
+然後來到那個
+<Event desc="pause" type="noise" extent="instantaneous"/>
+中
+<Event desc="mispronunciation tzueng1" type="pronounce" extent="previous"/>
+游了二層行
+<Event desc="mispronunciation nang2" type="pronounce" extent="previous"/>
+橋，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+因為
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+河道淤
+<Event desc="mispronunciation i1" type="pronounce" extent="previous"/>
+積沒有辦法
+<Event desc="mispronunciation hua3" type="pronounce" extent="previous"/>
+
+<Event desc="syllable contraction" type="pronounce" extent="begin"/>
+繼續
+<Event desc="syllable contraction" type="pronounce" extent="end"/>
+往上
+<Event desc="mispronunciation sang4" type="pronounce" extent="previous"/>
+走，所以我們就
+<Event desc="pause" type="noise" extent="instantaneous"/>
+改到
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+那個
+<Event desc="discourse marker" type="lexical" extent="end"/>
+陸地上來觀察
+<Event desc="mispronunciation tsa2" type="pronounce" extent="previous"/>
+。
+<Sync time="2319.185"/>
+<Background time="2319.185" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2326.12" endTime="2326.958">
+<Sync time="2326.12"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk55" mode="spontaneous" fidelity="high" channel="studio" startTime="2326.958" endTime="2328.287">
+<Sync time="2326.958"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk52" mode="spontaneous" fidelity="high" channel="studio" startTime="2328.287" endTime="2330.613">
+<Sync time="2328.287"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+<Sync time="2329.423"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk55" mode="spontaneous" fidelity="high" channel="studio" startTime="2330.613" endTime="2354.086">
+<Sync time="2330.613"/>
+
+<Event desc="Min-Nan" type="language" extent="begin"/>
+．．．
+<Event desc="Min-Nan" type="language" extent="end"/>
+
+<Sync time="2353.303"/>
+<Background time="2353.303" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2354.086" type="other" level="off"/>
+</Turn>
+<Turn speaker="spk60" mode="planned" fidelity="high" channel="studio" startTime="2354.086" endTime="2404.327">
+<Sync time="2354.086"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2354.449"/>
+<Background time="2354.449" type="music" level="high"/>
+深
+<Event desc="mispronunciation sen1" type="pronounce" extent="previous"/>
+坑
+<Event desc="mispronunciation ke1" type="pronounce" extent="previous"/>
+子溪
+<Event desc="pause" type="noise" extent="instantaneous"/>
+是另
+<Event desc="mispronunciation ni4" type="pronounce" extent="previous"/>
+一條容
+<Event desc="mispronunciation nueng2" type="pronounce" extent="previous"/>
+易被忽
+<Event desc="mispronunciation fu1" type="pronounce" extent="previous"/>
+視，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是被列為重度污染
+<Event desc="mispronunciation lan3" type="pronounce" extent="previous"/>
+的支流。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿岸的養豬場
+<Event desc="pause" type="noise" extent="instantaneous"/>
+與五甲壇附近的工業區，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+讓它從上游開始就呈現出濃
+<Event desc="mispronunciation lueng2" type="pronounce" extent="previous"/>
+重的黑色
+<Event desc="mispronunciation she4" type="pronounce" extent="previous"/>
+。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+小溪順流而下，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+讓
+<Event desc="mispronunciation nang4" type="pronounce" extent="previous"/>
+二仁溪長
+<Event desc="mispronunciation tsang2" type="pronounce" extent="previous"/>
+年累積著重金屬
+<Event desc="pause" type="noise" extent="instantaneous"/>
+與有機
+<Event desc="mispronunciation jiiu" type="pronounce" extent="previous"/>
+污染
+<Event desc="mispronunciation lan3" type="pronounce" extent="previous"/>
+物質，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+並且讓
+<Event desc="mispronunciation lang4" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿
+<Event desc="mispronunciation iuan2" type="pronounce" extent="previous"/>
+岸居
+<Event desc="mispronunciation jii1" type="pronounce" extent="previous"/>
+民的產業活動受
+<Event desc="mispronunciation so4" type="pronounce" extent="previous"/>
+到嚴重影響。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+在河口
+<Event desc="mispronunciation ko3" type="pronounce" extent="previous"/>
+海域
+<Event desc="pause" type="noise" extent="instantaneous"/>
+成
+<Event desc="mispronunciation tseng2" type="pronounce" extent="previous"/>
+為禁止養殖區之後，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+二仁溪
+<Event desc="pause" type="noise" extent="instantaneous"/>
+漸漸
+<Event desc="pause" type="noise" extent="instantaneous"/>
+遠離眾人注目的焦點，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是時間的前進，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+卻
+<Event desc="mispronunciation chiie4" type="pronounce" extent="previous"/>
+從來沒有讓
+<Event desc="mispronunciation nang4" type="pronounce" extent="previous"/>
+它停止
+<Event desc="pause" type="noise" extent="instantaneous"/>
+悲泣。
+<Sync time="2391.64"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2404.326" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to18" startTime="2404.327" endTime="2580.554">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="2404.327" endTime="2430.708">
+<Sync time="2404.327"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="discourse marker" type="lexical" extent="begin"/>
+而
+<Event desc="discourse marker" type="lexical" extent="end"/>
+鏡頭繼續轉到的是信義鄉望鄉部落，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+這個地方八十五年賀伯颱風後就
+<Event desc="pause" type="noise" extent="instantaneous"/>
+飽受沒有水可以用的困境，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+過去那段時間有時候他們在
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+新中橫公路路邊，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+圍帆布
+<Event desc="pause" type="noise" extent="instantaneous"/>
+在裡面洗澡，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+或者是到附近部落借水，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+去年他們決定要自己接水，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過去哪裡找水
+<Event desc="particle" type="noise" extent="begin"/>
+NE
+<Event desc="particle" type="noise" extent="end"/>
+
+<Comment desc="呢"/>
+？
+<Event desc="pause" type="noise" extent="instantaneous"/>
+找水路程
+<Event desc="restart" type="lexical" extent="begin"/>
+為為什麼
+<Event desc="restart" type="lexical" extent="end"/>
+充滿著千辛萬苦？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一起來看下面的報導 。
+<Sync time="2430.027"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk35" mode="planned" fidelity="high" channel="studio" startTime="2430.708" endTime="2456.397">
+<Sync time="2430.708"/>
+<Background time="2430.708" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2440.512"/>
+喝著用生命換取得來的山泉水，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+田長老不斷地說
+<Event desc="pause" type="noise" extent="instantaneous"/>
+水真的很甜，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+他還順便舀起一點水給同伴喝，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+靠著望鄉部落群體的力量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+他們沿著猴子走的路，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+從谷底將水管抬到山上。
+<Sync time="2455.126"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk56" mode="spontaneous" fidelity="high" channel="studio" startTime="2456.397" endTime="2471.626">
+<Sync time="2456.397"/>
+
+<Event desc="Formosan" type="language" extent="begin"/>
+．．．
+<Background time="2469.383" type="music" level="high"/>
+
+<Event desc="Formosan" type="language" extent="end"/>
+
+<Sync time="2470.68"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk35" mode="planned" fidelity="high" channel="studio" startTime="2471.626" endTime="2485.338">
+<Sync time="2471.626"/>
+從去年十月，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+望鄉部落
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+就開始決定要總動員來做接水的工作。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+回想那段從高達兩百公尺
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+垂直峭壁接水的日子，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+田長老一邊說
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+卻也難掩內心的激動。
+<Sync time="2485.204"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk56" mode="spontaneous" fidelity="high" channel="studio" startTime="2485.338" endTime="2501.862">
+<Sync time="2485.338"/>
+<Background time="2485.338" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2485.478"/>
+
+<Event desc="Formosan" type="language" extent="begin"/>
+．．．
+<Event desc="Formosan" type="language" extent="end"/>
+
+<Sync time="2498.381"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2501.451" type="other" level="off"/>
+
+<Sync time="2501.452"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk35" mode="planned" fidelity="high" channel="studio" startTime="2501.862" endTime="2536.333">
+<Sync time="2501.862"/>
+<Background time="2501.862" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2502.008"/>
+花了兩個多月的時間總長九公里。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="2504.709" type="other" level="high"/>
+去到阿里山和信義鄉的界線
+<Event desc="pause" type="noise" extent="instantaneous"/>
+找水源，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+靠著群體分工合作的力量，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+還有神的祝福，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+望鄉部落的布農族朋友，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+真的完成了這項不可能的任務。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿著山羊、猴子
+<Event desc="pause" type="noise" extent="instantaneous"/>
+走的路，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+一
+<Background time="2519.769" type="other" level="high"/>
+行人就這樣
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+僅僅靠著一根繩索，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+在山壁間
+<Event desc="pause" type="noise" extent="instantaneous"/>
+爬上爬下，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+底下是萬丈深淵，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+為了解決十年來的無水之苦，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+沿著繩索攀爬而下的望鄉部落的朋友，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+似乎早已把個人生死置之於度外。
+<Sync time="2535.737"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk56" mode="spontaneous" fidelity="high" channel="studio" startTime="2536.333" endTime="2549.88">
+<Sync time="2536.333"/>
+<Background time="2536.333" type="other" level="high"/>
+
+<Event desc="Formosan" type="language" extent="begin"/>
+．．．
+<Event desc="Formosan" type="language" extent="end"/>
+
+<Sync time="2548.766"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk35" mode="planned" fidelity="high" channel="studio" startTime="2549.88" endTime="2580.554">
+<Sync time="2549.88"/>
+<Background time="2549.88" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2550.631"/>
+從山上沿著水管
+<Event desc="mispronunciation guan4" type="pronounce" extent="previous"/>
+走向山谷，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+早已被桃芝風災
+<Event desc="pause" type="noise" extent="instantaneous"/>
+摧毀到面目全非的阿里不洞溪，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+留下的是望鄉部落
+<Event desc="mispronunciation ruo4" type="pronounce" extent="previous"/>
+村
+<Event desc="mispronunciation chuen1" type="pronounce" extent="previous"/>
+民
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+一起
+<Background time="2560.385" type="other" level="high"/>
+完成的偉大工程和歷史軌跡。
+<Sync time="2562.786"/>
+
+<Background time="2563.163" type="speech" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2564.225" type="other" level="high"/>
+
+<Background time="2565.821" type="speech" level="high"/>
+
+<Sync time="2566.427"/>
+現在望鄉部落的村民，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+終於可以有水
+<Background time="2569.556" type="other" level="high"/>
+澆花，
+<Background time="2569.962" type="music" level="high"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也有水可以洗衣服
+<Event desc="mispronunciation bu2" type="pronounce" extent="previous"/>
+跟洗碗。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+喝著這用生命換得的水，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+望鄉部落的水喝起來
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+真的特別甘甜。
+<Sync time="2577.915"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2580.553" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to19" startTime="2580.554" endTime="2659.952">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="2580.554" endTime="2603.754">
+<Sync time="2580.554"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2581.085"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+看了原住民朋友辛苦找水的歷程之後我們接著透過詩句體會玉山，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+來看詩人沈花末怎麼用輕靈和沈靜的筆觸，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+表達她對玉山的印象。
+<Sync time="2592.492"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2593.198"/>
+<Background time="2593.198" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2603.753" type="other" level="off"/>
+
+</Turn>
+<Turn speaker="spk36" mode="spontaneous" fidelity="high" channel="studio" startTime="2603.754" endTime="2624.489">
+<Sync time="2603.754"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2604.039"/>
+這一座山
+<Event desc="mispronunciation san1" type="pronounce" extent="previous"/>
+我想其實應該是我們
+<Event desc="pause" type="noise" extent="instantaneous"/>
+台灣的文學的
+<Event desc="pause" type="noise" extent="instantaneous"/>
+源流，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+也是我們台灣的詩的源流，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+我認為每一個人在一生中
+<Event desc="mispronunciation tzueng1" type="pronounce" extent="previous"/>
+，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+都應該至
+<Event desc="mispronunciation tz4" type="pronounce" extent="previous"/>
+少
+<Event desc="mispronunciation sau3" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+能夠看到它，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+能夠很親近
+<Event desc="pause" type="noise" extent="instantaneous"/>
+這一座
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="repetition" type="lexical" extent="begin"/>
+就一直
+<Event desc="mispronunciation tz3" type="pronounce" extent="previous"/>
+
+<Event desc="pause" type="noise" extent="instantaneous"/>
+
+<Event desc="repetition" type="lexical" extent="begin"/>
+很久很久
+<Event desc="repetition" type="lexical" extent="end"/>
+以前就一直
+<Event desc="mispronunciation tz3" type="pronounce" extent="previous"/>
+
+<Event desc="repetition" type="lexical" extent="end"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+站
+<Event desc="mispronunciation tzan4" type="pronounce" extent="previous"/>
+在我們台灣的山。
+<Sync time="2624.257"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk28" mode="planned" fidelity="high" channel="studio" startTime="2624.489" endTime="2659.952">
+<Sync time="2624.489"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2624.595"/>
+思念數十年，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+詩人沈花末第一次來到玉山，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+雖然沒有登頂，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+但是離去之時，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+山中的藍和粉紅
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+已經留在詩中。
+<Sync time="2634.129"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2634.36"/>
+<Background time="2634.36" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2659.95" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to20" startTime="2659.952" endTime="2909.273">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="2659.952" endTime="2698.483">
+<Sync time="2659.952"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2661.951"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在您體會玉山之美之後。我們鏡頭接著轉到美國，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+為了革除
+<Event desc="pause" type="noise" extent="instantaneous"/>
+考試領導教學的弊端，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+國內的大學聯考已經在去年走入歷史，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過美國新頒布的教育改革法案，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+卻要開始對中小學生進行年度測驗，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+為什麼要這麼做？一起來看今天的美國教育改革專題報導。
+<Sync time="2683.23"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2685.362"/>
+<Background time="2685.362" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2698.483" endTime="2717.43">
+<Sync time="2698.483"/>
+<Background time="2698.483" type="shh" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2699.618"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在美國總統布希所推動的教改方案中規定，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+從兩千零五學年度開始，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+美國所有三到八年級的學生也就是
+<Background time="2707.282" type="speech" level="high"/>
+十到十五歲的兒童
+<Background time="2708.867" type="other" level="high"/>
+青少年，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+每年都必須接受英文閱讀和數學的能力測驗。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+進了高中之後也必須在四年內接受一次測驗。
+<Sync time="2717.115"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk38" mode="spontaneous" fidelity="high" channel="studio" startTime="2717.43" endTime="2729.284">
+<Sync time="2717.43"/>
+<Background time="2717.43" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2717.604"/>
+
+<Event desc="English" type="language" extent="begin"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2729.284" endTime="2738.145">
+<Sync time="2729.284"/>
+<Background time="2729.284" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2729.791" type="speech" level="high"/>
+
+<Sync time="2730.132"/>
+不過對於這一群未來將要接受年度測驗的小學生來說，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+考試給他們的負面印象似乎大過正面意義。
+<Sync time="2737.94"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk57" mode="spontaneous" fidelity="high" channel="studio" startTime="2738.145" endTime="2754.283">
+<Sync time="2738.145"/>
+
+<Event desc="English" type="language" extent="begin"/>
+
+<Background time="2738.581" type="other" level="high"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+<Sync time="2753.689"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk58" mode="spontaneous" fidelity="high" channel="studio" startTime="2754.283" endTime="2782.301">
+<Sync time="2754.283"/>
+
+<Event desc="English" type="language" extent="begin"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+<Sync time="2781.929"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2782.301" endTime="2803.332">
+<Sync time="2782.301"/>
+<Background time="2782.301" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2782.752"/>
+究
+<Event desc="mispronunciation jiiou1" type="pronounce" extent="previous"/>
+竟這項額外增加的年度測驗未來如何實施？如何評量？
+<Event desc="pause" type="noise" extent="instantaneous"/>
+站在第一線的教職員們目前都還不是很清楚，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="2790.213" type="speech" level="high"/>
+雖然部分老師十分贊同舉行評量來了解學生程度進而改善教學的用意，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="2796.033" type="other" level="high"/>
+但是在分數掛帥的影響下，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+未來是否會演變成考試主導教學？
+<Background time="2801.074" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也讓他們產生了一些疑慮。
+<Sync time="2803.16"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk59" mode="spontaneous" fidelity="high" channel="studio" startTime="2803.332" endTime="2815.783">
+<Sync time="2803.332"/>
+<Background time="2803.332" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2803.841"/>
+
+<Event desc="English" type="language" extent="begin"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2815.783" endTime="2822.279">
+<Sync time="2815.783"/>
+<Background time="2815.783" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2816.568"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不只有師長們擔心小朋友們也害怕考試將會剝奪了他們上學的樂趣。
+<Sync time="2821.861"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+<Turn speaker="spk58" mode="spontaneous" fidelity="high" channel="studio" startTime="2822.279" endTime="2836.159">
+<Sync time="2822.279"/>
+<Background time="2822.279" type="other" level="high"/>
+
+<Event desc="English" type="language" extent="begin"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2836.159" endTime="2871.704">
+<Sync time="2836.159"/>
+<Background time="2836.159" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2836.768"/>
+事實上在新教改方案還沒有實施以前全美五十州的地方教育單位針對是否對學生進行學科測驗，
+<Background time="2844.048" type="other" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+並沒有採取一致的立場。
+<Background time="2845.96" type="shh" level="high"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+目前只有麻里蘭州、維及尼亞州以及華盛頓特區的學童，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+在地方教育單位的主張下接受不同形式的標準評量。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Background time="2854.853" type="speech" level="high"/>
+而對於孩子面臨這些測驗所承受的壓力，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+美國家長的心
+<Background time="2858.718" type="other" level="high"/>
+情似乎和台灣父母也沒有兩樣，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+不過他們更擔心考試會影響孩子的學習興
+<Background time="2864.628" type="other" level="high"/>
+趣，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也害怕學校為了要讓測驗成績好看只著重在閱讀和數學，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+而放棄了其它的科目。
+</Turn>
+<Turn speaker="spk59" mode="spontaneous" fidelity="high" channel="studio" startTime="2871.704" endTime="2894.536">
+<Sync time="2871.704"/>
+<Background time="2871.704" type="other" level="high"/>
+
+<Event desc="English" type="language" extent="begin"/>
+．．．
+<Event desc="English" type="language" extent="end"/>
+
+</Turn>
+<Turn speaker="spk37" mode="planned" fidelity="high" channel="studio" startTime="2894.536" endTime="2909.273">
+<Sync time="2894.536"/>
+<Background time="2894.536" type="other" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2895.31"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+如此看來考試的存廢問題國內外都有爭議，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+但考試到底能不能提昇學生的學習成就，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+達到美國政府期盼改革
+<Background time="2903.734" type="other" level="high"/>
+公立教育的目的？
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+也只有等待時間來證明。
+<Event desc="pause" type="noise" extent="instantaneous"/>
+公視新聞專題報導。
+<Sync time="2908.739"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="2909.272" type="other" level="off"/>
+
+</Turn>
+</Section>
+<Section type="report" topic="to21" startTime="2909.273" endTime="3199.291">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="2909.273" endTime="2919.422">
+<Sync time="2909.273"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2910.133"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+以上是今天的公視新聞。我們繼續關心天氣，明天的天氣會跟今天一樣好，各地都是多雲到晴，
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+詳細狀況要請氣象主播洪蕙竹告訴我們，蕙竹。
+</Turn>
+<Turn speaker="spk39" mode="planned" fidelity="high" channel="studio" startTime="2919.422" endTime="3199.291">
+<Sync time="2919.422"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="2919.942"/>
+
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+
+<Event desc="weather forecast" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to22" startTime="3199.291" endTime="3211.573">
+<Turn speaker="spk1" mode="planned" fidelity="high" channel="studio" startTime="3199.291" endTime="3211.573">
+<Sync time="3199.291"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Sync time="3199.557"/>
+<Background time="3199.557" type="other" level="high"/>
+好的，謝謝蕙竹。同時也要感謝您的收看，節目最後帶您到台東欣賞台東的田園美景。
+<Event desc="breathe" type="noise" extent="instantaneous"/>
+以上是今天的公視新聞深度報導，我是葉明蘭我們明天晚上九點見，
+<Event desc="pause" type="noise" extent="instantaneous"/>
+再會。
+<Sync time="3210.404"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="filler" topic="to23" startTime="3211.573" endTime="3273.31">
+<Turn mode="planned" fidelity="high" startTime="3211.573" endTime="3273.31">
+<Sync time="3211.573"/>
+<Background time="3211.573" type="music" level="high"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+<Background time="3273.066" type="other" level="off"/>
+
+<Sync time="3273.067"/>
+
+<Event desc="silence" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="nontrans" topic="to2" startTime="3273.31" endTime="3722.888">
+<Turn startTime="3273.31" endTime="3722.888">
+<Sync time="3273.31"/>
+
+<Event desc="advertisement" type="noise" extent="instantaneous"/>
+
+</Turn>
+</Section>
+<Section type="nontrans" topic="to1" startTime="3722.888" endTime="3725.195">
+<Turn startTime="3722.888" endTime="3725.195">
+<Sync time="3722.888"/>
+
+<Event desc="empty" type="noise" extent="instantaneous"/>
+
+<Sync time="3725.193"/>
+
+</Turn>
+</Section>
+</Episode>
+</Trans>

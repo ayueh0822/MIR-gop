@@ -13,7 +13,9 @@ echo "======================================="
 set -e
 #set -x
 
-dnn=false
+dnn=true
+tone=false
+
 nj=20 # number of parallel jobs. Set it depending on number of CPU cores
 split_per_speaker=true # split by speaker (true) or sentence (false)
 
@@ -38,20 +40,28 @@ rm steps utils
 #audio_dir=$1
 #data_dir=$2
 #result_dir=$3
-matbnDir=~/kaldi/egs/pkasr/matbn_200_s2
-misproDir=~/kaldi/egs/pkasr/matbn_mispro
+
+misproDir=~/kaldi/egs/pkasr/matbn_misproTestOnlyReplace
+if [[ "$tone" = false ]]; then
+  matbnDir=~/kaldi/egs/pkasr/matbn_200_no_tone
+  lanfDir=$misproDir/lang/no_tone_decode
+  gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/matbn_mispro_noTone_testOnlyReplace_tri5_gmm
+  dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/matbn_mispro_noTone_testOnlyReplace_dnn
+else
+  matbnDir=~/kaldi/egs/pkasr/matbn_200_s0
+  lanfDir=$misproDir/lang/ky92k_forpaift_v11
+  gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/matbn_mispro_withTone_testOnlyReplace_tri5_gmm
+  dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/matbn_mispro_withTone_testOnlyReplace_dnn
+fi
 
 #data=$misproDir/data/train
 
-gmmModel=$matbnDir/exp/tri4
-dnnModel=$matbnDir/exp/chain_tdnnf_ctx3
+gmmModel=$matbnDir/exp/tri5
+dnnModel=$matbnDir/exp/chain_tdnnf
 
 gmmFeatsDir=$misproDir/feats/mfcc_pitch/train
 dnnFeatsDir=$misproDir/feats/mfcc_hires_pitch/train
 ivecDir=$misproDir/ivectors/train
-
-gmmResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_gmmTesting
-dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_tri4_advanced_dnnTesting
 
 # data preparation
 #local/data_preparation.sh --nj $nj --dnn $dnn $audio_dir $data_dir
@@ -59,22 +69,25 @@ dnnResultDir=~/MIR-gop/kaldi-dnn-ali-gop/egs/gop-compute/exp/eval_matbn_mispro_t
 
 # move feats.scp & cmvn.scp to right path
 # this for GMM
-#cp $gmmFeatsDir/feats.scp $misproDir/data/train/
-#cp $gmmFeatsDir/cmvn.scp $misproDir/data/train/
+# cp $gmmFeatsDir/feats.scp $misproDir/data/train/
+# cp $gmmFeatsDir/cmvn.scp $misproDir/data/train/
 
 # this for DNN
-#cp $dnnFeatsDir/feats.scp $misproDir/data/train/
-#cp $dnnFeatsDir/cmvn.scp $misproDir/data/train/
+# cp $dnnFeatsDir/feats.scp $misproDir/data/train/
+# cp $dnnFeatsDir/cmvn.scp $misproDir/data/train/
+
+cp $misproDir/data/train/text $gmmFeatsDir
+cp $misproDir/data/train/text $dnnFeatsDir
 
 # Calculation
 if [[ "$dnn" = false ]]; then
   echo "Using GMM model!"
   ./utils/data/get_utt2dur.sh $gmmFeatsDir
-  local/compute-gmm-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $gmmFeatsDir $misproDir/lang/ky92k_forpaift_v11 $gmmModel $gmmResultDir   ### gmm model
+  local/compute-gmm-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $gmmFeatsDir $lanfDir $gmmModel $gmmResultDir   ### gmm model
 else
   echo "Using DNN model!"
   ./utils/data/get_utt2dur.sh $dnnFeatsDir
-  local/compute-dnn-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $dnnFeatsDir $ivecDir $misproDir/lang/ky92k_forpaift_v11 \
+  local/compute-dnn-gop.sh --nj "$nj" --cmd "$decode_cmd" --split_per_speaker "$split_per_speaker" $dnnFeatsDir $ivecDir $lanfDir \
              $dnnModel $dnnResultDir    ### dnn model
 fi
 
